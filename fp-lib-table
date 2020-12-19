@@ -9,4 +9,6 @@
   (lib (name Resistor_Smd_0603)(type KiCad)(uri ${KISYS3DMOD}/Resistors/Smd_0603/Resistor_Smd_0603.pretty)(options "")(descr ""))
   (lib (name Test_Points)(type KiCad)(uri ${KISYS3DMOD}/Test_Points/Test_Points.pretty)(options "")(descr ""))
   (lib (name Linear)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Linear/Linear.pretty)(options "")(descr ""))
+  (lib (name SomLabs_SOM)(type KiCad)(uri ${KISYS3DMOD}/SOM_Modules/SomLabs/SomLabs_SOM.pretty)(options "")(descr ""))
+  (lib (name Arduino)(type KiCad)(uri ${KISYS3DMOD}/Arduino/Arduino.pretty)(options "")(descr ""))
 )

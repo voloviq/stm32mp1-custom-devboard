@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "LCD MiPi and Touchscreen module"
 Date "2020-12-19"
 Rev "V1.0"
@@ -28,100 +28,16 @@ Wire Wire Line
 	8000 2550 8250 2550
 Wire Wire Line
 	8000 2450 8250 2450
-$Comp
-L Inductors:EMI8133MUTAG L2
-U 1 1 5E8D03CD
-P 7450 5050
-F 0 "L2" H 7450 6365 50  0000 C CNN
-F 1 "EMI8133MUTAG" H 7450 6274 50  0000 C CNN
-F 2 "Inductors:EMI8133MUTAG" H 8900 5100 50  0001 C CNN
-F 3 "https://pl.mouser.com/datasheet/2/308/EMI8132-D-1803782.pdf" H 8900 5100 50  0001 C CNN
-F 4 "ON Semiconductor" H 8150 7500 50  0001 C CNN "Manufacturer"
-F 5 "EMI8133MUTAG" H 8150 7500 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Mouser" H 8150 7500 50  0001 C CNN "Supplier"
-F 7 "863-EMI8133MUTAG" H 8150 7500 50  0001 C CNN "Supplier Part Number"
-F 8 "https://pl.mouser.com/ProductDetail/ON-Semiconductor/EMI8133MUTAG?qs=k6dkFvHqcvCNpFKZjcGIKw%3D%3D" H 8150 7500 50  0001 C CNN "URL"
-F 9 "3,81" H 8200 7500 50  0001 C CNN "Price@10pc"
-F 10 "1,74" H 8200 7500 50  0001 C CNN "Price@500pc"
-F 11 "MW" H 8200 7500 50  0001 C CNN "Developer"
-F 12 "XDFN-16" H 8150 7500 50  0001 C CNN "Package"
-	1    7450 5050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5E96E9DC
-P 6850 6500
-F 0 "#PWR0113" H 6850 6600 30  0001 C CNN
-F 1 "GND" H 6850 6400 30  0001 C CNN
-F 2 "" H 6850 6500 60  0000 C CNN
-F 3 "" H 6850 6500 60  0000 C CNN
-	1    6850 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 5E96E9E6
-P 7050 6500
-F 0 "#PWR0114" H 7050 6600 30  0001 C CNN
-F 1 "GND" H 7050 6400 30  0001 C CNN
-F 2 "" H 7050 6500 60  0000 C CNN
-F 3 "" H 7050 6500 60  0000 C CNN
-	1    7050 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 5E979393
-P 7950 6500
-F 0 "#PWR0115" H 7950 6600 30  0001 C CNN
-F 1 "GND" H 7950 6400 30  0001 C CNN
-F 2 "" H 7950 6500 60  0000 C CNN
-F 3 "" H 7950 6500 60  0000 C CNN
-	1    7950 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0116
-U 1 1 5E97939D
-P 8150 6500
-F 0 "#PWR0116" H 8150 6600 30  0001 C CNN
-F 1 "GND" H 8150 6400 30  0001 C CNN
-F 2 "" H 8150 6500 60  0000 C CNN
-F 3 "" H 8150 6500 60  0000 C CNN
-	1    8150 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 6400 8150 6500
-Wire Wire Line
-	7950 6400 7950 6500
-Wire Wire Line
-	7050 6400 7050 6500
-Wire Wire Line
-	6850 6400 6850 6500
-Wire Wire Line
-	6200 4000 2400 4000
 Text HLabel 2400 4000 0    50   Input ~ 0
 LCD_MIPI_D0-
-Wire Wire Line
-	6200 4400 2400 4400
 Text HLabel 2400 4400 0    50   Input ~ 0
 LCD_MIPI_D0+
-Wire Wire Line
-	6200 4550 2400 4550
 Text HLabel 2400 4550 0    50   Input ~ 0
 LCD_MIPI_D1-
-Wire Wire Line
-	6200 4950 2400 4950
 Text HLabel 2400 4950 0    50   Input ~ 0
 LCD_MIPI_D1+
-Wire Wire Line
-	6200 5500 2400 5500
 Text HLabel 2400 5500 0    50   Input ~ 0
 LCD_MIPI_CLK+
-Wire Wire Line
-	6200 5100 2400 5100
 Text HLabel 2400 5100 0    50   Input ~ 0
 LCD_MIPI_CLK-
 Text HLabel 2250 2900 0    50   Input ~ 0
@@ -268,18 +184,6 @@ Wire Wire Line
 Connection ~ 2600 2150
 Wire Wire Line
 	2600 2150 2400 2150
-Text Label 9700 5500 0    50   ~ 0
-MIPI_CLK+
-Text Label 9700 5100 0    50   ~ 0
-MIPI_CLK-
-Text Label 9700 4000 0    50   ~ 0
-MIPI_D0-
-Text Label 9700 4400 0    50   ~ 0
-MIPI_D0+
-Text Label 9700 4550 0    50   ~ 0
-MIPI_D1-
-Text Label 9700 4950 0    50   ~ 0
-MIPI_D1+
 $Comp
 L Inductors:BLM15HG601SN1D L4
 U 1 1 5F36F326
@@ -536,10 +440,6 @@ Wire Wire Line
 Wire Wire Line
 	12550 5650 12550 4000
 Wire Wire Line
-	12550 4000 8700 4000
-Wire Wire Line
-	12450 4400 8700 4400
-Wire Wire Line
 	14450 5550 12450 5550
 Wire Wire Line
 	12450 4400 12450 5550
@@ -548,25 +448,17 @@ Wire Wire Line
 Wire Wire Line
 	12350 5350 12350 4550
 Wire Wire Line
-	12350 4550 8700 4550
-Wire Wire Line
 	14450 5250 12250 5250
 Wire Wire Line
 	12250 5250 12250 4950
-Wire Wire Line
-	12250 4950 8700 4950
 Wire Wire Line
 	14450 5050 11800 5050
 Wire Wire Line
 	11800 5050 11800 5100
 Wire Wire Line
-	11800 5100 8700 5100
-Wire Wire Line
 	14450 4950 12650 4950
 Wire Wire Line
 	12650 4950 12650 5500
-Wire Wire Line
-	12650 5500 8700 5500
 $Comp
 L Fpc_Connectors:52746-0671 Con1
 U 1 1 5FD54A40
@@ -587,4 +479,16 @@ F 12 "fpc-6pos" H 10950 7350 50  0001 C CNN "Package"
 	1    10950 7350
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	2400 4000 12550 4000
+Wire Wire Line
+	2400 4400 12450 4400
+Wire Wire Line
+	2400 4550 12350 4550
+Wire Wire Line
+	2400 4950 12250 4950
+Wire Wire Line
+	2400 5100 11800 5100
+Wire Wire Line
+	2400 5500 12650 5500
 $EndSCHEMATC

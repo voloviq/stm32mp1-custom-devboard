@@ -3,12 +3,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
-Title "LCD plus Touchscreen board"
+Sheet 1 5
+Title "stm32mp1-custom-devboard"
 Date "2020-12-19"
 Rev "V1.0"
 Comp "Embedded System Labs"
-Comment1 "Model: PH720128T004-ZBC02"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -36,4 +36,21 @@ F16 "LCD_GND_2.7-5.5V" I L 10800 1850 50
 F17 "LCD_LED+" I L 10800 3800 50 
 F18 "LCD_LED-" I L 10800 3900 50 
 $EndSheet
+$Sheet
+S 7450 1600 1900 4950
+U 5FDE4F7C
+F0 "STM32MP1 module" 50
+F1 "mpu_module.sch" 50
+$EndSheet
+$Comp
+L arduino:Arduino_101_Shield XA?
+U 1 1 5FEBC8FE
+P 11950 6600
+F 0 "XA?" H 11950 7987 60  0000 C CNN
+F 1 "Arduino_101_Shield" H 11950 7881 60  0000 C CNN
+F 2 "" H 13750 10350 60  0001 C CNN
+F 3 "" H 13750 10350 60  0001 C CNN
+	1    11950 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

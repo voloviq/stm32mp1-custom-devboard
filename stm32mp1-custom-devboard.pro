@@ -1,4 +1,4 @@
-update=czw, 10 gru 2020, 19:43:05
+update=sob, 19 gru 2020, 20:05:02
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=handheld_lcd_board.net
+LastNetListRead=stm32mp1-custom-devboard.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

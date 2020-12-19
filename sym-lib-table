@@ -12,4 +12,6 @@
   (lib (name Lcd_Backlight_Drivers)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Lcd_Backlight_Drivers/Lcd_Backlight_Drivers.lib)(options "")(descr ""))
   (lib (name Test_Points)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Test_Points/Test_Points.lib)(options "")(descr ""))
   (lib (name Linear_Regulators)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Dc_Dc_Regulators/Linear/Linear_Regulators.lib)(options "")(descr ""))
+  (lib (name VisionSOM)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/SOM_Modules/SomLabs/VisionSOM.lib)(options "")(descr ""))
+  (lib (name arduino)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Arduino/arduino.lib)(options "")(descr ""))
 )
