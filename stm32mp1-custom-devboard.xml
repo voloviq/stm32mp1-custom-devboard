@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/mw/hardware_projects/handheld_lcd_board/handheld_lcd_board.sch</source>
+    <date>czw, 10 gru 2020, 20:32:51</date>
+    <tool>Eeschema 5.1.8-db9833491~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LCD plus Touchscreen board</title>
+        <company>EMAR SJ</company>
+        <rev>V1.0</rev>
+        <date>2020-12-10</date>
+        <source>handheld_lcd_board.sch</source>
+        <comment number="1" value="Model: PH720128T004-ZBC02"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/LCD+Touchscreen/" tstamps="/5EA691F1/">
+      <title_block>
+        <title>LCD MiPi and Touchscreen module</title>
+        <company>EMAR SJ</company>
+        <rev>V1.0</rev>
+        <date>2020-04-02</date>
+        <source>LCD_Touchscreen.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LCD+Touchscreen/LCD Backlight Controller/" tstamps="/5EA691F1/5E88F615/">
+      <title_block>
+        <title>LCD Backlight Controller</title>
+        <company>EMAR SJ</company>
+        <rev>V1.0</rev>
+        <date>2020-04-04</date>
+        <source>LCD_Backlight_Driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/LCD+Touchscreen/Touchscreen Power Supply/" tstamps="/5EA691F1/5EA7C257/">
+      <title_block>
+        <title>2.8V LDO Regulator</title>
+        <company>EMAR SJ</company>
+        <rev>V1.0</rev>
+        <date>2020-04-27</date>
+        <source>TP_Power_Supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/LCD+Touchscreen common connector/" tstamps="/5EAE3C3C/">
+      <title_block>
+        <title>Common LCD plus Touchscreen Connector</title>
+        <company>EMAR SJ</company>
+        <rev>V1.0</rev>
+        <date>2020-04-27</date>
+        <source>common_display_connector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="L2">
+      <value>EMI8133MUTAG</value>
+      <footprint>Inductors:EMI8133MUTAG</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/308/EMI8132-D-1803782.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">EMI8133MUTAG</field>
+        <field name="Package">XDFN-16</field>
+        <field name="Price@10pc">3,81</field>
+        <field name="Price@500pc">1,74</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">863-EMI8133MUTAG</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/ON-Semiconductor/EMI8133MUTAG?qs=k6dkFvHqcvCNpFKZjcGIKw%3D%3D</field>
+      </fields>
+      <libsource lib="Inductors" part="EMI8133MUTAG" description="3 Channel Common Mode Filter with ESD Protection"/>
+      <sheetpath names="/LCD+Touchscreen/" tstamps="/5EA691F1/"/>
+      <tstamp>5E8D03CD</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>BLM15HG601SN1D</value>
+      <footprint>Inductors:BLM15HG601SN1D_0402</footprint>
+      <datasheet>C:/Wiktor/KiCad/KiCadWolowik/Schematic/Inductors/Components_Documentation/BLM15HG601SN1#.pdf</datasheet>
+      <libsource lib="Inductors" part="BLM15HG601SN1D" description="Z=600Ohm,Load=0.3A,R=0.7Ohm, Temp=-55C+125C, EMI Suppression Filters EMIFIL"/>
+      <sheetpath names="/LCD+Touchscreen/" tstamps="/5EA691F1/"/>
+      <tstamp>5F36F326</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF/50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100nF_0603" description="100nF / 50V SMD Capacitor"/>
+      <sheetpath names="/LCD+Touchscreen/" tstamps="/5EA691F1/"/>
+      <tstamp>5F3A4D95</tstamp>
+    </comp>
+    <comp ref="Con2">
+      <value>505110-2491</value>
+      <footprint>Fpc_Connectors:505110-2491</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/276/2/5051102491_FFC_FPC_CONNECTORS-705759.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Manufacturer Part Number">505110-2491</field>
+        <field name="Package">SMD/SMT FPC/FFC</field>
+        <field name="Price@1000pcs">1,74</field>
+        <field name="Price@1pc">3,13</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">538-505110-2491</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Molex/505110-2491?qs=fSIr1QPo%2F%2FQZaS1NuXTizw%3D%3D</field>
+      </fields>
+      <libsource lib="Fpc_Connectors" part="24pin_505110-2491_0.5mm" description="FPC 24 pins bottom 0.5mm raster from MOLEX"/>
+      <sheetpath names="/LCD+Touchscreen/" tstamps="/5EA691F1/"/>
+      <tstamp>5FD36590</tstamp>
+    </comp>
+    <comp ref="Con1">
+      <value>52746-0671</value>
+      <footprint>Fpc_Connectors:52746-0671</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/276/0527460671_FFC_FPC_CONNECTORS-170646.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Manufacturer Part Number">52746-0671</field>
+        <field name="Package">fpc-6pos</field>
+        <field name="Price@1000pcs">1,62</field>
+        <field name="Price@1pc">3,24</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">538-52746-0671</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Molex/52746-0671?qs=6mwHGXDh%252BQw5M6CFKCiadw%3D%3D</field>
+      </fields>
+      <libsource lib="Fpc_Connectors" part="52746-0671" description="6-Pin FPC FFC 0.5mm Pitch Bottom Entry MOLEX Connector"/>
+      <sheetpath names="/LCD+Touchscreen/" tstamps="/5EA691F1/"/>
+      <tstamp>5FD54A40</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF/50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100nF_0603" description="100nF / 50V SMD Capacitor"/>
+      <sheetpath names="/LCD+Touchscreen/" tstamps="/5EA691F1/"/>
+      <tstamp>5F3A3FA9</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPS61169DCKR</value>
+      <footprint>Lcd_Backlight_Drivers:TPS61169DCKR</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61169</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C71045</field>
+        <field name="Manufacturer">Texat Instruments</field>
+        <field name="Manufacturer Part Number">TPS61169DCKR</field>
+        <field name="Package">SC70-5</field>
+        <field name="Price@1000pcs">1,54</field>
+        <field name="Price@1pc">3,53</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">595-TPS61169DCKR</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS61169DCKR?qs=sGAEpiMZZMshRPDbDyJ0AVlWRr1po8B0zg%2FtsS33ptY%3D</field>
+      </fields>
+      <libsource lib="Lcd_Backlight_Drivers" part="TPS61169DCKR" description="LED Lighting Drivers TPS61169 38-V High Current-Boost WLED Driver With PWM Control"/>
+      <sheetpath names="/LCD+Touchscreen/LCD Backlight Controller/" tstamps="/5EA691F1/5E88F615/"/>
+      <tstamp>5E890C4F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF/6V3</value>
+      <footprint>Capacitors_Smd_0603:1uF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B105KO8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,03514</field>
+        <field name="Price@1pc">0,07530</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B105KO8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b105ko8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="1uF_0603" description="1uF / 16V SMD Capacitor"/>
+      <sheetpath names="/LCD+Touchscreen/LCD Backlight Controller/" tstamps="/5EA691F1/5E88F615/"/>
+      <tstamp>5E8928E1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF/35V</value>
+      <footprint>Capacitors_Smd_0603:4_7uF_0603</footprint>
+      <datasheet>Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10A475KQ8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,04518</field>
+        <field name="Price@1pc">0,08590</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10A475KQ8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10a475kq8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="4_7uF_0603" description="4_7uF / 6.3V SMD Capacitor"/>
+      <sheetpath names="/LCD+Touchscreen/LCD Backlight Controller/" tstamps="/5EA691F1/5E88F615/"/>
+      <tstamp>5E89438F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>NSR0530H-D</value>
+      <footprint>Diodes:NSR0530H-D_SOD323</footprint>
+      <datasheet>/home/mw/kicad_library/Schematic/Diodes/Components_Documentation/MBR230LSFT1-D.PDF</datasheet>
+      <libsource lib="Diodes" part="NSR0530H-D" description="Schottky Barrier Diode 500mA"/>
+      <sheetpath names="/LCD+Touchscreen/LCD Backlight Controller/" tstamps="/5EA691F1/5E88F615/"/>
+      <tstamp>5E8988F5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10R/1%/0.1Wat</value>
+      <footprint>Resistor_Smd_0603:10R_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C269702</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF100JT5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01694</field>
+        <field name="Price@1pc">0,06200</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-10R-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-10r-1%2525/rezystory-smd-0603/royal-ohm/0603saf100jt5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="10R_0603_1%" description="SMD Resistor 10 Ohm 1% 0.1W"/>
+      <sheetpath names="/LCD+Touchscreen/LCD Backlight Controller/" tstamps="/5EA691F1/5E88F615/"/>
+      <tstamp>5E8A7166</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>4u7H_CD32_SMD_Coil</value>
+      <footprint>Inductors:4u7H_SMD_CD32</footprint>
+      <datasheet>Inductors/Components_Documentation/CD32.pdf</datasheet>
+      <libsource lib="Inductors" part="4u7H_CD32_SMD_Coil" description="4u7H Power Inductor CD32 Series"/>
+      <sheetpath names="/LCD+Touchscreen/LCD Backlight Controller/" tstamps="/5EA691F1/5E88F615/"/>
+      <tstamp>5E8C19B3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF/50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100nF_0603" description="100nF / 50V SMD Capacitor"/>
+      <sheetpath names="/LCD+Touchscreen/Touchscreen Power Supply/" tstamps="/5EA691F1/5EA7C257/"/>
+      <tstamp>5EA900A1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF/50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100nF_0603" description="100nF / 50V SMD Capacitor"/>
+      <sheetpath names="/LCD+Touchscreen/Touchscreen Power Supply/" tstamps="/5EA691F1/5EA7C257/"/>
+      <tstamp>5EA90D63</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1703T-3302E</value>
+      <footprint>Linear:MCP1703T-3302E_SOT23</footprint>
+      <datasheet>Dc_Dc_Regulators/Linear/Components_Documentation/Mcp1703T_22049a.pdf</datasheet>
+      <libsource lib="Linear_Regulators" part="MCP1703T-3302E" description="3V3 / 250mA Low Dropout Positive Voltage Regulators (Quiescent Current)"/>
+      <sheetpath names="/LCD+Touchscreen/Touchscreen Power Supply/" tstamps="/5EA691F1/5EA7C257/"/>
+      <tstamp>5F33306E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>FH12A-30S-0.5SH(55)</value>
+      <footprint>Fpc_Connectors:FH12A-30S-0.5SH</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/185/FH12_CL0586-0556-5-55_2d-1614951.pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="Manufacturer">Hirose Connector</field>
+        <field name="Manufacturer Part Number">FH12A-30S-0.5SH(55)</field>
+        <field name="Price@1000pcs">4,62</field>
+        <field name="Price@1pc">8,29</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">798-FH12A-30S0.5SH55</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Hirose-Connector/FH12A-30S-05SH55?qs=Ux3WWAnHpjDkB%252BrjkCCGLQ%3D%3D</field>
+      </fields>
+      <libsource lib="Fpc_Connectors" part="FH12A-30S-0.5SH" description="FPC 30Pin 0.5mm Pitch Top Contact Type Hirose Connector"/>
+      <sheetpath names="/LCD+Touchscreen common connector/" tstamps="/5EAE3C3C/"/>
+      <tstamp>5EB10028</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Capacitors_Smd0603" part="100nF_0603">
+      <description>100nF / 50V SMD Capacitor</description>
+      <docs>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</docs>
+      <footprints>
+        <fp>100nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_0603</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="1uF_0603">
+      <description>1uF / 16V SMD Capacitor</description>
+      <docs>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</docs>
+      <footprints>
+        <fp>1uF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF_0603</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B105KO8NNNC</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B105KO8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b105ko8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Price@1pc">0,07530</field>
+        <field name="Price@1000pcs">0,03514</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="4_7uF_0603">
+      <description>4_7uF / 6.3V SMD Capacitor</description>
+      <docs>Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</docs>
+      <footprints>
+        <fp>4_7uF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4_7uF_0603</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10A475KQ8NNNC</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10A475KQ8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10a475kq8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Price@1pc">0,08590</field>
+        <field name="Price@1000pcs">0,04518</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C307467</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="NSR0530H-D">
+      <description>Schottky Barrier Diode 500mA</description>
+      <docs>/home/mw/kicad_library/Schematic/Diodes/Components_Documentation/MBR230LSFT1-D.PDF</docs>
+      <footprints>
+        <fp>NSR0530H-D_SOD323</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">NSR0530H-D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fpc_Connectors" part="24pin_505110-2491_0.5mm">
+      <description>FPC 24 pins bottom 0.5mm raster from MOLEX</description>
+      <docs>https://pl.mouser.com/datasheet/2/276/2/5051102491_FFC_FPC_CONNECTORS-705759.pdf</docs>
+      <footprints>
+        <fp>505110-2491</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Con</field>
+        <field name="Value">24pin_505110-2491_0.5mm</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Manufacturer Part Number">505110-2491</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">538-505110-2491</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Molex/505110-2491?qs=fSIr1QPo%2F%2FQZaS1NuXTizw%3D%3D</field>
+        <field name="Price@1pc">3,13</field>
+        <field name="Price@1000pcs">1,74</field>
+        <field name="Developer">MW</field>
+        <field name="Package">SMD/SMT FPC/FFC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fpc_Connectors" part="52746-0671">
+      <description>6-Pin FPC FFC 0.5mm Pitch Bottom Entry MOLEX Connector</description>
+      <docs>https://pl.mouser.com/datasheet/2/276/0527460671_FFC_FPC_CONNECTORS-170646.pdf</docs>
+      <footprints>
+        <fp>52746-0671</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Con</field>
+        <field name="Value">52746-0671</field>
+        <field name="Manufacturer">MOLEX</field>
+        <field name="Manufacturer Part Number">52746-0671</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">538-52746-0671</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Molex/52746-0671?qs=6mwHGXDh%252BQw5M6CFKCiadw%3D%3D</field>
+        <field name="Price@1pc">3,24</field>
+        <field name="Price@1000pcs">1,62</field>
+        <field name="Developer">MW</field>
+        <field name="Package">fpc-6pos</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fpc_Connectors" part="FH12A-30S-0.5SH">
+      <description>FPC 30Pin 0.5mm Pitch Top Contact Type Hirose Connector</description>
+      <docs>https://pl.mouser.com/datasheet/2/185/FH12_CL0586-0556-5-55_2d-1614951.pdf</docs>
+      <footprints>
+        <fp>FH12A-30S-0.5SH</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">FH12A-30S-0.5SH</field>
+        <field name="Manufacturer">Hirose Connector</field>
+        <field name="Manufacturer Part Number">FH12A-30S-0.5SH(55)</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">798-FH12A-30S0.5SH55</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Hirose-Connector/FH12A-30S-05SH55?qs=Ux3WWAnHpjDkB%252BrjkCCGLQ%3D%3D</field>
+        <field name="Price@1pc">8,29</field>
+        <field name="Price@1000pcs">4,62</field>
+        <field name="Developer">WP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P1" type="passive"/>
+        <pin num="12" name="P2" type="passive"/>
+        <pin num="13" name="P3" type="passive"/>
+        <pin num="14" name="P4" type="passive"/>
+        <pin num="15" name="P5" type="passive"/>
+        <pin num="16" name="P6" type="passive"/>
+        <pin num="17" name="P7" type="passive"/>
+        <pin num="18" name="P8" type="passive"/>
+        <pin num="19" name="P9" type="passive"/>
+        <pin num="20" name="P10" type="passive"/>
+        <pin num="21" name="P1" type="passive"/>
+        <pin num="22" name="P2" type="passive"/>
+        <pin num="23" name="P3" type="passive"/>
+        <pin num="24" name="P4" type="passive"/>
+        <pin num="25" name="P5" type="passive"/>
+        <pin num="26" name="P6" type="passive"/>
+        <pin num="27" name="P7" type="passive"/>
+        <pin num="28" name="P8" type="passive"/>
+        <pin num="29" name="P9" type="passive"/>
+        <pin num="30" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductors" part="4u7H_CD32_SMD_Coil">
+      <description>4u7H Power Inductor CD32 Series</description>
+      <docs>Inductors/Components_Documentation/CD32.pdf</docs>
+      <footprints>
+        <fp>4u7H_SMD_CD32</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">4u7H_CD32_SMD_Coil</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductors" part="BLM15HG601SN1D">
+      <description>Z=600Ohm,Load=0.3A,R=0.7Ohm, Temp=-55C+125C, EMI Suppression Filters EMIFIL</description>
+      <docs>C:/Wiktor/KiCad/KiCadWolowik/Schematic/Inductors/Components_Documentation/BLM15HG601SN1#.pdf</docs>
+      <footprints>
+        <fp>BLM15HG601SN1D_0402</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">BLM15HG601SN1D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductors" part="EMI8133MUTAG">
+      <description>3 Channel Common Mode Filter with ESD Protection</description>
+      <docs>https://pl.mouser.com/datasheet/2/308/EMI8132-D-1803782.pdf</docs>
+      <footprints>
+        <fp>EMI8133MUTAG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">EMI8133MUTAG</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">EMI8133MUTAG</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">863-EMI8133MUTAG</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/ON-Semiconductor/EMI8133MUTAG?qs=k6dkFvHqcvCNpFKZjcGIKw%3D%3D</field>
+        <field name="Price@10pc">3,81</field>
+        <field name="Price@500pc">1,74</field>
+        <field name="Developer">MW</field>
+        <field name="Package">XDFN-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Lcd_Backlight_Drivers" part="TPS61169DCKR">
+      <description>LED Lighting Drivers TPS61169 38-V High Current-Boost WLED Driver With PWM Control</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61169</docs>
+      <footprints>
+        <fp>TPS61169DCKR</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61169DCKR</field>
+        <field name="Manufacturer">Texat Instruments</field>
+        <field name="Manufacturer Part Number">TPS61169DCKR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">595-TPS61169DCKR</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS61169DCKR?qs=sGAEpiMZZMshRPDbDyJ0AVlWRr1po8B0zg%2FtsS33ptY%3D</field>
+        <field name="Price@1pc">3,53</field>
+        <field name="Price@1000pcs">1,54</field>
+        <field name="Developer">MW</field>
+        <field name="Package">SC70-5</field>
+        <field name="LCSC Part # (optional)">C71045</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="CTRL" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Linear_Regulators" part="MCP1703T-3302E">
+      <description>3V3 / 250mA Low Dropout Positive Voltage Regulators (Quiescent Current)</description>
+      <docs>Dc_Dc_Regulators/Linear/Components_Documentation/Mcp1703T_22049a.pdf</docs>
+      <footprints>
+        <fp>MCP1703T-3302E_SOT23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1703T-3302E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="Vout" type="passive"/>
+        <pin num="3" name="Vin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="10R_0603_1%">
+      <description>SMD Resistor 10 Ohm 1% 0.1W</description>
+      <docs>Resistors/Smd_0603/Components_Documentation/Panasonic_Precision_Resistors_SMD.pdf</docs>
+      <footprints>
+        <fp>10R_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10R_0603_1%</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF100JT5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-10R-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-10r-1%2525/rezystory-smd-0603/royal-ohm/0603saf100jt5e/</field>
+        <field name="Price@1pc">0,06200</field>
+        <field name="Price@1000pcs">0,01694</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C269702</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Capacitors_Smd0603">
+      <uri>/home/mw/kicad_library/Schematic//Capacitors/Smd_0603/Capacitors_Smd0603.lib</uri>
+    </library>
+    <library logical="Diodes">
+      <uri>/home/mw/kicad_library/Schematic//Diodes/Diodes.lib</uri>
+    </library>
+    <library logical="Fpc_Connectors">
+      <uri>/home/mw/kicad_library/Schematic//Connectors/Fpc_Connectors/Fpc_Connectors.lib</uri>
+    </library>
+    <library logical="Inductors">
+      <uri>/home/mw/kicad_library/Schematic//Inductors/Inductors.lib</uri>
+    </library>
+    <library logical="Lcd_Backlight_Drivers">
+      <uri>/home/mw/kicad_library/Schematic//Lcd_Backlight_Drivers/Lcd_Backlight_Drivers.lib</uri>
+    </library>
+    <library logical="Linear_Regulators">
+      <uri>/home/mw/kicad_library/Schematic//Dc_Dc_Regulators/Linear/Linear_Regulators.lib</uri>
+    </library>
+    <library logical="Resistors_Smd0603">
+      <uri>/home/mw/kicad_library/Schematic//Resistors/Smd_0603/Resistors_Smd0603.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/LCD+Touchscreen/LCD_MIPI_CLK+">
+      <node ref="P1" pin="17"/>
+      <node ref="L2" pin="9"/>
+    </net>
+    <net code="2" name="/LCD+Touchscreen common connector/TP_SDA">
+      <node ref="P1" pin="6"/>
+      <node ref="Con1" pin="3"/>
+    </net>
+    <net code="3" name="/LCD+Touchscreen common connector/TP_SCL">
+      <node ref="P1" pin="5"/>
+      <node ref="Con1" pin="2"/>
+    </net>
+    <net code="4" name="/LCD+Touchscreen common connector/TP_RESET">
+      <node ref="Con1" pin="1"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="5" name="/LCD+Touchscreen common connector/TP_NT">
+      <node ref="P1" pin="3"/>
+      <node ref="Con1" pin="4"/>
+    </net>
+    <net code="6" name="/LCD+Touchscreen common connector/LCD_BACKLIGHT_PWM">
+      <node ref="U1" pin="4"/>
+      <node ref="P1" pin="26"/>
+    </net>
+    <net code="7" name="/LCD+Touchscreen common connector/LCD_TE">
+      <node ref="P1" pin="9"/>
+      <node ref="Con2" pin="13"/>
+    </net>
+    <net code="8" name="/LCD+Touchscreen/LCD_LED+">
+      <node ref="Con2" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="9" name="/LCD+Touchscreen/LCD_LED-">
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="8"/>
+      <node ref="Con2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="10" name="/LCD+Touchscreen/LCD_MIPI_D1-">
+      <node ref="L2" pin="13"/>
+      <node ref="P1" pin="21"/>
+    </net>
+    <net code="11" name="/LCD+Touchscreen/LCD_MIPI_D1+">
+      <node ref="L2" pin="12"/>
+      <node ref="P1" pin="20"/>
+    </net>
+    <net code="12" name="/LCD+Touchscreen/LCD_MIPI_CLK-">
+      <node ref="L2" pin="10"/>
+      <node ref="P1" pin="18"/>
+    </net>
+    <net code="13" name="/LCD+Touchscreen common connector/LCD_RESET">
+      <node ref="Con2" pin="12"/>
+      <node ref="P1" pin="27"/>
+    </net>
+    <net code="14" name="/LCD+Touchscreen/LCD_MIPI_D0-">
+      <node ref="L2" pin="16"/>
+      <node ref="P1" pin="24"/>
+    </net>
+    <net code="15" name="/LCD+Touchscreen/LCD_MIPI_D0+">
+      <node ref="P1" pin="23"/>
+      <node ref="L2" pin="15"/>
+    </net>
+    <net code="16" name="VDD">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="P1" pin="29"/>
+      <node ref="P1" pin="28"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Con2-Pad8)">
+      <node ref="Con2" pin="8"/>
+    </net>
+    <net code="18" name="Net-(Con2-Pad7)">
+      <node ref="Con2" pin="7"/>
+    </net>
+    <net code="19" name="Net-(Con2-Pad5)">
+      <node ref="Con2" pin="5"/>
+    </net>
+    <net code="20" name="Net-(Con2-Pad4)">
+      <node ref="Con2" pin="4"/>
+    </net>
+    <net code="21" name="Net-(Con2-Pad1)">
+      <node ref="Con2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Con2-Pad24)">
+      <node ref="Con2" pin="24"/>
+    </net>
+    <net code="23" name="Net-(C6-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Con2" pin="9"/>
+      <node ref="Con2" pin="10"/>
+    </net>
+    <net code="24" name="/LCD+Touchscreen/MIPI_CLK-">
+      <node ref="Con2" pin="16"/>
+      <node ref="L2" pin="7"/>
+    </net>
+    <net code="25" name="/LCD+Touchscreen/MIPI_CLK+">
+      <node ref="L2" pin="8"/>
+      <node ref="Con2" pin="15"/>
+    </net>
+    <net code="26" name="/LCD+Touchscreen/MIPI_D0-">
+      <node ref="L2" pin="1"/>
+      <node ref="Con2" pin="22"/>
+    </net>
+    <net code="27" name="/LCD+Touchscreen/MIPI_D0+">
+      <node ref="Con2" pin="21"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="28" name="/LCD+Touchscreen/MIPI_D1-">
+      <node ref="L2" pin="4"/>
+      <node ref="Con2" pin="19"/>
+    </net>
+    <net code="29" name="/LCD+Touchscreen/MIPI_D1+">
+      <node ref="L2" pin="5"/>
+      <node ref="Con2" pin="18"/>
+    </net>
+    <net code="30" name="/LCD+Touchscreen/Touchscreen Power Supply/VOUT_3.3V_250mA">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Con1" pin="5"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="R1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="Con1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P1" pin="10"/>
+      <node ref="L2" pin="6"/>
+      <node ref="C6" pin="2"/>
+      <node ref="Con2" pin="14"/>
+      <node ref="L2" pin="3"/>
+      <node ref="L2" pin="11"/>
+      <node ref="L2" pin="14"/>
+      <node ref="P1" pin="13"/>
+      <node ref="P1" pin="16"/>
+      <node ref="P1" pin="19"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Con2" pin="6"/>
+      <node ref="P1" pin="22"/>
+      <node ref="P1" pin="25"/>
+      <node ref="Con2" pin="23"/>
+      <node ref="Con2" pin="20"/>
+      <node ref="Con2" pin="17"/>
+      <node ref="Con2" pin="11"/>
+    </net>
+    <net code="32" name="Net-(P1-Pad11)">
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="33" name="Net-(P1-Pad30)">
+      <node ref="P1" pin="30"/>
+    </net>
+    <net code="34" name="Net-(P1-Pad12)">
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="35" name="Net-(P1-Pad14)">
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="36" name="Net-(P1-Pad15)">
+      <node ref="P1" pin="15"/>
+    </net>
+    <net code="37" name="Net-(D1-Pad2)">
+      <node ref="L3" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+  </nets>
+</export>

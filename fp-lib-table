@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name Capacitors_Smd_0402)(type KiCad)(uri ${KISYS3DMOD}/Capacitors/Smd_0402/Capacitors_Smd_0402.pretty)(options "")(descr ""))
+  (lib (name Capacitors_Smd_0603)(type KiCad)(uri ${KISYS3DMOD}/Capacitors/Smd_0603/Capacitors_Smd_0603.pretty)(options "")(descr ""))
+  (lib (name Fpc_Connectors)(type KiCad)(uri ${KISYS3DMOD}/Connectors/Fpc_Connectors/Fpc_Connectors.pretty)(options "")(descr ""))
+  (lib (name Diodes)(type KiCad)(uri ${KISYS3DMOD}/Diodes/Diodes.pretty)(options "")(descr ""))
+  (lib (name Inductors)(type KiCad)(uri ${KISYS3DMOD}/Inductors/Inductors.pretty)(options "")(descr ""))
+  (lib (name Lcd_Backlight_Drivers)(type KiCad)(uri ${KISYS3DMOD}/Lcd_Backlight_Drivers/Lcd_Backlight_Drivers.pretty)(options "")(descr ""))
+  (lib (name Resistor_Smd_0402)(type KiCad)(uri ${KISYS3DMOD}/Resistors/Smd_0402/Resistor_Smd_0402.pretty)(options "")(descr ""))
+  (lib (name Resistor_Smd_0603)(type KiCad)(uri ${KISYS3DMOD}/Resistors/Smd_0603/Resistor_Smd_0603.pretty)(options "")(descr ""))
+  (lib (name Test_Points)(type KiCad)(uri ${KISYS3DMOD}/Test_Points/Test_Points.pretty)(options "")(descr ""))
+  (lib (name Linear)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Linear/Linear.pretty)(options "")(descr ""))
+)
