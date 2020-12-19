@@ -11,4 +11,5 @@
   (lib (name Linear)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Linear/Linear.pretty)(options "")(descr ""))
   (lib (name SomLabs_SOM)(type KiCad)(uri ${KISYS3DMOD}/SOM_Modules/SomLabs/SomLabs_SOM.pretty)(options "")(descr ""))
   (lib (name Arduino)(type KiCad)(uri ${KISYS3DMOD}/Arduino/Arduino.pretty)(options "")(descr ""))
+  (lib (name Switching)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Switching/Switching.pretty)(options "")(descr ""))
 )

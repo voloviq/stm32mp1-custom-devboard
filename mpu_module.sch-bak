@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "STM32MP1 Module"
 Date "2020-12-19"
 Rev "V1.0"

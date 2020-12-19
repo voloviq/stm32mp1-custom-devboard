@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "stm32mp1-custom-devboard"
 Date "2020-12-19"
 Rev "V1.0"
@@ -53,4 +53,10 @@ F 3 "" H 13750 10350 60  0001 C CNN
 	1    11950 6600
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4400 1600 1900 1200
+U 5FDE84C9
+F0 "Power Supply Module" 50
+F1 "power_supply.sch" 50
+$EndSheet
 $EndSCHEMATC

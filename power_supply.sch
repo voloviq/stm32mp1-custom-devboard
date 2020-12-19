@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 6 6
+Title "Power Supply Module 5V/3V3"
+Date "2020-12-19"
+Rev "V1.0"
+Comp "Embedded System Labs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switching_Regulators:ST1S09IPUR U4
+U 1 1 5FDE9B82
+P 7800 4200
+F 0 "U4" H 7800 4815 50  0000 C CNN
+F 1 "ST1S09IPUR" H 7800 4724 50  0000 C CNN
+F 2 "Switching:ST1S09IPUR" H 9200 3450 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/389/st1s09-1850123.pdf" H 9200 3450 50  0001 C CNN
+F 4 "ST Microelectronics" H 7800 4200 50  0001 C CNN "Manufacturer"
+F 5 "ST1S09IPUR" H 7800 4200 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 7800 4200 50  0001 C CNN "Supplier"
+F 7 "511-ST1S09IPUR" H 7800 4200 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/STMicroelectronics/ST1S09IPUR?qs=z4PnFkYVEVnLKA2ltiW6RQ%3D%3D" H 7800 4200 50  0001 C CNN "URL"
+F 9 "5,54" H 7800 4200 50  0001 C CNN "Price@1pc"
+F 10 "2,55" H 7800 4200 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 7800 4200 50  0001 C CNN "Developer"
+F 12 "DFN-6" H 7800 4200 50  0001 C CNN "Package"
+F 13 "C361028" H 7800 4200 50  0001 C CNN "LCSC Part #(optional)"
+	1    7800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND_NO_GLOBAL #PWR2
+U 1 1 5FDEB4BF
+P 7800 5050
+F 0 "#PWR2" H 7800 5150 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 7800 4950 30  0001 C CNN
+F 2 "" H 7800 5050 60  0000 C CNN
+F 3 "" H 7800 5050 60  0000 C CNN
+	1    7800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4950 7800 5050
+Text HLabel 2850 2700 0    50   Input ~ 0
+POWER_IN
+Text HLabel 2850 2850 0    50   Input ~ 0
+POWER_IN_GND
+$Comp
+L power:GND_NO_GLOBAL #PWR1
+U 1 1 5FDF446F
+P 2950 2850
+F 0 "#PWR1" H 2950 2950 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 2950 2750 30  0001 C CNN
+F 2 "" H 2950 2850 60  0000 C CNN
+F 3 "" H 2950 2850 60  0000 C CNN
+	1    2950 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2850 2850 2850
+$Comp
+L Switching_Regulators:ST1S10PHR U3
+U 1 1 5FDFC620
+P 4950 4150
+F 0 "U3" H 4950 4687 60  0000 C CNN
+F 1 "ST1S10PHR" H 4950 4581 60  0000 C CNN
+F 2 "Switching:ST1S10PHR_SOIC8" H 4950 4150 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/389/st1s10-1850024.pdf" H 4950 4150 60  0001 C CNN
+F 4 "ST Microelectronics" H 4950 4150 50  0001 C CNN "Manufacturer"
+F 5 "ST1S10PHR" H 4950 4150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 4950 4150 50  0001 C CNN "Supplier"
+F 7 "511-ST1S10PHR" H 4950 4150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/STMicroelectronics/ST1S10PHR?qs=qolwYojYp3QSBN7PdO5xhg%3D%3D" H 4950 4150 50  0001 C CNN "URL"
+F 9 "6,56" H 4950 4150 50  0001 C CNN "Price@1pc"
+F 10 "3,01" H 4950 4150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 4950 4150 50  0001 C CNN "Developer"
+F 12 "SOIC-8" H 4950 4150 50  0001 C CNN "Package"
+F 13 "C11175" H 4950 4150 50  0001 C CNN "LCSC Part #(optional)"
+	1    4950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductors:3.3uH-13.5A-ASPI-0630HI-3R3M-T15 L1
+U 1 1 5FDFFAF8
+P 10000 4150
+F 0 "L1" H 10088 4196 50  0000 L CNN
+F 1 "3.3uH-13.5A-ASPI-0630HI-3R3M-T15" H 10088 4105 50  0000 L CNN
+F 2 "Inductors:ASPI-0630HI-3R3M-T15" H 9700 4150 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/3/ASPI-0630HI-1774982.pdf" H 9700 4150 60  0001 C CNN
+F 4 "ABRACON" H 10000 4150 50  0001 C CNN "Manufacturer"
+F 5 "ASPI-0630HI-3R3M-T15" H 10000 4150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 10000 4150 50  0001 C CNN "Supplier"
+F 7 "815-ASPI0630HI3R3T15" H 10000 4150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/ABRACON/ASPI-0630HI-3R3M-T15?qs=bWAYEm3xoCYwUcwgROPtBA%3D%3D" H 10000 4150 50  0001 C CNN "URL"
+F 9 "2,68" H 10000 4150 50  0001 C CNN "Price@1pc"
+F 10 "1,27" H 10000 4150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 10000 4150 50  0001 C CNN "Developer"
+F 12 "7.2 mm x 6.65 mm x 3 mm" H 10000 4150 50  0001 C CNN "Package"
+	1    10000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductors:3.3uH-13.5A-ASPI-0630HI-3R3M-T15 L2
+U 1 1 5FE002F4
+P 10000 5050
+F 0 "L2" H 10088 5096 50  0000 L CNN
+F 1 "3.3uH-13.5A-ASPI-0630HI-3R3M-T15" H 10088 5005 50  0000 L CNN
+F 2 "Inductors:ASPI-0630HI-3R3M-T15" H 9700 5050 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/3/ASPI-0630HI-1774982.pdf" H 9700 5050 60  0001 C CNN
+F 4 "ABRACON" H 10000 5050 50  0001 C CNN "Manufacturer"
+F 5 "ASPI-0630HI-3R3M-T15" H 10000 5050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 10000 5050 50  0001 C CNN "Supplier"
+F 7 "815-ASPI0630HI3R3T15" H 10000 5050 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/ABRACON/ASPI-0630HI-3R3M-T15?qs=bWAYEm3xoCYwUcwgROPtBA%3D%3D" H 10000 5050 50  0001 C CNN "URL"
+F 9 "2,68" H 10000 5050 50  0001 C CNN "Price@1pc"
+F 10 "1,27" H 10000 5050 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 10000 5050 50  0001 C CNN "Developer"
+F 12 "7.2 mm x 6.65 mm x 3 mm" H 10000 5050 50  0001 C CNN "Package"
+	1    10000 5050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

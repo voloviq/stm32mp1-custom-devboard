@@ -1,4 +1,4 @@
-796666120577096
+849576574472040
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -1696,6 +1696,13 @@ WE-PD SMD POWER INDUCTOR
 Inductors
 742692004
 Ferrite Beads WE-TMSB Suppression 240Ohm 200mA -55C to +125C
+
+0
+2
+2
+Inductors
+ASPI-0630HI-3R3M-T15
+3.3uH /13.5A
 
 0
 2
@@ -3464,6 +3471,230 @@ VisionSOM-STM32MP1
 0
 204
 201
+Switching
+A4403
+QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+21
+17
+Switching
+A8498
+
+
+0
+0
+0
+Switching
+A8586KLJTR-T
+
+
+0
+18
+9
+Switching
+AP3012-DTE
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+AP3032
+Boost Converter
+VRegulator
+0
+6
+6
+Switching
+AP3211KTR-G1
+
+
+0
+6
+6
+Switching
+CAT4139
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+FAN5331_SOT23_5
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+L5973d_SO8
+
+Switching Voltage Regulator
+0
+14
+9
+Switching
+LM2575_D2PAK_CASE_936A-5Pins
+LM2575_D2PAK_CASE_936A-5Pins
+Regulator
+0
+6
+5
+Switching
+LM2575_TO-220_CASE_314D-5Pin_Horizontal
+Lm2575_To-220_Case_314_Horizontal
+Regulator
+0
+6
+6
+Switching
+LM2575_TO-220_CASE_314D-5Pin_Vertical
+LM2575_TO-220_CASE_314D-5Pin_Vertical
+Regulator
+0
+5
+5
+Switching
+LM2576_D2PAK_CASE_936A-5Pins
+LM2576_D2PAK_CASE_936A-5Pins
+Regulator
+0
+6
+5
+Switching
+LM2576_TO-220_CASE_314D-5Pin_Horizontal
+Lm2576_To-220_Case_314_Horizontal
+Regulator
+0
+6
+6
+Switching
+LM2576_TO-220_CASE_314D-5Pin_Vertical
+LM2576_TO-220_CASE_314D-5Pin_Vertical
+Regulator
+0
+5
+5
+Switching
+LM2576_TO220_5_Simple
+
+Switching Regulator
+0
+5
+5
+Switching
+LM3488MM_VSSOP8
+8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Switching
+LM27313_SOT23
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+MIC29204BM_SO8
+
+Switching Voltage Regulator
+0
+8
+8
+Switching
+MP1517DR
+QFN, 16 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=266), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+21
+17
+Switching
+MP2980_32QFN
+36V, 100W, Synchronous Buck-Boost Controller with I 2 C and Current Monitor
+IC QFN DFN_QFN
+0
+42
+33
+Switching
+MP4245GVE_21QFN
+36V, 6A Peak, Buck-Boost Converter with I2C Interface for Power Delivery
+IC
+0
+21
+21
+Switching
+MP9447_20QFN
+
+
+0
+25
+25
+Switching
+ST1S09IPUR
+
+
+0
+16
+7
+Switching
+ST1S10PHR_SOIC8
+3A,VOUTMAX=15,VINMAX=18V,900kHz
+Switching Voltage Regulator
+0
+18
+9
+Switching
+SY8088_SOT23-5
+Boost Converter
+VRegulator
+0
+5
+5
+Switching
+TK65600B
+
+
+0
+8
+8
+Switching
+TPS61085DGKR_TSSOP8
+8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Switching
+TPS61088RHLR
+Boost Converter 10A Fully-Integrated Synchronous
+DC-DC Converter
+0
+31
+21
+Switching
+XL1507_TO252-5L
+
+
+0
+31
+30
+Switching
+XL6007_SO8
+
+DCDC_Converter
+0
+8
+8
+Switching
+to220-5
+TO220, 5pins
+
+0
+5
+5
 Test_Points
 Test_Point_1.27mm
 

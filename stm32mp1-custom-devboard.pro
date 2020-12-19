@@ -1,4 +1,4 @@
-update=sob, 19 gru 2020, 20:05:02
+update=sob, 19 gru 2020, 22:51:04
 version=1
 last_client=kicad
 [general]
@@ -26,7 +26,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=stm32mp1-custom-devboard.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -44,6 +44,8 @@ TrackWidth3=0.2032
 TrackWidth4=0.254
 TrackWidth5=0.3048
 TrackWidth6=0.508
+TrackWidth7=1.016
+TrackWidth8=2.032
 ViaDiameter1=0.8
 ViaDrill1=0.4
 ViaDiameter2=0.45
@@ -87,11 +89,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
