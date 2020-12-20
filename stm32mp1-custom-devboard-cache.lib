@@ -27,6 +27,34 @@ X ~ 2 0 -200 176 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitors_Smd0603_10nF_0603
+#
+DEF Capacitors_Smd0603_10nF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "Capacitors_Smd0603_10nF_0603" 50 -100 50 H V L CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "VISHAY" 0 0 50 H I C CNN "Manufacturer"
+F5 "VJ0603Y103KXAPW1BC" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "VJ0603Y103KXAPW1BC" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/vj0603y103kxapw1bc/kondensatory-mlcc-smd-0603/vishay/" 0 0 50 H I C CNN "URL"
+F9 "0,05770" 0 0 50 H I C CNN "Price@100pcs"
+F10 "0,02244" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C342901" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 10nF_0603
+$ENDFPLIST
+DRAW
+P 3 0 1 12 100 -25 -100 -25 -100 -25 N
+P 3 0 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitors_Smd0603_1uF_0603
 #
 DEF Capacitors_Smd0603_1uF_0603 C 0 40 N N 1 F N
@@ -77,6 +105,66 @@ P 3 0 1 12 100 -25 -100 -25 -100 -25 N
 P 3 0 1 12 100 25 -100 25 -100 25 N
 X ~ 1 0 200 176 D 50 50 1 1 P
 X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd_Tantal_10uF_35V
+#
+DEF Capacitors_Smd_Tantal_10uF_35V C 0 40 N N 1 F N
+F0 "C" 125 -175 50 H V C CNN
+F1 "Capacitors_Smd_Tantal_10uF_35V" 300 0 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "VISHAY" 0 0 50 H I C CNN "Manufacturer"
+F5 "293D106X9035C2TE3" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "293D106X9035C2TE3" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/293d106x9035c2te3/kondensatory-tantalowe-smd/vishay/" 0 0 50 H I C CNN "URL"
+F9 "1,79747" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,89876" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "Size_C" 0 0 50 H I C CNN "Package"
+F13 "C169217" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 10uF_35V_C
+$ENDFPLIST
+DRAW
+S 100 0 -100 -50 0 1 12 N
+S -100 -100 100 -100 1 1 12 N
+P 3 0 1 12 55 60 55 20 55 20 N
+P 4 0 1 12 35 40 75 40 75 40 75 40 N
+X ~ 1 0 150 150 D 50 50 1 1 I
+X ~ 2 0 -250 150 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd_Tantal_22uF35V
+#
+DEF Capacitors_Smd_Tantal_22uF35V C 0 40 N N 1 F N
+F0 "C" 125 -175 50 H V C CNN
+F1 "Capacitors_Smd_Tantal_22uF35V" 300 -50 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "VISHAY" 0 0 50 H I C CNN "Manufacturer"
+F5 "293D226X9035D2TE3" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "293D226X9035D2TE3" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/" 0 0 50 H I C CNN "URL"
+F9 "3,31250" 0 0 50 H I C CNN "Price@1pc"
+F10 "1,65625" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "Size_D" 0 0 50 H I C CNN "Package"
+F13 "C126947" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 22uF_35V_Size_D
+$ENDFPLIST
+DRAW
+S 100 0 -100 -50 0 1 12 N
+S -100 -100 100 -100 1 1 12 N
+P 3 0 1 12 55 60 55 20 55 20 N
+P 4 0 1 12 35 40 75 40 75 40 75 40 N
+X ~ 1 0 150 150 D 50 50 1 1 I
+X ~ 2 0 -250 150 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -254,6 +342,42 @@ X ~ 2 0 -300 100 U 70 70 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Inductors_742792515
+#
+DEF Inductors_742792515 L 0 40 N N 1 F N
+F0 "L" -100 0 50 V V C CNN
+F1 "Inductors_742792515" 100 0 50 V V C CNN
+F2 "" 150 1400 100 H I C CNN
+F3 "" 150 1400 100 H I C CNN
+F4 "Wurth Elektronik" 0 0 50 H I C CNN "Manufacturer"
+F5 "742792515" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier"
+F7 "710-742792515" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/ProductDetail/Wurth-Elektronik/742792515?qs=5twSNpOB8ICAMx1lqqYekg%3D%3D" 0 0 50 H I C CNN "URL"
+F9 "1,04" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,792" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "1812" 0 0 50 H I C CNN "Package"
+F13 "C350947" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 742792515
+$ENDFPLIST
+DRAW
+A -40 -25 74 197 -197 1 1 0 N 30 0 30 -50
+A -20 25 56 266 -266 1 1 0 N 30 50 30 0
+A -6 -63 38 199 -808 1 1 0 N 30 -50 0 -100
+A -6 63 38 808 -199 1 1 0 N 0 100 30 50
+A 0 -60 32 184 1616 1 1 0 N 30 -50 -30 -50
+A 0 -40 32 -1616 -184 1 1 0 N -30 -50 30 -50
+A 0 -10 32 184 1616 1 1 0 N 30 0 -30 0
+A 0 10 32 -1616 -184 1 1 0 N -30 0 30 0
+A 0 40 32 184 1616 1 1 0 N 30 50 -30 50
+A 0 60 32 -1616 -184 1 1 0 N -30 50 30 50
+X 1 1 0 200 100 D 50 50 1 1 P
+X 2 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Inductors_BLM15HG601SN1D
 #
 DEF Inductors_BLM15HG601SN1D L 0 40 N N 1 F N
@@ -355,6 +479,113 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_Smd0603_11k
+#
+DEF Resistors_Smd0603_11k R 0 40 N N 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistors_Smd0603_11k" -100 0 50 V V C CNN
+F2 "" -150 -450 50 H I C CNN
+F3 "" -150 -450 50 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAF1102T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-11K-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-11k-1%2525/rezystory-smd-0603/royal-ohm/0603saf1102t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,04698" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,01271" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 11k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_21k
+#
+DEF Resistors_Smd0603_21k R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistors_Smd0603_21k" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAF2102T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-21K-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-21k-1%25/rezystory-smd-0603/royal-ohm/0603saf2102t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,05002" 0 0 50 H I C CNN "Price@100pc"
+F10 "0,01740" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C177529" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 21k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_2k
+#
+DEF Resistors_Smd0603_2k R 0 40 N N 1 F N
+F0 "R" -100 0 50 H V C CNN
+F1 "Resistors_Smd0603_2k" 100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "CQ03SAF2001T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "CQ0603-2K-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cq0603-2k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2001t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,07119" 0 0 50 H I C CNN "Price@100pc"
+F10 "0,03327" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C234435" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 2k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_68k
+#
+DEF Resistors_Smd0603_68k R 0 40 N N 1 F N
+F0 "R" -100 0 50 V V C CNN
+F1 "Resistors_Smd0603_68k" 100 0 50 V V C CNN
+F2 "" 0 -450 50 H I C CNN
+F3 "" 0 -450 50 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAF6802T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-68K-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-68k-1%2525/rezystory-smd-0603/royal-ohm/0603saf6802t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,04693" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,01269" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C160055" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 68k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Switching_Regulators_ST1S09IPUR
 #
 DEF Switching_Regulators_ST1S09IPUR U 0 40 Y Y 1 F N
@@ -407,16 +638,16 @@ $FPLIST
  ST1S10PHR_SOIC8
 $ENDFPLIST
 DRAW
-S 400 350 -400 -350 0 1 0 f
-X EPAD 0 250 -650 300 U 50 50 1 1 U
+S 400 350 -400 -800 0 1 0 f
+X EPAD 0 200 -1100 300 U 50 50 1 1 U
 X VIN_A 1 -700 100 300 R 50 50 1 1 W
-X INH 2 -700 -250 300 R 50 50 1 1 I
-X VFB 3 700 -50 300 L 50 50 1 1 I
-X AGND 4 -100 -650 300 U 50 50 1 1 W
-X SYNC 5 -700 -100 300 R 50 50 1 1 I
+X INH 2 -700 -200 300 R 50 50 1 1 I
+X VFB 3 700 -350 300 L 50 50 1 1 I
+X AGND 4 -200 -1100 300 U 50 50 1 1 W
+X SYNC 5 -700 -500 300 R 50 50 1 1 I
 X VIN_SW 6 -700 250 300 R 50 50 1 1 W
 X SW 7 700 250 300 L 50 50 1 1 w
-X PGND 8 100 -650 300 U 50 50 1 1 W
+X PGND 8 0 -1100 300 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
