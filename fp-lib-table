@@ -13,4 +13,6 @@
   (lib (name Arduino)(type KiCad)(uri ${KISYS3DMOD}/Arduino/Arduino.pretty)(options "")(descr ""))
   (lib (name Switching)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Switching/Switching.pretty)(options "")(descr ""))
   (lib (name Smd_Tantal)(type KiCad)(uri ${KISYS3DMOD}/Capacitors/Smd_Tantal/Smd_Tantal.pretty)(options "")(descr ""))
+  (lib (name Stm32_Microcontrollers)(type KiCad)(uri ${KISYS3DMOD}/Microcontrollers/ST_Microelectronics/Stm32_Microcontrollers.pretty)(options "")(descr ""))
+  (lib (name Capacitors_Smd_0805)(type KiCad)(uri ${KISYS3DMOD}/Capacitors/Smd_0805/Capacitors_Smd_0805.pretty)(options "")(descr ""))
 )

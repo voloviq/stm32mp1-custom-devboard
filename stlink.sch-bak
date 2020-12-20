@@ -1,0 +1,317 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 8 8
+Title "STLink Module"
+Date "2020-12-20"
+Rev "V1.0"
+Comp "Embedded System Labs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND_NO_GLOBAL #PWR38
+U 1 1 5FE4D50A
+P 12850 6500
+F 0 "#PWR38" H 12850 6600 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 12850 6400 30  0001 C CNN
+F 2 "" H 12850 6500 60  0000 C CNN
+F 3 "" H 12850 6500 60  0000 C CNN
+	1    12850 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND_NO_GLOBAL #PWR37
+U 1 1 5FE4DABB
+P 12850 6400
+F 0 "#PWR37" H 12850 6500 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 12850 6300 30  0001 C CNN
+F 2 "" H 12850 6400 60  0000 C CNN
+F 3 "" H 12850 6400 60  0000 C CNN
+	1    12850 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND_NO_GLOBAL #PWR36
+U 1 1 5FE4DD6A
+P 12850 6300
+F 0 "#PWR36" H 12850 6400 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 12850 6200 30  0001 C CNN
+F 2 "" H 12850 6300 60  0000 C CNN
+F 3 "" H 12850 6300 60  0000 C CNN
+	1    12850 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND_NO_GLOBAL #PWR35
+U 1 1 5FE4DE00
+P 12850 6200
+F 0 "#PWR35" H 12850 6300 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 12850 6100 30  0001 C CNN
+F 2 "" H 12850 6200 60  0000 C CNN
+F 3 "" H 12850 6200 60  0000 C CNN
+	1    12850 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12850 6500 12750 6500
+Wire Wire Line
+	12750 6400 12850 6400
+Wire Wire Line
+	12850 6300 12750 6300
+Wire Wire Line
+	12750 6200 12850 6200
+$Comp
+L Inductors:BLM15HG601SN1D L6
+U 1 1 5FE4F508
+P 5600 6500
+F 0 "L6" V 5800 6500 50  0000 C CNN
+F 1 "BLM15HG601SN1D" V 5700 6500 50  0000 C CNN
+F 2 "Inductors:BLM15HG601SN1D_0402" H 6100 5900 300 0001 C CNN
+F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Inductors/Components_Documentation/BLM15HG601SN1#.pdf" H 6100 5900 300 0001 C CNN
+	1    5600 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 6500 5800 6500
+Wire Wire Line
+	5950 6400 5300 6400
+Wire Wire Line
+	5300 6400 5300 6500
+Wire Wire Line
+	5300 6500 5400 6500
+Wire Wire Line
+	5950 6300 5300 6300
+Wire Wire Line
+	5300 6300 5300 6400
+Connection ~ 5300 6400
+Wire Wire Line
+	5950 6200 5300 6200
+Wire Wire Line
+	5300 6200 5300 6300
+Connection ~ 5300 6300
+Wire Wire Line
+	5950 6000 5300 6000
+Wire Wire Line
+	5300 6000 5300 6200
+Connection ~ 5300 6200
+$Comp
+L Capacitors_Smd0603:100nF_0603 C?
+U 1 1 5FE57A98
+P 4750 6500
+AR Path="/5FDE84C9/5FE57A98" Ref="C?"  Part="1" 
+AR Path="/5FDFB166/5FE57A98" Ref="C25"  Part="1" 
+F 0 "C25" H 4881 6546 50  0000 L CNN
+F 1 "100nF/50V" H 4800 6400 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 4750 6500 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 4750 6500 60  0001 C CNN
+F 4 "SAMSUNG" H 4750 6500 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 4750 6500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 4750 6500 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 4750 6500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 4750 6500 50  0001 C CNN "URL"
+F 9 "0,04540" H 4750 6500 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 4750 6500 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 4750 6500 50  0001 C CNN "Package"
+	1    4750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C?
+U 1 1 5FE57C37
+P 4250 6500
+AR Path="/5FDE84C9/5FE57C37" Ref="C?"  Part="1" 
+AR Path="/5FDFB166/5FE57C37" Ref="C24"  Part="1" 
+F 0 "C24" H 4381 6546 50  0000 L CNN
+F 1 "100nF/50V" H 4300 6400 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 4250 6500 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 4250 6500 60  0001 C CNN
+F 4 "SAMSUNG" H 4250 6500 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 4250 6500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 4250 6500 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 4250 6500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 4250 6500 50  0001 C CNN "URL"
+F 9 "0,04540" H 4250 6500 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 4250 6500 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 4250 6500 50  0001 C CNN "Package"
+	1    4250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C?
+U 1 1 5FE59150
+P 3750 6500
+AR Path="/5FDE84C9/5FE59150" Ref="C?"  Part="1" 
+AR Path="/5FDFB166/5FE59150" Ref="C23"  Part="1" 
+F 0 "C23" H 3881 6546 50  0000 L CNN
+F 1 "100nF/50V" H 3800 6400 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 3750 6500 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 3750 6500 60  0001 C CNN
+F 4 "SAMSUNG" H 3750 6500 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 3750 6500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 3750 6500 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 3750 6500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 3750 6500 50  0001 C CNN "URL"
+F 9 "0,04540" H 3750 6500 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 3750 6500 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 3750 6500 50  0001 C CNN "Package"
+	1    3750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C?
+U 1 1 5FE5925A
+P 3250 6500
+AR Path="/5FDE84C9/5FE5925A" Ref="C?"  Part="1" 
+AR Path="/5FDFB166/5FE5925A" Ref="C22"  Part="1" 
+F 0 "C22" H 3381 6546 50  0000 L CNN
+F 1 "100nF/50V" H 3300 6400 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 3250 6500 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 3250 6500 60  0001 C CNN
+F 4 "SAMSUNG" H 3250 6500 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 3250 6500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 3250 6500 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 3250 6500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 3250 6500 50  0001 C CNN "URL"
+F 9 "0,04540" H 3250 6500 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 3250 6500 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 3250 6500 50  0001 C CNN "Package"
+	1    3250 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 6200 4750 6200
+Wire Wire Line
+	4750 6200 4750 6300
+Wire Wire Line
+	4750 6200 4250 6200
+Wire Wire Line
+	4250 6200 4250 6300
+Connection ~ 4750 6200
+Wire Wire Line
+	4250 6200 3750 6200
+Wire Wire Line
+	3750 6200 3750 6300
+Connection ~ 4250 6200
+Wire Wire Line
+	3750 6200 3250 6200
+Wire Wire Line
+	3250 6200 3250 6300
+Connection ~ 3750 6200
+$Comp
+L Capacitors_Smd0805:10uF_6V3 C21
+U 1 1 5FE5F794
+P 2750 6500
+F 0 "C21" H 2881 6546 50  0000 L CNN
+F 1 "10uF/6V3" H 2800 6400 50  0000 L CNN
+F 2 "Capacitors_Smd_0805:10uF_0805" H 2750 6500 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/0289967d90b4a2ffcee2eb3311314515/CC0805KKX7R7BB1058324442.pdf" H 2750 6500 60  0001 C CNN
+F 4 "YAGEO" H 2750 6500 50  0001 C CNN "Manufacturer"
+F 5 "CC0805KKX5R5BB106" H 2750 6500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 2750 6500 50  0001 C CNN "Supplier"
+F 7 "CC0805KKX5R5106" H 2750 6500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cc0805kkx5r5106/kondensatory-mlcc-smd-0805/yageo/cc0805kkx5r5bb106/" H 2750 6500 50  0001 C CNN "URL"
+F 9 "0,37814" H 2750 6500 50  0001 C CNN "Price@1pc"
+F 10 "0,17625" H 2750 6500 50  0001 C CNN "Price@1000pcs"
+F 11 "0805" H 2750 6500 50  0001 C CNN "Package"
+F 12 "MW" H 2750 6500 50  0001 C CNN "Developer"
+F 13 "C386087" H 2750 6500 50  0001 C CNN "LCSC Part # (optional)"
+	1    2750 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6200 2750 6200
+Wire Wire Line
+	2750 6200 2750 6300
+Connection ~ 3250 6200
+$Comp
+L power:GND_NO_GLOBAL #PWR34
+U 1 1 5FE6311C
+P 4750 6800
+F 0 "#PWR34" H 4750 6900 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 4750 6700 30  0001 C CNN
+F 2 "" H 4750 6800 60  0000 C CNN
+F 3 "" H 4750 6800 60  0000 C CNN
+	1    4750 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 6800 4750 6700
+$Comp
+L power:GND_NO_GLOBAL #PWR33
+U 1 1 5FE63E6B
+P 4250 6800
+F 0 "#PWR33" H 4250 6900 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 4250 6700 30  0001 C CNN
+F 2 "" H 4250 6800 60  0000 C CNN
+F 3 "" H 4250 6800 60  0000 C CNN
+	1    4250 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 6800 4250 6700
+$Comp
+L power:GND_NO_GLOBAL #PWR32
+U 1 1 5FE644B0
+P 3750 6800
+F 0 "#PWR32" H 3750 6900 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 3750 6700 30  0001 C CNN
+F 2 "" H 3750 6800 60  0000 C CNN
+F 3 "" H 3750 6800 60  0000 C CNN
+	1    3750 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 6800 3750 6700
+$Comp
+L power:GND_NO_GLOBAL #PWR31
+U 1 1 5FE645FB
+P 3250 6800
+F 0 "#PWR31" H 3250 6900 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 3250 6700 30  0001 C CNN
+F 2 "" H 3250 6800 60  0000 C CNN
+F 3 "" H 3250 6800 60  0000 C CNN
+	1    3250 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 6800 3250 6700
+$Comp
+L power:GND_NO_GLOBAL #PWR30
+U 1 1 5FE65221
+P 2750 6800
+F 0 "#PWR30" H 2750 6900 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 2750 6700 30  0001 C CNN
+F 2 "" H 2750 6800 60  0000 C CNN
+F 3 "" H 2750 6800 60  0000 C CNN
+	1    2750 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 6800 2750 6700
+$Comp
+L Stm32_Microcontrollers:STM32F103C(8-B)Tx U5
+U 1 1 5FEBFD7B
+P 9350 4500
+F 0 "U5" H 9350 6867 50  0000 C CNN
+F 1 "STM32F103C(8-B)Tx" H 9350 6776 50  0000 C CNN
+F 2 "Stm32_Microcontrollers:STM32F103CBT6" H 9350 4300 50  0001 C CIN
+F 3 "https://pl.mouser.com/datasheet/2/389/stm32f103c8-1851025.pdf" H 9350 4500 50  0001 C CNN
+F 4 "ST Microelectronics" H 9350 4500 50  0001 C CNN "Manufacturer"
+F 5 "STM32F103CBT6" H 9350 4500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 9350 4500 50  0001 C CNN "Supplier"
+F 7 "511-STM32F103CBT6" H 9350 4500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/STMicroelectronics/STM32F103CBT6/?qs=WxFF5lh7QM3goh6GV5Ogig%3D%3D" H 9350 4500 50  0001 C CNN "URL"
+F 9 "20,59" H 9350 4500 50  0001 C CNN "Price@1pc"
+F 10 "10,91" H 9350 4500 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 9350 4500 50  0001 C CNN "Developer"
+F 12 "LQFP-48" H 9350 4500 50  0001 C CNN "Package"
+F 13 "C8304" H 9350 4500 50  0001 C CNN "LCSC Part #(optional)"
+	1    9350 4500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

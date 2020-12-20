@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 6
+Sheet 2 8
 Title "LCD MiPi and Touchscreen module"
 Date "2020-12-19"
 Rev "V1.0"
@@ -24,21 +24,17 @@ F4 "BACKLIGHT_PWM" I L 6600 2900 50
 F5 "POWER_SUPPLY_2.7-5.5V" I L 6600 2000 50 
 F6 "POWER_SUPPLY_2.7-5.5V_GND" I L 6600 2150 50 
 $EndSheet
-Wire Wire Line
-	8000 2550 8250 2550
-Wire Wire Line
-	8000 2450 8250 2450
-Text HLabel 2400 4000 0    50   Input ~ 0
+Text HLabel 2400 5650 0    50   Input ~ 0
 LCD_MIPI_D0-
-Text HLabel 2400 4400 0    50   Input ~ 0
+Text HLabel 2400 5550 0    50   Input ~ 0
 LCD_MIPI_D0+
-Text HLabel 2400 4550 0    50   Input ~ 0
+Text HLabel 2400 5350 0    50   Input ~ 0
 LCD_MIPI_D1-
-Text HLabel 2400 4950 0    50   Input ~ 0
+Text HLabel 2400 5250 0    50   Input ~ 0
 LCD_MIPI_D1+
-Text HLabel 2400 5500 0    50   Input ~ 0
+Text HLabel 2400 4950 0    50   Input ~ 0
 LCD_MIPI_CLK+
-Text HLabel 2400 5100 0    50   Input ~ 0
+Text HLabel 2400 5050 0    50   Input ~ 0
 LCD_MIPI_CLK-
 Text HLabel 2250 2900 0    50   Input ~ 0
 LCD_BACKLIGHT_PWM
@@ -56,7 +52,7 @@ Text HLabel 2450 7200 0    50   Input ~ 0
 TP_SCL_1V8
 Text HLabel 2450 7100 0    50   Input ~ 0
 TP_RESET_1V8
-Text HLabel 2450 7400 0    50   Input ~ 0
+Text HLabel 2450 7400 0    50   Output ~ 0
 TP_NT_1V8
 Text HLabel 2250 1300 0    50   Input ~ 0
 LCD_RESET
@@ -167,18 +163,6 @@ F 3 "" H 2600 2200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	6600 2150 2600 2150
-Wire Wire Line
-	8250 2550 8250 3350
-Wire Wire Line
-	8250 3350 2250 3350
-Wire Wire Line
-	8250 2450 8250 1600
-Wire Wire Line
-	8250 1600 2250 1600
-Text HLabel 2250 3350 0    50   Input ~ 0
-LCD_LED+
-Text HLabel 2250 1600 0    50   Input ~ 0
-LCD_LED-
 Wire Wire Line
 	2600 2200 2600 2150
 Connection ~ 2600 2150
@@ -346,25 +330,19 @@ $EndComp
 Wire Wire Line
 	14350 4550 14450 4550
 Wire Wire Line
-	8250 2450 14250 2450
-Wire Wire Line
 	14250 2450 14250 3650
 Wire Wire Line
 	14250 3650 14450 3650
-Connection ~ 8250 2450
 Wire Wire Line
 	14450 3750 14150 3750
 Wire Wire Line
 	14150 3750 14150 2550
-Connection ~ 8250 2550
 Wire Wire Line
 	14450 4650 14050 4650
 Wire Wire Line
 	14050 4650 14050 1300
 Wire Wire Line
 	2250 1300 14050 1300
-Wire Wire Line
-	14150 2550 8250 2550
 Wire Wire Line
 	13950 4750 13950 1450
 Wire Wire Line
@@ -435,30 +413,6 @@ F 11 "0603" H 13350 8400 50  0001 C CNN "Package"
 	1    13350 8400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14450 5650 12550 5650
-Wire Wire Line
-	12550 5650 12550 4000
-Wire Wire Line
-	14450 5550 12450 5550
-Wire Wire Line
-	12450 4400 12450 5550
-Wire Wire Line
-	14450 5350 12350 5350
-Wire Wire Line
-	12350 5350 12350 4550
-Wire Wire Line
-	14450 5250 12250 5250
-Wire Wire Line
-	12250 5250 12250 4950
-Wire Wire Line
-	14450 5050 11800 5050
-Wire Wire Line
-	11800 5050 11800 5100
-Wire Wire Line
-	14450 4950 12650 4950
-Wire Wire Line
-	12650 4950 12650 5500
 $Comp
 L Fpc_Connectors:52746-0671 Con1
 U 1 1 5FD54A40
@@ -480,15 +434,19 @@ F 12 "fpc-6pos" H 10950 7350 50  0001 C CNN "Package"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2400 4000 12550 4000
+	14450 5650 2400 5650
 Wire Wire Line
-	2400 4400 12450 4400
+	14450 5550 2400 5550
 Wire Wire Line
-	2400 4550 12350 4550
+	14450 5250 2400 5250
 Wire Wire Line
-	2400 4950 12250 4950
+	14450 5050 2400 5050
 Wire Wire Line
-	2400 5100 11800 5100
+	14450 4950 2400 4950
 Wire Wire Line
-	2400 5500 12650 5500
+	14450 5350 2400 5350
+Wire Wire Line
+	8000 2550 14150 2550
+Wire Wire Line
+	8000 2450 14250 2450
 $EndSCHEMATC
