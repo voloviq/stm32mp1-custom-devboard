@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "stm32mp1-custom-devboard"
 Date "2020-12-19"
 Rev "V1.0"
@@ -222,5 +222,11 @@ S 10600 5600 1850 1550
 U 5FDFB166
 F0 "STLink Module" 50
 F1 "stlink.sch" 50
+$EndSheet
+$Sheet
+S 12750 3900 1850 1500
+U 5FFEC95A
+F0 "MiniPci Module" 50
+F1 "minipci_module.sch" 50
 $EndSheet
 $EndSCHEMATC

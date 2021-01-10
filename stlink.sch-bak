@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title "STLink Module"
 Date "2020-12-20"
 Rev "V1.0"

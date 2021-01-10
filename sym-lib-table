@@ -17,4 +17,5 @@
   (lib (name Switching_Regulators)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Dc_Dc_Regulators/Switching/Switching_Regulators.lib)(options "")(descr ""))
   (lib (name Capacitors_Smd_Tantal)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Capacitors/Smd_Tantal/Capacitors_Smd_Tantal.lib)(options "")(descr ""))
   (lib (name Stm32_Microcontrollers)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Microcontrollers/ST_Microelectronics/Stm32_Microcontrollers.lib)(options "")(descr ""))
+  (lib (name Smd_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Smd_Connectors/Smd_Connectors.lib)(options "")(descr ""))
 )
