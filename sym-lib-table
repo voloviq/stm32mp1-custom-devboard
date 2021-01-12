@@ -19,4 +19,8 @@
   (lib (name Stm32_Microcontrollers)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Microcontrollers/ST_Microelectronics/Stm32_Microcontrollers.lib)(options "")(descr ""))
   (lib (name Smd_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Smd_Connectors/Smd_Connectors.lib)(options "")(descr ""))
   (lib (name Resonators)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Resonators/Resonators.lib)(options "")(descr ""))
+  (lib (name USB_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/USB_Connectors/USB_Connectors.lib)(options "")(descr ""))
+  (lib (name Capacitors_Smd1206)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Capacitors/Smd_1206/Capacitors_Smd1206.lib)(options "")(descr ""))
+  (lib (name Transistor_Bipolar)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistors/Bipolar/Transistor_Bipolar.lib)(options "")(descr ""))
+  (lib (name Discrete_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Discrete_Connectors/Discrete_Connectors.lib)(options "")(descr ""))
 )

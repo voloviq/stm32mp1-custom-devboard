@@ -3,4 +3,8 @@ Custom development board for is located in two separated branch for stm32mp1-vis
 
 Development boards are created in KiCad.
 
-Boards supported with DSI Display with touchscreen, arduino header, power supply, ethernet and usb. 
+Boards supported with DSI Display with touchscreen, arduino header, power supply, ethernet and usb.
+
+Board 3D View
+
+![Board 3D View](3D_View.png)

@@ -190,6 +190,33 @@ X ~ 2 0 -200 176 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitors_Smd1206_1nF_2kV_1206
+#
+DEF Capacitors_Smd1206_1nF_2kV_1206 C 0 40 N N 1 F N
+F0 "C" 50 100 50 H V C CNN
+F1 "Capacitors_Smd1206_1nF_2kV_1206" 300 -100 50 H V C CNN
+F2 "" -200 100 50 H I C CNN
+F3 "" -200 100 50 H I C CNN
+F4 "YAGEO" 0 0 50 H I C CNN "Manufacturer"
+F5 "CC1206KKX7RDBB102" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "CC1206KKX7RD102" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cc1206kkx7rd102/kondensatory-mlcc-smd-1206/yageo/cc1206kkx7rdbb102/" 0 0 50 H I C CNN "URL"
+F9 "0,70900" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,15913" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+F12 "1206" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 1nf_2kV_1206
+$ENDFPLIST
+DRAW
+P 3 1 1 12 100 -25 -100 -25 -100 -25 N
+P 3 1 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 I
+X ~ 2 0 -200 176 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Capacitors_Smd_Tantal_10uF_35V
 #
 DEF Capacitors_Smd_Tantal_10uF_35V C 0 40 N N 1 F N
@@ -247,6 +274,86 @@ P 3 0 1 12 55 60 55 20 55 20 N
 P 4 0 1 12 35 40 75 40 75 40 75 40 N
 X ~ 1 0 150 150 D 50 50 1 1 I
 X ~ 2 0 -250 150 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Diodes_BAT54C
+#
+DEF Diodes_BAT54C D 0 0 Y N 1 F N
+F0 "D" 250 -50 50 H V C CNN
+F1 "Diodes_BAT54C" 350 50 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Nexperia" 0 0 50 H I C CNN "Manufacturer"
+F5 "BAT54C.215" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "BAT54C" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/bat54c/diody-schottky-smd/nexperia/bat54c-215/" 0 0 50 H I C CNN "URL"
+F9 "0,15864" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,07" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "Sot23-3" 0 0 50 H I C CNN "Package"
+F13 "C369922" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ BAT54C
+$ENDFPLIST
+DRAW
+P 5 0 1 0 -100 50 -100 150 0 150 100 150 100 50 N
+P 2 1 1 0 -150 -50 -50 -50 N
+P 2 1 1 6 -150 50 -50 50 N
+P 2 1 1 0 50 -50 150 -50 N
+P 2 1 1 6 50 50 150 50 N
+P 3 1 1 0 -150 -50 -100 50 -50 -50 f
+P 3 1 1 0 -150 50 -150 75 -125 75 N
+P 3 1 1 0 -50 50 -50 25 -75 25 N
+P 3 1 1 0 50 -50 100 50 150 -50 f
+P 3 1 1 0 50 50 50 75 75 75 N
+P 3 1 1 0 150 50 150 25 125 25 N
+X A 1 -100 -200 150 U 40 40 1 1 P
+X A 2 100 -200 150 U 40 40 1 1 P
+X K 3 0 300 150 D 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diodes_HSMF-C155
+#
+DEF Diodes_HSMF-C155 D 0 40 N N 1 F N
+F0 "D" 250 0 50 H V C CNN
+F1 "Diodes_HSMF-C155" 350 100 50 H V C CNN
+F2 "" 100 100 60 H V C CNN
+F3 "" 0 200 60 H I C CNN
+F4 "Broadcom/Avago" 350 0 50 H I C CNN "Manufacturer"
+F5 "HSMF-C155" 100 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "HSMF-C155" 100 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/hsmf-c155/diody-led-smd-kolorowe/broadcom-avago/" 350 0 50 H I C CNN "URL"
+F9 "1,9037" 100 0 50 H I C CNN "Price@1pc"
+F10 "0,4469" 100 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "1210" 0 0 50 H I C CNN "Package"
+F13 "C188725" 50 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ HSMF-C155
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -180 110 -175 85 N
+P 2 0 1 0 -155 135 -150 110 N
+P 2 0 1 0 -150 -50 -50 -50 N
+P 2 0 1 0 -150 50 -50 50 N
+P 2 0 1 0 50 -50 150 -50 N
+P 2 0 1 0 50 50 150 50 N
+P 2 0 1 0 160 -130 135 -125 N
+P 2 0 1 0 185 -105 160 -100 N
+P 3 0 1 0 -150 -50 -100 50 -50 -50 f
+P 3 0 1 0 -140 65 -180 110 -155 105 N
+P 3 0 1 0 -115 90 -155 135 -130 130 N
+P 3 0 1 0 50 50 100 -50 150 50 f
+P 3 0 1 0 115 -90 160 -130 155 -105 N
+P 3 0 1 0 140 -65 185 -105 180 -80 N
+X A1 1 -100 -200 150 U 40 40 1 1 P
+X C1 2 -100 200 150 D 40 40 1 1 P
+X A2 3 100 200 150 D 40 40 1 1 P
+X C2 4 100 -200 150 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -560,6 +667,61 @@ X Vin 3 -500 100 300 R 60 39 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_Smd0603_0R
+#
+DEF Resistors_Smd0603_0R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistors_Smd0603_0R" -100 0 50 V V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAJ0000T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-0R" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd-0603/royal-ohm/0603saj0000t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,03966" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,00967" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C15402" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 0R_0603
+ 0R_pcb_0603_fashion
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_100R
+#
+DEF Resistors_Smd0603_100R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistors_Smd0603_100R" -100 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Royal Ohm" 0 0 50 H I C CNN "Manufacturer"
+F5 "CQ03SAF1000T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "CQ0603-100R-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cq0603-100r-1%25/rezystory-smd-0603/royal-ohm/cq03saf1000t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,07305" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,03414" 0 0 50 H I C CNN "Price@100pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C269700" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 100R_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_Smd0603_100k
 #
 DEF Resistors_Smd0603_100k R 0 40 N Y 1 F N
@@ -666,6 +828,33 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_Smd0603_1k5
+#
+DEF Resistors_Smd0603_1k5 R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistors_Smd0603_1k5" -100 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Royal Ohm" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAF1501T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-1K5-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-1k5-1%25/rezystory-smd-0603/royal-ohm/0603saf1501t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,05274" 0 0 50 H I C CNN "Price@100pcs"
+F10 "0,01425" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C177600" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 1k5_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_Smd0603_21k
 #
 DEF Resistors_Smd0603_21k R 0 40 N Y 1 F N
@@ -685,6 +874,60 @@ F12 "0603" 0 0 50 H I C CNN "Package"
 F13 "C177529" 0 0 50 H I C CNN "LCSC Part #(optional)"
 $FPLIST
  21k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_220R
+#
+DEF Resistors_Smd0603_220R R 0 40 N Y 1 F N
+F0 "R" -100 0 50 V V C CNN
+F1 "Resistors_Smd0603_220R" 100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Royal Ohm" 0 0 50 H I C CNN "Manufacturer"
+F5 "CQ03SAF2203T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "CQ0603-220K-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,07305" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,03414" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C103414" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 220R_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_22R
+#
+DEF Resistors_Smd0603_22R R 0 40 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistors_Smd0603_22R" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Royal Ohm" 0 0 50 H I C CNN "Manufacturer"
+F5 "CQ03SAF220JT5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "CQ0603-22R-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cq0603-22r-1%25/rezystory-smd-0603/royal-ohm/cq03saf220jt5e/" 0 0 50 H I C CNN "URL"
+F9 "0,07305" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,03414" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C177623" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 22R_0603
 $ENDFPLIST
 DRAW
 S -40 150 40 -150 1 1 0 f
@@ -715,6 +958,33 @@ $FPLIST
 $ENDFPLIST
 DRAW
 S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_36k
+#
+DEF Resistors_Smd0603_36k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistors_Smd0603_36k" -100 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Royal Ohm" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAJ0363T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-36K" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-36k/rezystory-smd-0603/royal-ohm/0603saj0363t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,04525" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,01103" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C170729" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 36k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 0 f
 X ~ 1 0 250 100 D 60 60 1 1 P
 X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
@@ -877,6 +1147,31 @@ X 9 9 -700 1950 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Smd_Connectors_2060-452_998-404
+#
+DEF Smd_Connectors_2060-452_998-404 P 0 30 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "Smd_Connectors_2060-452_998-404" 150 0 50 V V C CNN
+F2 "" 0 -200 60 H I C CNN
+F3 "" 0 -200 60 H I C CNN
+F4 "WAGO" 0 0 50 H I C CNN "Manufacturer"
+F5 "2060-452/998-404" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "2060-452/998-404" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/2060-452_998-404/zlacza-do-led/wago/2060-452-998-404/" 0 0 50 H I C CNN "URL"
+F9 "4,5708" 0 0 50 H I C CNN "Price@1pc"
+F10 "2,9563" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+$FPLIST
+ 2060-452_998-404
+$ENDFPLIST
+DRAW
+S -100 100 100 -100 0 1 0 f
+X 1 1 -350 50 250 R 60 60 1 1 P I
+X 2 2 -350 -50 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
 # Stm32_Microcontrollers_STM32F103C(8-B)Tx
 #
 DEF Stm32_Microcontrollers_STM32F103C(8-B)Tx U 0 50 Y Y 1 F N
@@ -1012,6 +1307,130 @@ X SYNC 5 -700 -500 300 R 50 50 1 1 I
 X VIN_SW 6 -700 250 300 R 50 50 1 1 W
 X SW 7 700 250 300 L 50 50 1 1 w
 X PGND 8 0 -1100 300 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Transistor_Bipolar_BC847B
+#
+DEF Transistor_Bipolar_BC847B Q 0 0 N N 1 F N
+F0 "Q" 300 100 50 H V R CNN
+F1 "Transistor_Bipolar_BC847B" 450 -100 50 H V R CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "	INFINEON TECHNOLOGIES" 0 0 50 H I C CNN "Manufacturer"
+F5 "BC847BE6327" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "BC847BE6327" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/bc847be6327/tranzystory-npn-smd/infineon-technologies/" 0 0 50 H I C CNN "URL"
+F9 "0,1055" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,0592" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "SOT23-3" 0 0 50 H I C CNN "Package"
+$FPLIST
+ BC847B_SOT23
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 0 0 100 100 N
+P 3 0 1 10 0 75 0 -75 0 -75 N
+P 3 0 1 0 50 -50 0 0 0 0 N
+P 3 0 1 0 90 -90 100 -100 100 -100 N
+P 5 0 1 0 90 -90 70 -30 30 -70 90 -90 90 -90 F
+X B 1 -200 0 200 R 40 40 1 1 I
+X E 2 100 -200 100 U 40 40 1 1 P
+X C 3 100 200 100 D 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# USB_Connectors_USB_C_Wurth_632723130112
+#
+DEF USB_Connectors_USB_C_Wurth_632723130112 Con 0 40 Y Y 1 F N
+F0 "Con" 100 1650 50 H V C CNN
+F1 "USB_Connectors_USB_C_Wurth_632723130112" 100 1550 50 H V C CNN
+F2 "" 50 100 50 H I C CNN
+F3 "" 50 100 50 H I C CNN
+F4 "Wurth Elektronik" 50 0 50 H I C CNN "Manufacturer"
+F5 "632723130112" 50 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 50 0 50 H I C CNN "Supplier"
+F7 "710-632723130112" 50 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/ProductDetail/Wurth-Elektronik/632723130112?qs=2WXlatMagcEknienHxbwUw%3D%3D" 50 0 50 H I C CNN "URL"
+F9 "21,34" 50 0 50 H I C CNN "Price@1pc"
+F10 "13,16" 50 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 50 0 50 H I C CNN "Developer"
+F12 "USB C" 50 0 50 H I C CNN "Package"
+$FPLIST
+ USB_C_632723130112
+$ENDFPLIST
+DRAW
+A -225 -150 75 -1799 -1 1 1 20 N -300 -150 -150 -150
+A -225 -150 25 -1799 -1 1 1 10 N -250 -150 -200 -150
+A -225 -150 25 -1799 -1 1 1 10 F -250 -150 -200 -150
+A -225 150 25 1 1799 1 1 10 F -200 150 -250 150
+A -225 150 25 1 1799 1 1 10 N -200 150 -250 150
+A -225 150 75 1 1799 1 1 20 N -150 150 -300 150
+C -80 325 25 1 1 10 F
+T 900 20 -175 200 0 1 0 USB Italic 1 C C
+S -60 -1400 -40 -1360 1 0 0 N
+S 40 -1400 60 -1360 1 0 0 N
+S 140 -1400 160 -1360 1 0 0 N
+S 240 -1400 260 -1360 1 0 0 N
+S 550 -1290 510 -1310 1 0 0 N
+S 550 -1190 510 -1210 1 0 0 N
+S 550 -990 510 -1010 1 0 0 N
+S 550 -890 510 -910 1 0 0 N
+S 550 -690 510 -710 1 0 0 N
+S 550 -590 510 -610 1 0 0 N
+S 550 -390 510 -410 1 0 0 N
+S 550 -290 510 -310 1 0 0 N
+S 550 -90 510 -110 1 0 0 N
+S 550 10 510 -10 1 0 0 N
+S 550 210 510 190 1 0 0 N
+S 550 310 510 290 1 0 0 N
+S 550 410 510 390 1 0 0 N
+S 550 510 510 490 1 0 0 N
+S 550 710 510 690 1 0 0 N
+S 550 810 510 790 1 0 0 N
+S 550 1010 510 990 1 0 0 N
+S 550 1110 510 1090 1 0 0 N
+S 550 1210 510 1190 1 0 0 N
+S 550 1310 510 1290 1 0 0 N
+S -550 1400 550 -1400 1 1 10 f
+S -250 -150 -200 150 1 1 10 F
+S 95 350 145 400 1 1 10 F
+P 4 0 1 10 550 -1450 -600 -1450 -600 1450 550 1450 N
+P 2 1 1 20 -300 -150 -300 150 N
+P 2 1 1 20 -150 150 -150 -150 N
+P 2 1 1 20 20 100 20 450 N
+P 3 1 1 20 20 150 -80 250 -80 300 N
+P 3 1 1 20 20 200 120 300 120 350 N
+P 4 1 1 10 -30 450 20 550 70 450 -30 450 F
+X GND A1 -50 -1650 250 U 50 50 1 1 W
+X SSRXN2- A10 750 -600 200 L 50 50 1 1 B
+X SSRXP2+ A11 750 -700 200 L 50 50 1 1 B
+X GND_1 A12 50 -1650 250 U 50 50 1 1 W
+X SSTXP1+ A2 750 -400 200 L 50 50 1 1 B
+X SSTXN1- A3 750 -300 200 L 50 50 1 1 B
+X VBUS A4 750 1300 200 L 50 50 1 1 P
+X CC1 A5 750 800 200 L 50 50 1 1 B
+X DP1_P A6 750 300 200 L 50 50 1 1 B
+X DN1_M A7 750 500 200 L 50 50 1 1 B
+X SBU1 A8 750 -1200 200 L 50 50 1 1 B
+X VBUS_1 A9 750 1200 200 L 50 50 1 1 P
+X GND_2 B1 150 -1650 250 U 50 50 1 1 W
+X SSRXN1- B10 750 0 200 L 50 50 1 1 B
+X SSRXP1- B11 750 -100 200 L 50 50 1 1 B
+X GND_3 B12 250 -1650 250 U 50 50 1 1 W
+X SSTXP2+ B2 750 -1000 200 L 50 50 1 1 B
+X SSTXN2- B3 750 -900 200 L 50 50 1 1 B
+X VBUS_2 B4 750 1100 200 L 50 50 1 1 P
+X VCONN B5 750 700 200 L 50 50 1 1 B
+X DP2_P B6 750 200 200 L 50 50 1 1 B
+X DN2_M B7 750 400 200 L 50 50 1 1 B
+X SBU2 B8 750 -1300 200 L 50 50 1 1 B
+X VBUS_3 B9 750 1000 200 L 50 50 1 1 P
+X SHIELD S1 -450 -1650 200 U 50 50 1 1 P
+X SHIELD S2 -350 -1650 200 U 50 50 1 1 P
+X SHIELD S3 -250 -1650 200 U 50 50 1 1 P
+X SHIELD S4 -150 -1650 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1414,6 +1833,22 @@ DRAW
 P 3 0 1 0 0 0 0 100 0 100 N
 P 5 0 1 0 0 100 -100 150 0 200 100 150 0 100 N
 X pwr 1 0 0 0 U 20 20 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_SHDN
+#
+DEF power_SHDN #PWR 0 10 Y Y 1 F P
+F0 "#PWR" 120 10 40 H I C CNN
+F1 "power_SHDN" 0 -100 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 3 0 1 0 -50 0 0 -50 0 -50 N
+P 3 0 1 0 0 0 50 -50 50 -50 N
+P 3 0 1 0 50 0 -50 0 -50 0 N
+P 3 0 1 0 50 0 100 -50 100 -50 N
+X SHDN 1 0 0 0 U 40 40 1 1 W N
 ENDDRAW
 ENDDEF
 #
