@@ -1,6 +1,32 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Capacitors_Smd0603_100n
+#
+DEF Capacitors_Smd0603_100n C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "Capacitors_Smd0603_100n" 50 -100 50 H V L CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "SAMSUNG" 0 0 50 H I C CNN "Manufacturer"
+F5 "CL10B104JB8NNNC" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "CL10B104JB8NNNC" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" 0 0 50 H I C CNN "URL"
+F9 "0,04540" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,02231" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 100nF_0603
+$ENDFPLIST
+DRAW
+P 3 0 1 12 100 -25 -100 -25 -100 -25 N
+P 3 0 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitors_Smd0603_100nF_0603
 #
 DEF Capacitors_Smd0603_100nF_0603 C 0 10 N Y 1 F N
@@ -72,6 +98,34 @@ F10 "0,03514" 0 0 50 H I C CNN "Price@1000pcs"
 F11 "0603" 0 0 50 H I C CNN "Package"
 $FPLIST
  1uF_0603
+$ENDFPLIST
+DRAW
+P 3 0 1 12 100 -25 -100 -25 -100 -25 N
+P 3 0 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd0603_20pF
+#
+DEF Capacitors_Smd0603_20pF C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "Capacitors_Smd0603_20pF" 50 -100 50 H V L CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Kemet" 0 0 50 H I C CNN "Manufacturer"
+F5 "C0603C200J5GACTU" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "C0603C200J5GAC" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/c0603c200j5gac/kondensatory-mlcc-smd-0603/kemet/c0603c200j5gactu/" 0 0 50 H I C CNN "URL"
+F9 "0,15805" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,08711" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C165733" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 20pF_0603
 $ENDFPLIST
 DRAW
 P 3 0 1 12 100 -25 -100 -25 -100 -25 N
@@ -462,6 +516,32 @@ X VIN 5 -450 400 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Linear_Regulators_MCP1700T-3302E_MB
+#
+DEF Linear_Regulators_MCP1700T-3302E_MB U 0 40 Y Y 1 F N
+F0 "U" 0 250 60 H V C CNN
+F1 "Linear_Regulators_MCP1700T-3302E_MB" 0 350 60 H V C CNN
+F2 "" 0 -50 60 H I C CNN
+F3 "" 0 -50 60 H I C CNN
+F4 "Microchip Technology" 0 0 50 H I C CNN "Manufacturer"
+F5 "MCP1700T-3302E/MB" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "MCP1700T-3302E/MB" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/mcp1700t-3302e_mb/stabilizatory-napiecia-nieregulowane-ldo/microchip-technology/?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNoc6laLmilpmWTjGjJOe2dTpN_V5PDqtohq4lhjfJ82IQBw7d8dFfRoCydIQAvD_BwE" 0 0 50 H I C CNN "URL"
+F9 "1,8716" 0 0 50 H I C CNN "Price@1pc"
+F10 "1,5178" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+$FPLIST
+ MCP1700T-3302E_MB_SOT89
+$ENDFPLIST
+DRAW
+S -200 200 200 -200 0 1 0 f
+X GND 1 0 -500 300 U 60 31 1 1 P
+X Vin 2 -500 100 300 R 60 39 1 1 P
+X Vout 3 500 100 300 L 60 39 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Linear_Regulators_MCP1703T-3302E
 #
 DEF Linear_Regulators_MCP1703T-3302E U 0 40 Y Y 1 F N
@@ -477,6 +557,33 @@ S -200 200 200 -200 0 1 0 N
 X GND 1 0 -500 300 U 60 31 1 1 P
 X Vout 2 500 100 300 L 60 39 1 1 P
 X Vin 3 -500 100 300 R 60 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_100k
+#
+DEF Resistors_Smd0603_100k R 0 40 N Y 1 F N
+F0 "R" 100 0 50 H V C CNN
+F1 "Resistors_Smd0603_100k" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "HP03W5J0104T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "HP03-100K5%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,07415" 0 0 50 H I C CNN "Price@50pcs"
+F10 "0,01696" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C269699" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 100k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -502,6 +609,32 @@ $FPLIST
 $ENDFPLIST
 DRAW
 S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_10k
+#
+DEF Resistors_Smd0603_10k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistors_Smd0603_10k" -100 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAJ0103T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-10K" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,04560" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,01111" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 10k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 0 f
 X ~ 1 0 250 100 D 60 60 1 1 P
 X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
@@ -636,6 +769,33 @@ DRAW
 S -40 150 40 -150 1 1 0 f
 X ~ 1 0 250 100 D 60 60 1 1 P
 X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resonators_ABM3AIG-8.000MHZ-8-1R-T
+#
+DEF Resonators_ABM3AIG-8.000MHZ-8-1R-T X 0 40 Y N 1 F N
+F0 "X" -300 0 50 V V C CNN
+F1 "Resonators_ABM3AIG-8.000MHZ-8-1R-T" 300 0 50 V V C CNN
+F2 "" 100 -250 50 H I C CNN
+F3 "" 100 -250 50 H I C CNN
+F4 "ABRACON" 0 0 50 H I C CNN "Manufacturer"
+F5 "ABM3AIG-8.000MHZ-8-1R-T" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier"
+F7 "815-ABM8G-106-12-T" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/ProductDetail/ABRACON/ABM3AIG-8000MHZ-8-1R-T?qs=sGAEpiMZZMsBj6bBr9Q9aceUnY7rFtqMH0%252BlVheMYfGgMowPft1zuQ%3D%3D" 0 0 50 H I C CNN "URL"
+F9 "1,10" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,632" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+$FPLIST
+ ABM3AIG-8.000MHZ-8-1R-T
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -100 100 -100 -100 N
+P 2 1 1 0 100 100 100 -100 N
+P 5 1 1 0 -50 50 50 50 50 -50 -50 -50 -50 50 N
+X 1 1 -300 0 200 R 40 40 1 1 P
+X 2 2 300 0 200 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -314,4 +314,347 @@ F 13 "C8304" H 9350 4500 50  0001 C CNN "LCSC Part #(optional)"
 	1    9350 4500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Resistors_Smd0603:10k R?
+U 1 1 5FFDF754
+P 5550 4100
+F 0 "R?" V 5450 4100 50  0000 C CNN
+F 1 "10k" V 5550 4100 50  0000 C CNN
+F 2 "" H 5550 4100 60  0000 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5550 4100 60  0001 C CNN
+F 4 "ROYAL OHM" H 5550 4100 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 5550 4100 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5550 4100 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 5550 4100 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 5550 4100 50  0001 C CNN "URL"
+F 9 "0,04560" H 5550 4100 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 5550 4100 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 5550 4100 50  0001 C CNN "Developer"
+F 12 "0603" H 5550 4100 50  0001 C CNN "Package"
+	1    5550 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_Smd0603:10k R?
+U 1 1 5FFE0F63
+P 5150 4200
+F 0 "R?" V 5050 4150 50  0000 C CNN
+F 1 "10k" V 5150 4200 50  0000 C CNN
+F 2 "" H 5150 4200 60  0000 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5150 4200 60  0001 C CNN
+F 4 "ROYAL OHM" H 5150 4200 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 5150 4200 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5150 4200 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 5150 4200 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 5150 4200 50  0001 C CNN "URL"
+F 9 "0,04560" H 5150 4200 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 5150 4200 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 5150 4200 50  0001 C CNN "Developer"
+F 12 "0603" H 5150 4200 50  0001 C CNN "Package"
+	1    5150 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 4200 5400 4200
+Wire Wire Line
+	5950 4100 5800 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5FFE3534
+P 4850 4200
+F 0 "#PWR?" H 4850 4300 30  0001 C CNN
+F 1 "GND" H 4850 4100 30  0001 C CNN
+F 2 "" H 4850 4200 60  0000 C CNN
+F 3 "" H 4850 4200 60  0000 C CNN
+	1    4850 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFE3A51
+P 5250 4100
+F 0 "#PWR?" H 5250 4200 30  0001 C CNN
+F 1 "GND" H 5250 4000 30  0001 C CNN
+F 2 "" H 5250 4100 60  0000 C CNN
+F 3 "" H 5250 4100 60  0000 C CNN
+	1    5250 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 4100 5250 4100
+Wire Wire Line
+	4900 4200 4850 4200
+NoConn ~ 5950 4300
+$Comp
+L Resistors_Smd0603:4k7 R?
+U 1 1 5FFE9012
+P 5850 2050
+F 0 "R?" H 5918 2096 50  0000 L CNN
+F 1 "4k7" H 5918 2005 50  0000 L CNN
+F 2 "" H 5850 2050 50  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5850 2050 50  0001 C CNN
+F 4 "ROYAL OHM" H 5850 2050 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5850 2050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5850 2050 50  0001 C CNN "Supplier"
+F 7 "	SMD0603-4K7-1%" H 5850 2050 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/" H 5850 2050 50  0001 C CNN "URL"
+F 9 "0,04698" H 5850 2050 50  0001 C CNN "Price@1pc"
+F 10 "0,01271" H 5850 2050 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 5850 2050 50  0001 C CNN "Package"
+	1    5850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:4k7 R?
+U 1 1 5FFEA02C
+P 5500 2400
+F 0 "R?" V 5600 2350 50  0000 L CNN
+F 1 "4k7" V 5500 2350 50  0000 L CNN
+F 2 "" H 5500 2400 50  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5500 2400 50  0001 C CNN
+F 4 "ROYAL OHM" H 5500 2400 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5500 2400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5500 2400 50  0001 C CNN "Supplier"
+F 7 "	SMD0603-4K7-1%" H 5500 2400 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/" H 5500 2400 50  0001 C CNN "URL"
+F 9 "0,04698" H 5500 2400 50  0001 C CNN "Price@1pc"
+F 10 "0,01271" H 5500 2400 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 5500 2400 50  0001 C CNN "Package"
+	1    5500 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 2400 5850 2400
+Wire Wire Line
+	5850 2300 5850 2400
+Connection ~ 5850 2400
+Wire Wire Line
+	5850 2400 5950 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5FFEE2C9
+P 5200 2400
+F 0 "#PWR?" H 5200 2500 30  0001 C CNN
+F 1 "GND" H 5200 2300 30  0001 C CNN
+F 2 "" H 5200 2400 60  0000 C CNN
+F 3 "" H 5200 2400 60  0000 C CNN
+	1    5200 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2400 5200 2400
+$Comp
+L power:3V3_NO_GLOBAL #PWR?
+U 1 1 5FFF1651
+P 5850 1750
+F 0 "#PWR?" H 5850 1850 40  0001 C CNN
+F 1 "3V3" H 5856 1923 50  0000 C CNN
+F 2 "" H 5850 1750 60  0000 C CNN
+F 3 "" H 5850 1750 60  0000 C CNN
+	1    5850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1750 5850 1800
+NoConn ~ 5950 2500
+NoConn ~ 5950 2800
+$Comp
+L Linear_Regulators:MCP1700T-3302E_MB U?
+U 1 1 60007834
+P 7300 7900
+F 0 "U?" H 7300 8287 60  0000 C CNN
+F 1 "MCP1700T-3302E_MB" H 7300 8181 60  0000 C CNN
+F 2 "" H 7300 7850 60  0001 C CNN
+F 3 "Dc_Dc_Regulators/Linear/Components_Documentation/MCP1700T-3302E_MB.pdf" H 7300 7850 60  0001 C CNN
+F 4 "Microchip Technology" H 7300 7900 50  0001 C CNN "Manufacturer"
+F 5 "MCP1700T-3302E/MB" H 7300 7900 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 7300 7900 50  0001 C CNN "Supplier"
+F 7 "MCP1700T-3302E/MB" H 7300 7900 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/mcp1700t-3302e_mb/stabilizatory-napiecia-nieregulowane-ldo/microchip-technology/?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNoc6laLmilpmWTjGjJOe2dTpN_V5PDqtohq4lhjfJ82IQBw7d8dFfRoCydIQAvD_BwE" H 7300 7900 50  0001 C CNN "URL"
+F 9 "1,8716" H 7300 7900 50  0001 C CNN "Price@1pc"
+F 10 "1,5178" H 7300 7900 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 7300 7900 50  0001 C CNN "Developer"
+	1    7300 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resonators:ABM3AIG-8.000MHZ-8-1R-T X?
+U 1 1 600099B8
+P 13450 4150
+F 0 "X?" V 13404 4278 50  0000 L CNN
+F 1 "8.000MHZ" V 13495 4278 50  0000 L CNN
+F 2 "" H 13550 3900 50  0001 C CNN
+F 3 "Resonators/Components_Documentation/ABM8G-106-12.000MHz-T.pdf" H 13550 3900 50  0001 C CNN
+F 4 "ABRACON" H 13450 4150 50  0001 C CNN "Manufacturer"
+F 5 "ABM3AIG-8.000MHZ-8-1R-T" H 13450 4150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 13450 4150 50  0001 C CNN "Supplier"
+F 7 "815-ABM8G-106-12-T" H 13450 4150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/ABRACON/ABM3AIG-8000MHZ-8-1R-T?qs=sGAEpiMZZMsBj6bBr9Q9aceUnY7rFtqMH0%252BlVheMYfGgMowPft1zuQ%3D%3D" H 13450 4150 50  0001 C CNN "URL"
+F 9 "1,10" H 13450 4150 50  0001 C CNN "Price@1pc"
+F 10 "0,632" H 13450 4150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 13450 4150 50  0001 C CNN "Developer"
+	1    13450 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12750 4100 13250 4100
+Wire Wire Line
+	13250 4100 13250 3750
+Wire Wire Line
+	13250 3750 13450 3750
+Wire Wire Line
+	13450 3750 13450 3850
+Wire Wire Line
+	13250 4550 13450 4550
+Wire Wire Line
+	13450 4550 13450 4450
+Wire Wire Line
+	13250 4200 13250 4550
+$Comp
+L Capacitors_Smd0603:20pF C?
+U 1 1 60011CD6
+P 13800 3750
+F 0 "C?" V 13650 3750 50  0000 C CNN
+F 1 "20pF/50V" V 13950 3750 50  0000 C CNN
+F 2 "" H 13800 3750 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/83573c8f0792501446537ba84bc905ab/C0603C200J5GACTU.pdf" H 13800 3750 60  0001 C CNN
+F 4 "Kemet" H 13800 3750 50  0001 C CNN "Manufacturer"
+F 5 "C0603C200J5GACTU" H 13800 3750 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Tme" H 13800 3750 50  0001 C CNN "Supplier"
+F 7 "C0603C200J5GAC" H 13800 3750 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/c0603c200j5gac/kondensatory-mlcc-smd-0603/kemet/c0603c200j5gactu/" H 13800 3750 50  0001 C CNN "URL"
+F 9 "0,15805" H 13800 3750 50  0001 C CNN "Price@1pc"
+F 10 "0,08711" H 13800 3750 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 13800 3750 50  0001 C CNN "Developer"
+F 12 "0603" H 13800 3750 50  0001 C CNN "Package"
+F 13 "C165733" H 13800 3750 50  0001 C CNN "LCSC Part #(optional)"
+	1    13800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_Smd0603:20pF C?
+U 1 1 60013FD1
+P 13800 4550
+F 0 "C?" V 13650 4550 50  0000 C CNN
+F 1 "20pF/50V" V 13950 4550 50  0000 C CNN
+F 2 "" H 13800 4550 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/83573c8f0792501446537ba84bc905ab/C0603C200J5GACTU.pdf" H 13800 4550 60  0001 C CNN
+F 4 "Kemet" H 13800 4550 50  0001 C CNN "Manufacturer"
+F 5 "C0603C200J5GACTU" H 13800 4550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Tme" H 13800 4550 50  0001 C CNN "Supplier"
+F 7 "C0603C200J5GAC" H 13800 4550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/c0603c200j5gac/kondensatory-mlcc-smd-0603/kemet/c0603c200j5gactu/" H 13800 4550 50  0001 C CNN "URL"
+F 9 "0,15805" H 13800 4550 50  0001 C CNN "Price@1pc"
+F 10 "0,08711" H 13800 4550 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 13800 4550 50  0001 C CNN "Developer"
+F 12 "0603" H 13800 4550 50  0001 C CNN "Package"
+F 13 "C165733" H 13800 4550 50  0001 C CNN "LCSC Part #(optional)"
+	1    13800 4550
+	0    1    1    0   
+$EndComp
+Connection ~ 13450 3750
+Wire Wire Line
+	13450 3750 13600 3750
+Wire Wire Line
+	13600 4550 13450 4550
+Connection ~ 13450 4550
+Wire Wire Line
+	12750 4200 13250 4200
+$Comp
+L power:GND_NO_GLOBAL #PWR?
+U 1 1 6001BCD0
+P 14100 4550
+F 0 "#PWR?" H 14100 4650 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 14100 4450 30  0001 C CNN
+F 2 "" H 14100 4550 60  0000 C CNN
+F 3 "" H 14100 4550 60  0000 C CNN
+	1    14100 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14100 4550 14000 4550
+$Comp
+L power:GND_NO_GLOBAL #PWR?
+U 1 1 6001D875
+P 14100 3750
+F 0 "#PWR?" H 14100 3850 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 14100 3650 30  0001 C CNN
+F 2 "" H 14100 3750 60  0000 C CNN
+F 3 "" H 14100 3750 60  0000 C CNN
+	1    14100 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14100 3750 14000 3750
+$Comp
+L Capacitors_Smd0603:100n C?
+U 1 1 6001FB3E
+P 2250 6500
+F 0 "C?" H 2400 6550 50  0000 L CNN
+F 1 "100n/50V" H 2300 6400 50  0000 L CNN
+F 2 "" H 2250 6500 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 2250 6500 60  0001 C CNN
+F 4 "SAMSUNG" H 2250 6500 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 2250 6500 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 2250 6500 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 2250 6500 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 2250 6500 50  0001 C CNN "URL"
+F 9 "0,04540" H 2250 6500 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 2250 6500 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 2250 6500 50  0001 C CNN "Package"
+	1    2250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND_NO_GLOBAL #PWR?
+U 1 1 600208B1
+P 2250 6800
+F 0 "#PWR?" H 2250 6900 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 2250 6700 30  0001 C CNN
+F 2 "" H 2250 6800 60  0000 C CNN
+F 3 "" H 2250 6800 60  0000 C CNN
+	1    2250 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 6800 2250 6700
+$Comp
+L Resistors_Smd0603:100k R?
+U 1 1 60022ECD
+P 2250 5550
+F 0 "R?" H 2318 5596 50  0000 L CNN
+F 1 "100k" H 2318 5505 50  0000 L CNN
+F 2 "" H 2250 5550 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/fa390a0a31e891a154d3713216995c6e/HighPowerHP.pdf" H 2250 5550 50  0001 C CNN
+F 4 "ROYAL OHM" H 2250 5550 50  0001 C CNN "Manufacturer"
+F 5 "HP03W5J0104T5E" H 2250 5550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 2250 5550 50  0001 C CNN "Supplier"
+F 7 "HP03-100K5%" H 2250 5550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/" H 2250 5550 50  0001 C CNN "URL"
+F 9 "0,07415" H 2250 5550 50  0001 C CNN "Price@50pcs"
+F 10 "0,01696" H 2250 5550 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 2250 5550 50  0001 C CNN "Developer"
+F 12 "0603" H 2250 5550 50  0001 C CNN "Package"
+F 13 "C269699" H 2250 5550 50  0001 C CNN "LCSC Part # (optional)"
+	1    2250 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5900 2250 5800
+Wire Wire Line
+	2250 5900 5950 5900
+Wire Wire Line
+	2250 5900 2250 6300
+Connection ~ 2250 5900
+$Comp
+L power:3V3_NO_GLOBAL #PWR?
+U 1 1 60027C9C
+P 2250 5250
+F 0 "#PWR?" H 2250 5350 40  0001 C CNN
+F 1 "3V3" H 2256 5423 50  0000 C CNN
+F 2 "" H 2250 5250 60  0000 C CNN
+F 3 "" H 2250 5250 60  0000 C CNN
+	1    2250 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

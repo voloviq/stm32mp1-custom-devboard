@@ -1,4 +1,4 @@
-904086052540976
+944010887258142
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -1792,6 +1792,13 @@ SMD Inductor
 2
 2
 Inductors
+7447918
+Multilayer Inductor
+Inductor
+0
+2
+2
+Inductors
 74477110
 WE-PD SMD POWER INDUCTOR
 WE-PD SMD POWER INDUCTOR
@@ -1900,6 +1907,13 @@ Inductors
 CDR7D43MNNP-5R8NC
 Sumida SMD Power Inductor
 Inductor
+0
+2
+2
+Inductors
+CDRH3D14_HPNP-100NC
+
+
 0
 2
 2
@@ -2492,6 +2506,13 @@ resistor 0402
 2
 2
 Resistor_Smd_0402
+3k9_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+Resistor_Smd_0402
 4R7_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
@@ -2731,6 +2752,13 @@ resistor 0402
 2
 Resistor_Smd_0402
 560R_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+Resistor_Smd_0402
+750R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
@@ -3199,6 +3227,13 @@ Resistor
 2
 2
 Resistor_Smd_0603
+36k_0603
+Vishay SMD SM0603
+Resistor
+0
+2
+2
+Resistor_Smd_0603
 39k_0603
 Vishay SMD SM0603
 Resistor
@@ -3263,6 +3298,13 @@ Resistor
 2
 Resistor_Smd_0603
 56k_0603
+Vishay SMD SM0603
+Resistor
+0
+2
+2
+Resistor_Smd_0603
+57k6_0603
 Vishay SMD SM0603
 Resistor
 0
@@ -3576,6 +3618,139 @@ Resistor
 0
 2
 2
+Smd_Connectors
+4_Solder_Point_0_635mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+4_Solder_Point_1_7mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+4_Solder_Point_1_27mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+4_Solder_Point_2_54mm_SMD
+
+
+0
+4
+4
+Smd_Connectors
+10pin_Wuerth_665110131822
+
+SMD Connector
+0
+12
+11
+Smd_Connectors
+2060-452_998-404
+WAGO 2pole connector
+SMD Connector
+0
+4
+2
+Smd_Connectors
+2060-453_998-404
+WAGO 3pole connector
+SMD Connector
+0
+6
+6
+Smd_Connectors
+87437-0373
+
+
+0
+6
+3
+Smd_Connectors
+87438-0343
+
+
+0
+6
+3
+Smd_Connectors
+2041119-1
+
+
+0
+54
+53
+Smd_Connectors
+662004231822
+
+
+0
+6
+5
+Smd_Connectors
+A1001WR-S-10P
+
+
+0
+12
+11
+Smd_Connectors
+DS1031-14-20S8B
+
+
+0
+20
+20
+Smd_Connectors
+NX1001-10SMS
+NX1001-10SMS
+SMT Connector
+0
+12
+11
+Smd_Connectors
+NX1001_06SMR
+
+Smd Connector
+0
+8
+7
+Smd_Connectors
+U_FL-R-SMT-1(10)_U
+
+Antenna Connector SMD
+0
+3
+2
+Smd_Connectors
+Usb_C_12401548E4-2A
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
+Smd_Connectors
+Usb_Micro
+Usb Micro
+Smd Connector
+0
+9
+6
+Smd_Connectors
+Usb_Mini
+Usb Mini
+Smd Connector
+0
+11
+6
 Smd_Tantal
 1uF_35V_B_Tantal
 1uF_35V_B
