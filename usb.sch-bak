@@ -34,14 +34,24 @@ F 12 "USB C" H 8400 3700 50  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L USB_Connectors:USB-A-D-RA P?
-U 1 1 6002B6FB
-P 8350 6650
-F 0 "P?" H 8878 6696 50  0000 L CNN
-F 1 "USB-A-D-RA" H 8878 6605 50  0000 L CNN
-F 2 "" H 7950 7150 50  0001 C CNN
-F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Connectors/Discrete_Connectors/Components_Documentation/USB-A-D-RA.pdf" H 7950 7150 50  0001 C CNN
-	1    8350 6650
+L USB_Connectors:USB-A-Wurth-62900416021 USB1
+U 1 1 5FFFAFBC
+P 8450 6450
+F 0 "USB1" H 8678 6548 60  0000 L CNN
+F 1 "USB-A-Wurth-62900416021" H 8678 6442 60  0000 L CNN
+F 2 "" H 8250 6450 60  0000 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/62900416021-1718169.pdf" H 8250 6450 60  0001 C CNN
+F 4 "Wurth" H 8450 6450 50  0001 C CNN "Manufacturer"
+F 5 "62900416021" H 8450 6450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 8450 6450 50  0001 C CNN "Supplier"
+F 7 "710-62900416021" H 8450 6400 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/?qs=7gQLVZk5cPluNNYrEeR0bw==" H 8450 6400 50  0001 C CNN "URL"
+F 9 "8,8" H 8450 6450 50  0001 C CNN "Price@1pc"
+F 10 "6,16" H 8450 6450 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 8450 6450 50  0001 C CNN "Developer"
+F 12 "USB Type A Connectors SMT" H 8450 6450 50  0001 C CNN "Package"
+F 13 "" H 8450 6450 50  0001 C CNN "LCSC Part #(optional)"
+	1    8450 6450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

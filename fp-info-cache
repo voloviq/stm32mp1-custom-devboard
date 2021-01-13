@@ -1,4 +1,4 @@
-1137931673285876
+1141161041023706
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -1132,6 +1132,20 @@ Usb Mini
 Smd Connector
 0
 11
+6
+Connector_USB
+Wurth-62900416021
+<B>WR-COM</B><BR>USB 2.0 SMT Type A Horizontal , 4 pins
+
+0
+6
+6
+Connector_USB
+Wurth-61400416021
+<b>WR-COM</b><br> USB 2.0 Type A Horizontal
+
+0
+6
 6
 Diodes
 1N4007
