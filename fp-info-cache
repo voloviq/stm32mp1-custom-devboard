@@ -1,4 +1,4 @@
-1091442255450975
+1137931673285876
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -727,6 +727,174 @@ Resistor
 0
 2
 2
+Communication_Interfaces
+7LB176_SO8
+MAX485
+Communication Interface
+0
+8
+8
+Communication_Interfaces
+CP2105-F01-GM
+
+
+0
+33
+25
+Communication_Interfaces
+FIDO5200_BGA144
+
+
+0
+144
+144
+Communication_Interfaces
+FT230XS_SSOP16
+SSOP16: plastic shrink small outline package; 16 leads; body width 3.9 mm; lead pitch 0.635; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot519-1_po.pdf)
+SSOP 0.635
+0
+16
+16
+Communication_Interfaces
+IFX1050GVIOXUMA1
+
+
+0
+8
+8
+Communication_Interfaces
+ISL3172EIUZ
+
+
+0
+8
+8
+Communication_Interfaces
+KSZ8041NL_RNL_QFN32
+
+
+0
+41
+33
+Communication_Interfaces
+KSZ8081RNB_QFN32
+
+
+0
+41
+33
+Communication_Interfaces
+LAN8710A_QFN32
+
+
+0
+41
+33
+Communication_Interfaces
+LAN8720A_QFN24
+
+
+0
+33
+25
+Communication_Interfaces
+LAN9514I
+
+
+0
+100
+65
+Communication_Interfaces
+MAX232D_SO16
+
+
+0
+16
+16
+Communication_Interfaces
+MAX232N_DIP16
+
+
+0
+16
+16
+Communication_Interfaces
+MAX485EPA+_DIP8
+MAX485
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+Communication_Interfaces
+MAX485ESA+_SO8
+MAX485
+Communication Interface
+0
+8
+8
+Communication_Interfaces
+MCP2515-I-QFN20
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+25
+21
+Communication_Interfaces
+MCP2551_SO8
+MCP2551
+Communication Interface
+0
+8
+8
+Communication_Interfaces
+PCA9306DCUR
+
+
+0
+8
+8
+Communication_Interfaces
+RTL8211F-CG
+INTEGRATED 10/100/1000M ETHERNET PRECISION TRANSCEIVER
+Ethernet Interface
+0
+67
+41
+Communication_Interfaces
+SP232ECP_DIP16
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
+Communication_Interfaces
+SP3232EEA-L
+
+
+0
+16
+16
+Communication_Interfaces
+SP3232EEY-L_TSSOP16
+
+
+0
+16
+16
+Communication_Interfaces
+USB2514
+
+
+0
+45
+37
+Communication_Interfaces
+W5500_LQFP48
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
 Connector_USB
 Molex_47346-0001
 Usb Micro
@@ -741,6 +909,13 @@ Smd Connector
 0
 9
 6
+Connector_USB
+USB-A-D-RA
+
+
+0
+12
+9
 Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
@@ -769,6 +944,13 @@ Wuerth stacked USB_A
 0
 12
 9
+Connector_USB
+USB_B_0_Angle
+USB B 0 Angle Connector
+USB B Connector
+0
+6
+6
 Connector_USB
 USB_B_Amphenol_MUSB-D511_Vertical_Rugged
 A,phenol MUSB_D511, USB B female connector, straight, rugged, https://www.amphenolcanada.com/ProductSearch/drawings/AC/MUSBD511XX.pdf
@@ -923,6 +1105,20 @@ USB USB_B USB_Mini connector
 0
 9
 6
+Connector_USB
+USB_Mini_Vertical
+USB Mini Vertical
+Connector Discrete
+0
+7
+6
+Connector_USB
+Usb_C_12401548E4-2A
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
 Connector_USB
 Usb_Micro
 Usb Micro
@@ -2757,6 +2953,34 @@ SOT23_5
 0
 5
 5
+RJ45_Ethernet_Transformer
+LMJ3628844TA753
+
+
+0
+16
+13
+RJ45_Ethernet_Transformer
+RJ-45_LMJ30288115CNL
+
+
+0
+16
+13
+RJ45_Ethernet_Transformer
+WE-RJ45_7498011122AR
+WE-RJ45 LAN TRANSFORMER
+WE-RJ45 LAN TRANSFORMER
+0
+13
+13
+RJ45_Ethernet_Transformer
+WE-RJ45_74990101210
+WE-RJ45 LAN TRANSFORMER
+WE-RJ45 LAN TRANSFORMER
+0
+14
+14
 Resistor_Smd_0402
 0R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
@@ -4178,27 +4402,6 @@ Antenna Connector SMD
 0
 3
 2
-Smd_Connectors
-Usb_C_12401548E4-2A
-USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
-USB C Type-C Receptacle Hybrid
-0
-28
-25
-Smd_Connectors
-Usb_Micro
-Usb Micro
-Smd Connector
-0
-9
-6
-Smd_Connectors
-Usb_Mini
-Usb Mini
-Smd Connector
-0
-11
-6
 Smd_Tantal
 1uF_35V_B_Tantal
 1uF_35V_B

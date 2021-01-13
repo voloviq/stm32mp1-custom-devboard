@@ -20,4 +20,6 @@
   (lib (name Capacitors_Smd_1206)(type KiCad)(uri ${KISYS3DMOD}/Capacitors/Smd_1206/Capacitors_Smd_1206.pretty)(options "")(descr ""))
   (lib (name Transistor_Bipolar)(type KiCad)(uri ${KISYS3DMOD}/Transistor/Transistor_Bipolar/Transistor_Bipolar.pretty)(options "")(descr ""))
   (lib (name Resonators)(type KiCad)(uri ${KISYS3DMOD}/Resonators/Resonators.pretty)(options "")(descr ""))
+  (lib (name Communication_Interfaces)(type KiCad)(uri ${KISYS3DMOD}/Communication_Interfaces/Communication_Interfaces.pretty)(options "")(descr ""))
+  (lib (name RJ45_Ethernet_Transformer)(type KiCad)(uri ${KISYS3DMOD}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.pretty)(options "")(descr ""))
 )

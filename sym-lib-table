@@ -23,4 +23,6 @@
   (lib (name Capacitors_Smd1206)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Capacitors/Smd_1206/Capacitors_Smd1206.lib)(options "")(descr ""))
   (lib (name Transistor_Bipolar)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Transistors/Bipolar/Transistor_Bipolar.lib)(options "")(descr ""))
   (lib (name Discrete_Connectors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/Discrete_Connectors/Discrete_Connectors.lib)(options "")(descr ""))
+  (lib (name Communication_Interfaces)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Communication_Interfaces/Communication_Interfaces.lib)(options "")(descr ""))
+  (lib (name RJ45_Ethernet_Transformer)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.lib)(options "")(descr ""))
 )

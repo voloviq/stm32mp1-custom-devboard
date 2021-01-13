@@ -1,0 +1,932 @@
+EESchema Schematic File Version 4
+LIBS:led_inside_control_power_supply-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 14
+Title "Ethernet"
+Date "2019-03-08"
+Rev "V1.0"
+Comp "EMAR SJ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8500 5100 11250 5100
+Wire Wire Line
+	11250 5100 11250 4600
+Wire Wire Line
+	11250 4600 12100 4600
+Wire Wire Line
+	12100 5600 11250 5600
+Wire Wire Line
+	11250 5600 11250 5250
+Wire Wire Line
+	11250 5250 8500 5250
+Wire Wire Line
+	12100 5800 11150 5800
+Wire Wire Line
+	11150 5800 11150 5400
+Wire Wire Line
+	11150 5400 8500 5400
+Wire Wire Line
+	12100 6800 11050 6800
+Wire Wire Line
+	11050 6800 11050 5550
+Wire Wire Line
+	11050 5550 8500 5550
+$Comp
+L power:GND #PWR027
+U 1 1 5B731299
+P 7450 7150
+F 0 "#PWR027" H 7450 7250 30  0001 C CNN
+F 1 "GND" H 7450 7050 30  0001 C CNN
+F 2 "" H 7450 7150 60  0000 C CNN
+F 3 "" H 7450 7150 60  0000 C CNN
+	1    7450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 5B73129A
+P 7850 7150
+F 0 "#PWR028" H 7850 7250 30  0001 C CNN
+F 1 "GND" H 7850 7050 30  0001 C CNN
+F 2 "" H 7850 7150 60  0000 C CNN
+F 3 "" H 7850 7150 60  0000 C CNN
+	1    7850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:3V3 #PWR035
+U 1 1 5B73129B
+P 9250 7600
+F 0 "#PWR035" H 9250 7700 40  0001 C CNN
+F 1 "3V3" H 9257 7758 30  0000 C CNN
+F 2 "" H 9250 7600 60  0000 C CNN
+F 3 "" H 9250 7600 60  0000 C CNN
+	1    9250 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistors_Smd0603:4k7_0603 R13
+U 1 1 5B73129C
+P 9250 7200
+F 0 "R13" H 9100 7150 50  0000 C CNN
+F 1 "4k7" H 9100 7250 50  0000 C CNN
+F 2 "Resistor_Smd_0603:4k7_0603" H 9250 7200 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9250 7200 50  0001 C CNN
+	1    9250 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R14
+U 1 1 5B6A4B15
+P 9600 6500
+F 0 "R14" H 9750 6450 50  0000 C CNN
+F 1 "1k" H 9700 6550 50  0000 C CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 9600 6500 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" V 9479 6500 60  0001 C CNN
+	1    9600 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 5B6A4DB9
+P 8950 7600
+F 0 "#PWR032" H 8950 7700 30  0001 C CNN
+F 1 "GND" H 8950 7500 30  0001 C CNN
+F 2 "" H 8950 7600 60  0000 C CNN
+F 3 "" H 8950 7600 60  0000 C CNN
+	1    8950 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:6k49_0603 R11
+U 1 1 5B7312A0
+P 8650 7200
+F 0 "R11" H 8500 7150 50  0000 C CNN
+F 1 "6k49" H 8500 7250 50  0000 C CNN
+F 2 "Resistor_Smd_0603:6k49_0603" H 8650 7200 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Data Sheet CRCW_BCe3.pdf" H 8650 7200 50  0001 C CNN
+	1    8650 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5B7312A1
+P 8650 7600
+F 0 "#PWR029" H 8650 7700 30  0001 C CNN
+F 1 "GND" H 8650 7500 30  0001 C CNN
+F 2 "" H 8650 7600 60  0000 C CNN
+F 3 "" H 8650 7600 60  0000 C CNN
+	1    8650 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R12
+U 1 1 5B7312A2
+P 8950 7200
+F 0 "R12" H 9000 7250 50  0000 L CNN
+F 1 "1k" H 9000 7150 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 8950 7200 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9018 7109 60  0001 L CNN
+	1    8950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R15
+U 1 1 5B6CF5AE
+P 10000 6500
+F 0 "R15" H 10050 6550 50  0000 L CNN
+F 1 "1k" H 10050 6450 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 10000 6500 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 10068 6409 60  0001 L CNN
+	1    10000 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 6950 8650 6800
+Wire Wire Line
+	8650 6800 8500 6800
+Wire Wire Line
+	8950 6950 8950 6550
+Wire Wire Line
+	8950 6550 8500 6550
+Wire Wire Line
+	8500 6400 9250 6400
+Wire Wire Line
+	9250 6400 9250 6950
+$Comp
+L power:GND #PWR037
+U 1 1 5B6FDD8B
+P 10000 6850
+F 0 "#PWR037" H 10000 6950 30  0001 C CNN
+F 1 "GND" H 10000 6750 30  0001 C CNN
+F 2 "" H 10000 6850 60  0000 C CNN
+F 3 "" H 10000 6850 60  0000 C CNN
+	1    10000 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 7450 8650 7600
+Wire Wire Line
+	8950 7450 8950 7600
+Wire Wire Line
+	9250 7450 9250 7600
+$Comp
+L Resistors_Smd0603:220R_0603 R16
+U 1 1 5B72536A
+P 10350 6000
+F 0 "R16" V 10150 6000 50  0000 C CNN
+F 1 "220R" V 10250 6000 50  0000 C CNN
+F 2 "Resistor_Smd_0603:220R_0603" H 10350 6000 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 10350 6000 50  0001 C CNN
+	1    10350 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistors_Smd0603:220R_0603 R17
+U 1 1 5B72AF64
+P 10350 7200
+F 0 "R17" V 10150 7200 50  0000 C CNN
+F 1 "220R" V 10250 7200 50  0000 C CNN
+F 2 "Resistor_Smd_0603:220R_0603" H 10350 7200 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 10350 7200 50  0001 C CNN
+	1    10350 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10100 6000 10000 6000
+Connection ~ 10000 6000
+Wire Wire Line
+	12100 7000 10950 7000
+Wire Wire Line
+	10950 7000 10950 6000
+$Comp
+L power:3V3 #PWR042
+U 1 1 5B742B10
+P 12000 7100
+F 0 "#PWR042" H 12000 7200 40  0001 C CNN
+F 1 "3V3" V 12007 7228 30  0000 L CNN
+F 2 "" H 12000 7100 60  0000 C CNN
+F 3 "" H 12000 7100 60  0000 C CNN
+	1    12000 7100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:3V3 #PWR041
+U 1 1 5B742BFE
+P 12000 6900
+F 0 "#PWR041" H 12000 7000 40  0001 C CNN
+F 1 "3V3" V 12007 7028 30  0000 L CNN
+F 2 "" H 12000 6900 60  0000 C CNN
+F 3 "" H 12000 6900 60  0000 C CNN
+	1    12000 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12000 7100 12100 7100
+$Comp
+L Capacitors_Smd1206:100nF_1206 C7
+U 1 1 5B74F594
+P 11750 5100
+F 0 "C7" V 11600 5100 50  0000 C CNN
+F 1 "100nF100V" V 11900 5100 50  0000 C CNN
+F 2 "Capacitors_Smd_1206:100nF_1206" H 11750 5100 60  0001 C CNN
+F 3 "Smd_1206/Components_Documentation/AVX_Capacitors_SM1206.pdf" V 11566 5100 60  0001 C CNN
+	1    11750 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 5B74F813
+P 11400 5100
+F 0 "#PWR038" H 11400 5200 30  0001 C CNN
+F 1 "GND" H 11400 5000 30  0001 C CNN
+F 2 "" H 11400 5100 60  0000 C CNN
+F 3 "" H 11400 5100 60  0000 C CNN
+	1    11400 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_Smd1206:100nF_1206 C8
+U 1 1 5B74FACF
+P 11750 6300
+F 0 "C8" V 11600 6300 50  0000 C CNN
+F 1 "100nF100V" V 11900 6300 50  0000 C CNN
+F 2 "Capacitors_Smd_1206:100nF_1206" H 11750 6300 60  0001 C CNN
+F 3 "Smd_1206/Components_Documentation/AVX_Capacitors_SM1206.pdf" V 11566 6300 60  0001 C CNN
+	1    11750 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 5B74FAD5
+P 11400 6300
+F 0 "#PWR039" H 11400 6400 30  0001 C CNN
+F 1 "GND" H 11400 6200 30  0001 C CNN
+F 2 "" H 11400 6300 60  0000 C CNN
+F 3 "" H 11400 6300 60  0000 C CNN
+	1    11400 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12100 6300 11950 6300
+Wire Wire Line
+	11550 6300 11400 6300
+Wire Wire Line
+	12100 5100 11950 5100
+Wire Wire Line
+	11550 5100 11400 5100
+$Comp
+L power:GND #PWR040
+U 1 1 5B770A4C
+P 12000 4450
+F 0 "#PWR040" H 12000 4550 30  0001 C CNN
+F 1 "GND" H 12000 4350 30  0001 C CNN
+F 2 "" H 12000 4450 60  0000 C CNN
+F 3 "" H 12000 4450 60  0000 C CNN
+	1    12000 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12100 4450 12000 4450
+Wire Wire Line
+	9200 3600 9200 3500
+Wire Wire Line
+	9200 3500 8750 3500
+Wire Wire Line
+	8750 3500 8750 3600
+Connection ~ 8750 3500
+$Comp
+L Resistors_Smd0603:1k_0603 R3
+U 1 1 5B7312B0
+P 4750 7100
+F 0 "R3" H 4550 7050 50  0000 L CNN
+F 1 "1k" H 4600 7150 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 4750 7100 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 4818 7009 60  0001 L CNN
+	1    4750 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 5050 5900 5050
+Wire Wire Line
+	5900 5050 5900 4550
+Wire Wire Line
+	6800 5150 5650 5150
+Wire Wire Line
+	5650 5150 5650 4550
+Wire Wire Line
+	6800 5250 5400 5250
+Wire Wire Line
+	5400 5250 5400 4550
+NoConn ~ 6800 6900
+Wire Wire Line
+	6800 5450 5150 5450
+Wire Wire Line
+	5150 5450 5150 4550
+$Comp
+L Resistors_Smd0603:10k_0603 R6
+U 1 1 5B87D3B4
+P 5150 7100
+F 0 "R6" H 5200 7150 50  0000 L CNN
+F 1 "10k" H 5200 7050 50  0000 L CNN
+F 2 "Resistor_Smd_0603:10k_0603" H 5150 7100 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5218 7009 60  0001 L CNN
+	1    5150 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C1
+U 1 1 5B87DFA8
+P 5550 7100
+F 0 "C1" H 5600 7200 50  0000 L CNN
+F 1 "100nF6V3" H 5600 7000 50  0000 L CNN
+F 2 "Capacitors_Smd_0805:100nF_0805" H 5550 7100 60  0001 C CNN
+F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 5681 7009 60  0001 L CNN
+	1    5550 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5B87DFAE
+P 5550 7500
+F 0 "#PWR022" H 5550 7600 30  0001 C CNN
+F 1 "GND" H 5550 7400 30  0001 C CNN
+F 2 "" H 5550 7500 60  0000 C CNN
+F 3 "" H 5550 7500 60  0000 C CNN
+	1    5550 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 7300 5550 7500
+Wire Wire Line
+	6800 6650 5550 6650
+Wire Wire Line
+	5550 6650 5550 6900
+Wire Wire Line
+	5550 6650 5150 6650
+Wire Wire Line
+	5150 6650 5150 6850
+Connection ~ 5550 6650
+Wire Wire Line
+	6800 5550 4900 5550
+Wire Wire Line
+	4900 5550 4900 4550
+Wire Wire Line
+	6800 5650 4650 5650
+Wire Wire Line
+	4650 5650 4650 4550
+$Comp
+L Resistors_Smd0603:1k_0603 R1
+U 1 1 5B7312BD
+P 4500 7100
+F 0 "R1" H 4550 7050 50  0000 L CNN
+F 1 "1k_DNP" H 4550 7150 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 4500 7100 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 4568 7009 60  0001 L CNN
+	1    4500 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 6450 4750 6850
+Wire Wire Line
+	4750 6450 6800 6450
+Wire Wire Line
+	4750 6450 4500 6450
+Wire Wire Line
+	4500 6450 4500 6850
+Connection ~ 4750 6450
+$Comp
+L power:3V3 #PWR017
+U 1 1 5B9058B7
+P 4750 7450
+F 0 "#PWR017" H 4750 7550 40  0001 C CNN
+F 1 "3V3" H 4757 7608 30  0000 C CNN
+F 2 "" H 4750 7450 60  0000 C CNN
+F 3 "" H 4750 7450 60  0000 C CNN
+	1    4750 7450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5B7312BF
+P 4500 7550
+F 0 "#PWR015" H 4500 7650 30  0001 C CNN
+F 1 "GND" H 4500 7450 30  0001 C CNN
+F 2 "" H 4500 7550 60  0000 C CNN
+F 3 "" H 4500 7550 60  0000 C CNN
+	1    4500 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 7350 4500 7550
+Wire Wire Line
+	4750 7350 4750 7450
+Wire Wire Line
+	6800 6800 6050 6800
+Wire Wire Line
+	6050 6800 6050 7850
+Wire Wire Line
+	6050 7850 2100 7850
+Wire Wire Line
+	6800 6250 2100 6250
+Wire Wire Line
+	6800 5950 2100 5950
+Wire Wire Line
+	6800 5850 2100 5850
+Wire Wire Line
+	4650 5650 2100 5650
+Connection ~ 4650 5650
+Wire Wire Line
+	4900 5550 2100 5550
+Connection ~ 4900 5550
+Wire Wire Line
+	5900 5050 2100 5050
+Connection ~ 5900 5050
+Wire Wire Line
+	5650 5150 2100 5150
+Connection ~ 5650 5150
+NoConn ~ 6800 5750
+NoConn ~ 6800 4900
+$Comp
+L power:3V3 #PWR020
+U 1 1 5BA9A7C3
+P 5150 7450
+F 0 "#PWR020" H 5150 7550 40  0001 C CNN
+F 1 "3V3" H 5157 7608 30  0000 C CNN
+F 2 "" H 5150 7450 60  0000 C CNN
+F 3 "" H 5150 7450 60  0000 C CNN
+	1    5150 7450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 7350 5150 7450
+$Comp
+L power:3V3 #PWR014
+U 1 1 5B7312C1
+P 1750 3500
+F 0 "#PWR014" H 1750 3600 40  0001 C CNN
+F 1 "3V3" V 1757 3628 30  0000 L CNN
+F 2 "" H 1750 3500 60  0000 C CNN
+F 3 "" H 1750 3500 60  0000 C CNN
+	1    1750 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 4200 7850 4200
+Wire Wire Line
+	8750 4200 8750 4350
+Wire Wire Line
+	9200 4200 8750 4200
+Wire Wire Line
+	9200 4200 9200 4350
+Connection ~ 8750 4200
+Wire Wire Line
+	7850 4550 7850 4200
+Wire Wire Line
+	7650 4550 7650 3750
+Wire Wire Line
+	7450 4550 7450 3750
+Wire Wire Line
+	7200 3750 7200 3500
+Connection ~ 7200 3500
+Wire Wire Line
+	7200 3500 7250 3500
+Wire Wire Line
+	7850 3500 7900 3500
+Wire Wire Line
+	7900 3750 7900 3500
+Wire Wire Line
+	7650 3750 7900 3750
+Connection ~ 7900 3500
+Wire Wire Line
+	7900 3500 8750 3500
+Wire Wire Line
+	10000 6750 10000 6850
+Wire Wire Line
+	9600 6150 9600 6250
+Wire Wire Line
+	8500 6000 10000 6000
+Wire Wire Line
+	10000 6000 10000 6250
+Wire Wire Line
+	10950 6000 10600 6000
+$Comp
+L power:GND #PWR036
+U 1 1 5BC39D57
+P 9600 6850
+F 0 "#PWR036" H 9600 6950 30  0001 C CNN
+F 1 "GND" H 9600 6750 30  0001 C CNN
+F 2 "" H 9600 6850 60  0000 C CNN
+F 3 "" H 9600 6850 60  0000 C CNN
+	1    9600 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 6750 9600 6850
+Connection ~ 9600 6150
+Wire Wire Line
+	8500 6150 9600 6150
+Wire Wire Line
+	10600 7200 12100 7200
+Wire Wire Line
+	9600 6150 9800 6150
+Wire Wire Line
+	9800 6150 9800 7200
+Wire Wire Line
+	9800 7200 10100 7200
+Wire Wire Line
+	9200 3500 9350 3500
+Connection ~ 9200 3500
+Wire Wire Line
+	9350 4200 9200 4200
+Connection ~ 9200 4200
+Wire Wire Line
+	12100 6900 12000 6900
+Wire Wire Line
+	6800 4800 6150 4800
+Wire Wire Line
+	6150 4800 6150 4550
+$Comp
+L Communication_Interfaces:KSZ8081RNB U1
+U 1 1 5C4FEA8F
+P 7650 5850
+F 0 "U1" H 7650 4464 50  0000 C CNN
+F 1 "KSZ8081RNB" H 7650 4373 50  0000 C CNN
+F 2 "Communication_Interfaces:KSZ8081RNB_QFN32" H 7900 6300 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Communication_Interfaces/Components_Documentation/KSZ8081MNXCA.pdf" H 7900 6300 50  0001 C CNN
+	1    7650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3750 7450 3750
+$Comp
+L RJ45_Ethernet_Transformer:LMJ362884XTA753 J1
+U 1 1 5C54CD46
+P 13550 5800
+F 0 "J1" H 13600 7450 50  0000 L CNN
+F 1 "LMJ362884XTA753" H 13300 7350 50  0000 L CNN
+F 2 "RJ45_Ethernet_Transformer:LMJ362884XTA753" H 14100 5750 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Connectors/RJ45_Ethernet_Transformer/Components_Documentation/LMJ362884XTA753.pdf" H 14100 5750 50  0001 C CNN
+	1    13550 5800
+	1    0    0    -1  
+$EndComp
+Text Label 11250 4600 0    50   ~ 0
+SOM_TX_P
+Text Label 11250 5600 0    50   ~ 0
+SOM_TX_N
+Text Label 11250 6800 0    50   ~ 0
+SOM_RX_N
+Text Label 11250 5800 0    50   ~ 0
+SOM_RX_P
+Wire Wire Line
+	1750 3500 6650 3500
+$Comp
+L Resistors_Smd0603:1k_0603 R2
+U 1 1 5C843500
+P 4650 4300
+F 0 "R2" H 4718 4346 50  0000 L CNN
+F 1 "1k" H 4718 4255 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 4650 4300 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 4718 4209 60  0001 L CNN
+	1    4650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R4
+U 1 1 5C8436BD
+P 4900 4300
+F 0 "R4" H 4968 4346 50  0000 L CNN
+F 1 "1k" H 4968 4255 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 4900 4300 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 4968 4209 60  0001 L CNN
+	1    4900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R9
+U 1 1 5C8468BC
+P 5900 4300
+F 0 "R9" H 5968 4346 50  0000 L CNN
+F 1 "1k" H 5968 4255 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 5900 4300 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5968 4209 60  0001 L CNN
+	1    5900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R10
+U 1 1 5C8468C2
+P 6150 4300
+F 0 "R10" H 6218 4346 50  0000 L CNN
+F 1 "1k" H 6218 4255 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 6150 4300 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 6218 4209 60  0001 L CNN
+	1    6150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R7
+U 1 1 5C849A55
+P 5400 4300
+F 0 "R7" H 5468 4346 50  0000 L CNN
+F 1 "1k" H 5468 4255 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 5400 4300 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5468 4209 60  0001 L CNN
+	1    5400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:1k_0603 R8
+U 1 1 5C849A5B
+P 5650 4300
+F 0 "R8" H 5718 4346 50  0000 L CNN
+F 1 "1k" H 5718 4255 50  0000 L CNN
+F 2 "Resistor_Smd_0603:1k_0603" H 5650 4300 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5718 4209 60  0001 L CNN
+	1    5650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:4k7_0603 R5
+U 1 1 5C84CBD9
+P 5150 4300
+F 0 "R5" H 5218 4346 50  0000 L CNN
+F 1 "4k7" H 5218 4255 50  0000 L CNN
+F 2 "Resistor_Smd_0603:4k7_0603" H 5150 4300 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5150 4300 50  0001 C CNN
+	1    5150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4050 4650 3950
+Wire Wire Line
+	4900 4050 4900 3950
+Wire Wire Line
+	5150 3950 5150 4050
+Wire Wire Line
+	5400 3950 5400 4050
+Wire Wire Line
+	5650 3950 5650 4050
+Wire Wire Line
+	5900 3950 5900 4050
+Wire Wire Line
+	6150 3950 6150 4050
+$Comp
+L power:3V3 #PWR016
+U 1 1 5C864295
+P 4650 3950
+F 0 "#PWR016" H 4650 4050 40  0001 C CNN
+F 1 "3V3" H 4650 4100 50  0000 C CNN
+F 2 "" H 4650 3950 60  0000 C CNN
+F 3 "" H 4650 3950 60  0000 C CNN
+	1    4650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:3V3 #PWR025
+U 1 1 5C864308
+P 6150 3950
+F 0 "#PWR025" H 6150 4050 40  0001 C CNN
+F 1 "3V3" H 6150 4100 50  0000 C CNN
+F 2 "" H 6150 3950 60  0000 C CNN
+F 3 "" H 6150 3950 60  0000 C CNN
+	1    6150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5C864438
+P 4900 3950
+F 0 "#PWR018" H 4900 4050 30  0001 C CNN
+F 1 "GND" H 4900 3850 30  0001 C CNN
+F 2 "" H 4900 3950 60  0000 C CNN
+F 3 "" H 4900 3950 60  0000 C CNN
+	1    4900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5C8644AB
+P 5150 3950
+F 0 "#PWR019" H 5150 4050 30  0001 C CNN
+F 1 "GND" H 5150 3850 30  0001 C CNN
+F 2 "" H 5150 3950 60  0000 C CNN
+F 3 "" H 5150 3950 60  0000 C CNN
+	1    5150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5C86451E
+P 5400 3950
+F 0 "#PWR021" H 5400 4050 30  0001 C CNN
+F 1 "GND" H 5400 3850 30  0001 C CNN
+F 2 "" H 5400 3950 60  0000 C CNN
+F 3 "" H 5400 3950 60  0000 C CNN
+	1    5400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5C864591
+P 5650 3950
+F 0 "#PWR023" H 5650 4050 30  0001 C CNN
+F 1 "GND" H 5650 3850 30  0001 C CNN
+F 2 "" H 5650 3950 60  0000 C CNN
+F 3 "" H 5650 3950 60  0000 C CNN
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5C864604
+P 5900 3950
+F 0 "#PWR024" H 5900 4050 30  0001 C CNN
+F 1 "GND" H 5900 3850 30  0001 C CNN
+F 2 "" H 5900 3950 60  0000 C CNN
+F 3 "" H 5900 3950 60  0000 C CNN
+	1    5900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C2
+U 1 1 5C865250
+P 6650 3800
+F 0 "C2" H 6781 3846 50  0000 L CNN
+F 1 "100nF/16V" H 6781 3755 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 6650 3800 60  0001 C CNN
+F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 6781 3709 60  0001 L CNN
+	1    6650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3500 6650 3600
+Connection ~ 6650 3500
+Wire Wire Line
+	6650 3500 7200 3500
+$Comp
+L power:GND #PWR026
+U 1 1 5C868DBE
+P 6650 4100
+F 0 "#PWR026" H 6650 4200 30  0001 C CNN
+F 1 "GND" H 6650 4000 30  0001 C CNN
+F 2 "" H 6650 4100 60  0000 C CNN
+F 3 "" H 6650 4100 60  0000 C CNN
+	1    6650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4000 6650 4100
+$Comp
+L Inductors:BLM18PG121SN1D L1
+U 1 1 5C86CA3C
+P 7550 3500
+F 0 "L1" V 7775 3500 50  0000 C CNN
+F 1 "BLM18PG121SN1D" V 7684 3500 50  0000 C CNN
+F 2 "Inductors:BLM18PG121SN1D_SM0603" H 7550 3500 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Inductors/Components_Documentation/c31e-794748.pdf" H 7550 3500 50  0001 C CNN
+	1    7550 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C3
+U 1 1 5C86CE1E
+P 8750 3800
+F 0 "C3" H 8550 3900 50  0000 L CNN
+F 1 "100nF/16V" H 8300 3700 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 8750 3800 60  0001 C CNN
+F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 8881 3709 60  0001 L CNN
+	1    8750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C4
+U 1 1 5C870761
+P 8750 4550
+F 0 "C4" H 8600 4650 50  0000 L CNN
+F 1 "100nF/16V" H 8300 4450 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 8750 4550 60  0001 C CNN
+F 3 "Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 8881 4459 60  0001 L CNN
+	1    8750 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd_Tantal:22uF6V3 C6
+U 1 1 5C874373
+P 9200 4550
+F 0 "C6" H 9331 4596 50  0000 L CNN
+F 1 "22uF6V3" H 9331 4505 50  0000 L CNN
+F 2 "Smd_Tantal:22uF6V3_1206" H 9200 4550 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Capacitors/Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf" H 9200 4550 50  0001 C CNN
+	1    9200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd_Tantal:22uF6V3 C5
+U 1 1 5C87445B
+P 9200 3800
+F 0 "C5" H 9331 3846 50  0000 L CNN
+F 1 "22uF6V3" H 9331 3755 50  0000 L CNN
+F 2 "Smd_Tantal:22uF6V3_1206" H 9200 3800 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Capacitors/Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf" H 9200 3800 50  0001 C CNN
+	1    9200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5C87452B
+P 8750 4850
+F 0 "#PWR031" H 8750 4950 30  0001 C CNN
+F 1 "GND" H 8750 4750 30  0001 C CNN
+F 2 "" H 8750 4850 60  0000 C CNN
+F 3 "" H 8750 4850 60  0000 C CNN
+	1    8750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5C8745A1
+P 9200 4850
+F 0 "#PWR034" H 9200 4950 30  0001 C CNN
+F 1 "GND" H 9200 4750 30  0001 C CNN
+F 2 "" H 9200 4850 60  0000 C CNN
+F 3 "" H 9200 4850 60  0000 C CNN
+	1    9200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5C874617
+P 9200 4100
+F 0 "#PWR033" H 9200 4200 30  0001 C CNN
+F 1 "GND" H 9200 4000 30  0001 C CNN
+F 2 "" H 9200 4100 60  0000 C CNN
+F 3 "" H 9200 4100 60  0000 C CNN
+	1    9200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 5C87468D
+P 8750 4100
+F 0 "#PWR030" H 8750 4200 30  0001 C CNN
+F 1 "GND" H 8750 4000 30  0001 C CNN
+F 2 "" H 8750 4100 60  0000 C CNN
+F 3 "" H 8750 4100 60  0000 C CNN
+	1    8750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4000 9200 4100
+Wire Wire Line
+	8750 4000 8750 4100
+Wire Wire Line
+	8750 4750 8750 4850
+Wire Wire Line
+	9200 4750 9200 4850
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5C882A22
+P 9350 3500
+F 0 "#FLG01" H 9350 3770 30  0001 C CNN
+F 1 "PWR_FLAG" V 9350 3727 30  0000 L CNN
+F 2 "" H 9350 3500 60  0000 C CNN
+F 3 "" H 9350 3500 60  0000 C CNN
+	1    9350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5C882AB4
+P 9350 4200
+F 0 "#FLG02" H 9350 4470 30  0001 C CNN
+F 1 "PWR_FLAG" V 9350 4427 30  0000 L CNN
+F 2 "" H 9350 4200 60  0000 C CNN
+F 3 "" H 9350 4200 60  0000 C CNN
+	1    9350 4200
+	0    1    1    0   
+$EndComp
+Text HLabel 2100 5050 0    50   Output ~ 0
+ENET-RXD0
+Text HLabel 2100 5150 0    50   Output ~ 0
+ENET-RXD1
+Text HLabel 2100 5550 0    50   Output ~ 0
+ENET-CRS-DV
+Text HLabel 2100 5650 0    50   Output ~ 0
+ENET-RXER
+Text HLabel 2100 5850 0    50   Input ~ 0
+ENET-TXD0
+Text HLabel 2100 5950 0    50   Input ~ 0
+ENET-TXD1
+Text HLabel 2100 6250 0    50   Input ~ 0
+ENET-TXEN
+Text HLabel 2100 7850 0    50   Input ~ 0
+ENET-TX-CLK
+$EndSCHEMATC
