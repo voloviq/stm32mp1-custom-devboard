@@ -629,4 +629,60 @@ F 3 "" H 8700 9450 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8700 9450 8700 9350
+Wire Wire Line
+	8550 3900 8450 3900
+Wire Wire Line
+	8450 3900 8450 3950
+Wire Wire Line
+	8450 4000 8550 4000
+Wire Wire Line
+	8450 3950 8100 3950
+Wire Wire Line
+	8100 3950 8100 3750
+Wire Wire Line
+	8100 3750 6550 3750
+Connection ~ 8450 3950
+Wire Wire Line
+	8450 3950 8450 4000
+Text HLabel 5150 3750 0    50   Output ~ 0
+USB-C-ID
+$Comp
+L Resistors_Smd0603:47k R50
+U 1 1 60080CE5
+P 6550 3400
+F 0 "R50" H 6618 3446 50  0000 L CNN
+F 1 "47k" H 6618 3355 50  0000 L CNN
+F 2 "Resistor_Smd_0603:47k_0603" H 6550 3400 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf" H 6550 3400 60  0001 C CNN
+F 4 "Royal Ohm" H 6550 3400 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF4702T5E" H 6550 3400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Tme" H 6550 3400 50  0001 C CNN "Supplier"
+F 7 "SMD0603-47K-1%" H 6550 3400 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-47k-1%25/rezystory-smd-0603/royal-ohm/0603saf4702t5e/" H 6550 3400 50  0001 C CNN "URL"
+F 9 "0,03012" H 6550 3400 50  0001 C CNN "Price@1pc"
+F 10 "0,00813" H 6550 3400 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6550 3400 50  0001 C CNN "Developer"
+F 12 "0603" H 6550 3400 50  0001 C CNN "Package"
+F 13 "C105579" H 6550 3400 50  0001 C CNN "LCSC Part #(optional)"
+	1    6550 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3650 6550 3750
+Connection ~ 6550 3750
+Wire Wire Line
+	6550 3750 5150 3750
+$Comp
+L power:5V_NO_GLOBAL #PWR171
+U 1 1 600848EC
+P 6550 3050
+F 0 "#PWR171" V 6500 3050 20  0001 C CNN
+F 1 "5V" H 6500 3200 50  0000 L CNN
+F 2 "" H 6550 3050 60  0000 C CNN
+F 3 "" H 6550 3050 60  0000 C CNN
+	1    6550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3050 6550 3150
 $EndSCHEMATC

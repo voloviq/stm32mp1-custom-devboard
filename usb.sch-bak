@@ -588,4 +588,101 @@ Wire Wire Line
 Connection ~ 9600 6450
 Wire Wire Line
 	9600 6450 9550 6450
+Wire Wire Line
+	8700 8850 8700 8950
+Wire Wire Line
+	8900 8850 8700 8850
+$Comp
+L Capacitors_Smd1206:1nF_2kV_1206 C?
+U 1 1 6011F60C
+P 8700 9150
+AR Path="/5FDFB166/6011F60C" Ref="C?"  Part="1" 
+AR Path="/60014762/6011F60C" Ref="C45"  Part="1" 
+F 0 "C45" H 8500 9100 50  0000 C CNN
+F 1 "1nF/2kV" H 8500 9300 50  0000 C CNN
+F 2 "Capacitors_Smd_1206:1nF_2kV_1206" H 8500 9250 50  0001 C CNN
+F 3 "Capacitors/Smd_1206/Components_Documentation/1nF_2kV_1206.pdf" H 8500 9250 50  0001 C CNN
+F 4 "YAGEO" H 8700 9150 50  0001 C CNN "Manufacturer"
+F 5 "CC1206KKX7RDBB102" H 8700 9150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 8700 9150 50  0001 C CNN "Supplier"
+F 7 "CC1206KKX7RD102" H 8700 9150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cc1206kkx7rd102/kondensatory-mlcc-smd-1206/yageo/cc1206kkx7rdbb102/" H 8700 9150 50  0001 C CNN "URL"
+F 9 "0,70900" H 8700 9150 50  0001 C CNN "Price@1pc"
+F 10 "0,15913" H 8700 9150 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 8700 9150 50  0001 C CNN "Developer"
+F 12 "1206" H 8700 9150 50  0001 C CNN "Package"
+	1    8700 9150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND_NO_GLOBAL #PWR?
+U 1 1 6011F5F9
+P 8700 9450
+AR Path="/5FDFB166/6011F5F9" Ref="#PWR?"  Part="1" 
+AR Path="/60014762/6011F5F9" Ref="#PWR87"  Part="1" 
+F 0 "#PWR87" H 8700 9550 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 8700 9350 30  0001 C CNN
+F 2 "" H 8700 9450 60  0000 C CNN
+F 3 "" H 8700 9450 60  0000 C CNN
+	1    8700 9450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 9450 8700 9350
+Wire Wire Line
+	8550 3900 8450 3900
+Wire Wire Line
+	8450 3900 8450 3950
+Wire Wire Line
+	8450 4000 8550 4000
+Wire Wire Line
+	8450 3950 8100 3950
+Wire Wire Line
+	8100 3950 8100 3750
+Wire Wire Line
+	8100 3750 6550 3750
+Connection ~ 8450 3950
+Wire Wire Line
+	8450 3950 8450 4000
+Text HLabel 5150 3750 0    50   Output ~ 0
+USB-C-ID
+$Comp
+L Resistors_Smd0603:47k R50
+U 1 1 60080CE5
+P 6550 3400
+F 0 "R50" H 6618 3446 50  0000 L CNN
+F 1 "47k" H 6618 3355 50  0000 L CNN
+F 2 "Resistor_Smd_0603:47k_0603" H 6550 3400 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf" H 6550 3400 60  0001 C CNN
+F 4 "Royal Ohm" H 6550 3400 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF4702T5E" H 6550 3400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Tme" H 6550 3400 50  0001 C CNN "Supplier"
+F 7 "SMD0603-47K-1%" H 6550 3400 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-47k-1%25/rezystory-smd-0603/royal-ohm/0603saf4702t5e/" H 6550 3400 50  0001 C CNN "URL"
+F 9 "0,03012" H 6550 3400 50  0001 C CNN "Price@1pc"
+F 10 "0,00813" H 6550 3400 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6550 3400 50  0001 C CNN "Developer"
+F 12 "0603" H 6550 3400 50  0001 C CNN "Package"
+F 13 "C105579" H 6550 3400 50  0001 C CNN "LCSC Part #(optional)"
+	1    6550 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3650 6550 3750
+Connection ~ 6550 3750
+Wire Wire Line
+	6550 3750 5150 3750
+$Comp
+L power:5V_NO_GLOBAL #PWR171
+U 1 1 600848EC
+P 6550 3050
+F 0 "#PWR171" V 6500 3050 20  0001 C CNN
+F 1 "5V" H 6500 3200 50  0000 L CNN
+F 2 "" H 6550 3050 60  0000 C CNN
+F 3 "" H 6550 3050 60  0000 C CNN
+	1    6550 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3050 6550 3150
 $EndSCHEMATC

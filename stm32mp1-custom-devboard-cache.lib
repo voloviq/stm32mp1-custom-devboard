@@ -1318,6 +1318,33 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistors_Smd0603_47k
+#
+DEF Resistors_Smd0603_47k R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Resistors_Smd0603_47k" -100 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Royal Ohm" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAF4702T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Tme" 0 0 50 H I C CNN "Supplier"
+F7 "SMD0603-47K-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-47k-1%25/rezystory-smd-0603/royal-ohm/0603saf4702t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,03012" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,00813" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C105579" 0 0 50 H I C CNN "LCSC Part #(optional)"
+$FPLIST
+ 47k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_Smd0603_4k7
 #
 DEF Resistors_Smd0603_4k7 R 0 40 N Y 1 F N
@@ -1755,7 +1782,7 @@ P 4 1 1 10 -55 250 -5 350 45 250 -55 250 F
 X VBUS 1 -400 200 200 R 50 50 1 1 w
 X D- 2 -400 100 200 R 50 50 1 1 B
 X D+ 3 -400 0 200 R 50 50 1 1 B
-X GND 5 -400 -100 200 R 50 50 1 1 P
+X GND 4 -400 -100 200 R 50 50 1 1 P
 X SHLD SH -400 -200 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
