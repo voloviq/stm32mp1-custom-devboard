@@ -23,4 +23,5 @@
   (lib (name Communication_Interfaces)(type KiCad)(uri ${KISYS3DMOD}/Communication_Interfaces/Communication_Interfaces.pretty)(options "")(descr ""))
   (lib (name RJ45_Ethernet_Transformer)(type KiCad)(uri ${KISYS3DMOD}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.pretty)(options "")(descr ""))
   (lib (name ESD_Protectors)(type KiCad)(uri ${KISYS3DMOD}/ESD_Protectors/ESD_Protectors.pretty)(options "")(descr ""))
+  (lib (name Reset_Device_Diodes)(type KiCad)(uri ${KISYS3DMOD}/Reset_Device/Diodes/Reset_Device_Diodes.pretty)(options "")(descr ""))
 )

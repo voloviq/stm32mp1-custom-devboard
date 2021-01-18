@@ -36,41 +36,41 @@ $EndComp
 $Comp
 L VisionSOM:VisionSOM-STM32MP1 SOM1
 U 2 1 5FDEA84F
-P 2750 7450
-F 0 "SOM1" H 3878 7496 50  0000 L CNN
-F 1 "VisionSOM-STM32MP1" H 3878 7405 50  0000 L CNN
-F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 1000 7600 50  0001 C CNN
-F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 1000 7600 50  0001 C CNN
-F 4 "Somlabs" H 2950 7450 50  0001 C CNN "Manufacturer"
-F 5 "VisionSOM-STM32MP1" H 2950 7450 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Soyter" H 2950 7450 50  0001 C CNN "Supplier"
-F 7 "Som000025" H 2950 7450 50  0001 C CNN "Supplier Part Number"
-F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 2850 7450 50  0001 C CNN "URL"
-F 9 "157,83" H 2950 7450 50  0001 C CNN "Price@1pc"
-F 10 "120,00" H 2950 7450 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 2950 7450 50  0001 C CNN "Developer"
-F 12 "SODIMM" H 2950 7450 50  0001 C CNN "Package"
-	2    2750 7450
+P 3400 7450
+F 0 "SOM1" H 4528 7496 50  0000 L CNN
+F 1 "VisionSOM-STM32MP1" H 4528 7405 50  0000 L CNN
+F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 1650 7600 50  0001 C CNN
+F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 1650 7600 50  0001 C CNN
+F 4 "Somlabs" H 3600 7450 50  0001 C CNN "Manufacturer"
+F 5 "VisionSOM-STM32MP1" H 3600 7450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Soyter" H 3600 7450 50  0001 C CNN "Supplier"
+F 7 "Som000025" H 3600 7450 50  0001 C CNN "Supplier Part Number"
+F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 3500 7450 50  0001 C CNN "URL"
+F 9 "157,83" H 3600 7450 50  0001 C CNN "Price@1pc"
+F 10 "120,00" H 3600 7450 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 3600 7450 50  0001 C CNN "Developer"
+F 12 "SODIMM" H 3600 7450 50  0001 C CNN "Package"
+	2    3400 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L VisionSOM:VisionSOM-STM32MP1 SOM1
 U 3 1 5FDF5994
-P 2850 9400
-F 0 "SOM1" H 2700 10150 50  0000 L CNN
-F 1 "VisionSOM-STM32MP1" H 2450 10050 50  0000 L CNN
-F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 1100 9550 50  0001 C CNN
-F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 1100 9550 50  0001 C CNN
-F 4 "Somlabs" H 3050 9400 50  0001 C CNN "Manufacturer"
-F 5 "VisionSOM-STM32MP1" H 3050 9400 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Soyter" H 3050 9400 50  0001 C CNN "Supplier"
-F 7 "Som000025" H 3050 9400 50  0001 C CNN "Supplier Part Number"
-F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 2950 9400 50  0001 C CNN "URL"
-F 9 "157,83" H 3050 9400 50  0001 C CNN "Price@1pc"
-F 10 "120,00" H 3050 9400 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 3050 9400 50  0001 C CNN "Developer"
-F 12 "SODIMM" H 3050 9400 50  0001 C CNN "Package"
-	3    2850 9400
+P 2300 9450
+F 0 "SOM1" H 2150 10200 50  0000 L CNN
+F 1 "VisionSOM-STM32MP1" H 1900 10100 50  0000 L CNN
+F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 550 9600 50  0001 C CNN
+F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 550 9600 50  0001 C CNN
+F 4 "Somlabs" H 2500 9450 50  0001 C CNN "Manufacturer"
+F 5 "VisionSOM-STM32MP1" H 2500 9450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Soyter" H 2500 9450 50  0001 C CNN "Supplier"
+F 7 "Som000025" H 2500 9450 50  0001 C CNN "Supplier Part Number"
+F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 2400 9450 50  0001 C CNN "URL"
+F 9 "157,83" H 2500 9450 50  0001 C CNN "Price@1pc"
+F 10 "120,00" H 2500 9450 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 2500 9450 50  0001 C CNN "Developer"
+F 12 "SODIMM" H 2500 9450 50  0001 C CNN "Package"
+	3    2300 9450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -136,134 +136,134 @@ $EndComp
 $Comp
 L VisionSOM:VisionSOM-STM32MP1 SOM1
 U 7 1 5FE125DE
-P 8950 10750
-F 0 "SOM1" H 9237 11365 50  0000 C CNN
-F 1 "VisionSOM-STM32MP1" H 9237 11274 50  0000 C CNN
-F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 7200 10900 50  0001 C CNN
-F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 7200 10900 50  0001 C CNN
-F 4 "Somlabs" H 9150 10750 50  0001 C CNN "Manufacturer"
-F 5 "VisionSOM-STM32MP1" H 9150 10750 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Soyter" H 9150 10750 50  0001 C CNN "Supplier"
-F 7 "Som000025" H 9150 10750 50  0001 C CNN "Supplier Part Number"
-F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 9050 10750 50  0001 C CNN "URL"
-F 9 "157,83" H 9150 10750 50  0001 C CNN "Price@1pc"
-F 10 "120,00" H 9150 10750 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 9150 10750 50  0001 C CNN "Developer"
-F 12 "SODIMM" H 9150 10750 50  0001 C CNN "Package"
-	7    8950 10750
+P 8650 10600
+F 0 "SOM1" H 10750 11250 50  0000 C CNN
+F 1 "VisionSOM-STM32MP1" H 10800 11150 50  0000 C CNN
+F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 6900 10750 50  0001 C CNN
+F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 6900 10750 50  0001 C CNN
+F 4 "Somlabs" H 8850 10600 50  0001 C CNN "Manufacturer"
+F 5 "VisionSOM-STM32MP1" H 8850 10600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Soyter" H 8850 10600 50  0001 C CNN "Supplier"
+F 7 "Som000025" H 8850 10600 50  0001 C CNN "Supplier Part Number"
+F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 8750 10600 50  0001 C CNN "URL"
+F 9 "157,83" H 8850 10600 50  0001 C CNN "Price@1pc"
+F 10 "120,00" H 8850 10600 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 8850 10600 50  0001 C CNN "Developer"
+F 12 "SODIMM" H 8850 10600 50  0001 C CNN "Package"
+	7    8650 10600
 	1    0    0    -1  
 $EndComp
 $Comp
 L VisionSOM:VisionSOM-STM32MP1 SOM1
 U 8 1 5FE1A8B5
-P 12750 8150
-F 0 "SOM1" H 13087 9015 50  0000 C CNN
-F 1 "VisionSOM-STM32MP1" H 13087 8924 50  0000 C CNN
-F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 11000 8300 50  0001 C CNN
-F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 11000 8300 50  0001 C CNN
-F 4 "Somlabs" H 12950 8150 50  0001 C CNN "Manufacturer"
-F 5 "VisionSOM-STM32MP1" H 12950 8150 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Soyter" H 12950 8150 50  0001 C CNN "Supplier"
-F 7 "Som000025" H 12950 8150 50  0001 C CNN "Supplier Part Number"
-F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 12850 8150 50  0001 C CNN "URL"
-F 9 "157,83" H 12950 8150 50  0001 C CNN "Price@1pc"
-F 10 "120,00" H 12950 8150 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 12950 8150 50  0001 C CNN "Developer"
-F 12 "SODIMM" H 12950 8150 50  0001 C CNN "Package"
-	8    12750 8150
+P 12750 8050
+F 0 "SOM1" H 14350 7250 50  0000 C CNN
+F 1 "VisionSOM-STM32MP1" H 15000 7250 50  0000 C CNN
+F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 11000 8200 50  0001 C CNN
+F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 11000 8200 50  0001 C CNN
+F 4 "Somlabs" H 12950 8050 50  0001 C CNN "Manufacturer"
+F 5 "VisionSOM-STM32MP1" H 12950 8050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Soyter" H 12950 8050 50  0001 C CNN "Supplier"
+F 7 "Som000025" H 12950 8050 50  0001 C CNN "Supplier Part Number"
+F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 12850 8050 50  0001 C CNN "URL"
+F 9 "157,83" H 12950 8050 50  0001 C CNN "Price@1pc"
+F 10 "120,00" H 12950 8050 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 12950 8050 50  0001 C CNN "Developer"
+F 12 "SODIMM" H 12950 8050 50  0001 C CNN "Package"
+	8    12750 8050
 	1    0    0    -1  
 $EndComp
 $Comp
 L VisionSOM:VisionSOM-STM32MP1 SOM1
 U 9 1 5FE23500
-P 8200 9500
-F 0 "SOM1" H 7450 10200 50  0000 C CNN
-F 1 "VisionSOM-STM32MP1" H 7450 10100 50  0000 C CNN
-F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 6450 9650 50  0001 C CNN
-F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 6450 9650 50  0001 C CNN
-F 4 "Somlabs" H 8400 9500 50  0001 C CNN "Manufacturer"
-F 5 "VisionSOM-STM32MP1" H 8400 9500 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Soyter" H 8400 9500 50  0001 C CNN "Supplier"
-F 7 "Som000025" H 8400 9500 50  0001 C CNN "Supplier Part Number"
-F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 8300 9500 50  0001 C CNN "URL"
-F 9 "157,83" H 8400 9500 50  0001 C CNN "Price@1pc"
-F 10 "120,00" H 8400 9500 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 8400 9500 50  0001 C CNN "Developer"
-F 12 "SODIMM" H 8400 9500 50  0001 C CNN "Package"
-	9    8200 9500
+P 7350 9400
+F 0 "SOM1" H 6550 10100 50  0000 C CNN
+F 1 "VisionSOM-STM32MP1" H 6600 10000 50  0000 C CNN
+F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 5600 9550 50  0001 C CNN
+F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 5600 9550 50  0001 C CNN
+F 4 "Somlabs" H 7550 9400 50  0001 C CNN "Manufacturer"
+F 5 "VisionSOM-STM32MP1" H 7550 9400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Soyter" H 7550 9400 50  0001 C CNN "Supplier"
+F 7 "Som000025" H 7550 9400 50  0001 C CNN "Supplier Part Number"
+F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 7450 9400 50  0001 C CNN "URL"
+F 9 "157,83" H 7550 9400 50  0001 C CNN "Price@1pc"
+F 10 "120,00" H 7550 9400 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 7550 9400 50  0001 C CNN "Developer"
+F 12 "SODIMM" H 7550 9400 50  0001 C CNN "Package"
+	9    7350 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L VisionSOM:VisionSOM-STM32MP1 SOM1
 U 10 1 5FE299A9
-P 2850 10650
-F 0 "SOM1" H 2750 11150 50  0000 L CNN
-F 1 "VisionSOM-STM32MP1" H 2450 11050 50  0000 L CNN
-F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 1100 10800 50  0001 C CNN
-F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 1100 10800 50  0001 C CNN
-F 4 "Somlabs" H 3050 10650 50  0001 C CNN "Manufacturer"
-F 5 "VisionSOM-STM32MP1" H 3050 10650 50  0001 C CNN "Manufacturer Part Number"
-F 6 "Soyter" H 3050 10650 50  0001 C CNN "Supplier"
-F 7 "Som000025" H 3050 10650 50  0001 C CNN "Supplier Part Number"
-F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 2950 10650 50  0001 C CNN "URL"
-F 9 "157,83" H 3050 10650 50  0001 C CNN "Price@1pc"
-F 10 "120,00" H 3050 10650 50  0001 C CNN "Price@1000pcs"
-F 11 "MW" H 3050 10650 50  0001 C CNN "Developer"
-F 12 "SODIMM" H 3050 10650 50  0001 C CNN "Package"
-	10   2850 10650
+P 2300 10700
+F 0 "SOM1" H 2200 11200 50  0000 L CNN
+F 1 "VisionSOM-STM32MP1" H 1900 11100 50  0000 L CNN
+F 2 "SomLabs_SOM:VisionSOM-STM32MP1" H 550 10850 50  0001 C CNN
+F 3 "https://somlabs.com/product/visionsom-stm32mp1-stm32mp157/" H 550 10850 50  0001 C CNN
+F 4 "Somlabs" H 2500 10700 50  0001 C CNN "Manufacturer"
+F 5 "VisionSOM-STM32MP1" H 2500 10700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Soyter" H 2500 10700 50  0001 C CNN "Supplier"
+F 7 "Som000025" H 2500 10700 50  0001 C CNN "Supplier Part Number"
+F 8 "https://soyter.pl/system-on-module-somlabs-visionsom-sls18mp157a_650c_512r_usd_0sf_c,c223,p2459,pl.html" H 2400 10700 50  0001 C CNN "URL"
+F 9 "157,83" H 2500 10700 50  0001 C CNN "Price@1pc"
+F 10 "120,00" H 2500 10700 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 2500 10700 50  0001 C CNN "Developer"
+F 12 "SODIMM" H 2500 10700 50  0001 C CNN "Package"
+	10   2300 10700
 	1    0    0    -1  
 $EndComp
-Text HLabel 2000 10400 0    50   Output ~ 0
+Text HLabel 1450 10450 0    50   Output ~ 0
 MIPI_DSI_CLK_P
 Wire Wire Line
-	2300 10400 2000 10400
-Text HLabel 2000 10500 0    50   Output ~ 0
+	1750 10450 1450 10450
+Text HLabel 1450 10550 0    50   Output ~ 0
 MIPI_DSI_CLK_N
 Wire Wire Line
-	2300 10500 2000 10500
-Text HLabel 2000 10600 0    50   BiDi ~ 0
+	1750 10550 1450 10550
+Text HLabel 1450 10650 0    50   BiDi ~ 0
 MIPI_DSI_D1_P
 Wire Wire Line
-	2300 10600 2000 10600
-Text HLabel 2000 10700 0    50   BiDi ~ 0
+	1750 10650 1450 10650
+Text HLabel 1450 10750 0    50   BiDi ~ 0
 MIPI_DSI_D1_N
 Wire Wire Line
-	2300 10700 2000 10700
-Text HLabel 2000 10800 0    50   BiDi ~ 0
+	1750 10750 1450 10750
+Text HLabel 1450 10850 0    50   BiDi ~ 0
 MIPI_DSI_D0_P
 Wire Wire Line
-	2300 10800 2000 10800
-Text HLabel 2000 10900 0    50   BiDi ~ 0
+	1750 10850 1450 10850
+Text HLabel 1450 10950 0    50   BiDi ~ 0
 MIPI_DSI_D0_N
 Wire Wire Line
-	2300 10900 2000 10900
+	1750 10950 1450 10950
 Wire Wire Line
-	9750 8000 8650 8000
+	9750 7900 6350 7900
 $Comp
 L Resistors_Smd0603:4k7 R8
 U 1 1 5FE1DAF3
-P 8650 7700
-F 0 "R8" H 8718 7746 50  0000 L CNN
-F 1 "4k7" H 8718 7655 50  0000 L CNN
-F 2 "Resistor_Smd_0603:4k7_0603" H 8650 7700 50  0001 C CNN
-F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 8650 7700 50  0001 C CNN
-F 4 "ROYAL OHM" H 8650 7700 50  0001 C CNN "Manufacturer"
-F 5 "0603SAF4701T5E" H 8650 7700 50  0001 C CNN "Manufacturer Part Number"
-F 6 "TME" H 8650 7700 50  0001 C CNN "Supplier"
-F 7 "	SMD0603-4K7-1%" H 8650 7700 50  0001 C CNN "Supplier Part Number"
-F 8 "https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/" H 8650 7700 50  0001 C CNN "URL"
-F 9 "0,04698" H 8650 7700 50  0001 C CNN "Price@1pc"
-F 10 "0,01271" H 8650 7700 50  0001 C CNN "Price@1000pcs"
-F 11 "0603" H 8650 7700 50  0001 C CNN "Package"
-	1    8650 7700
+P 6350 7600
+F 0 "R8" H 6418 7646 50  0000 L CNN
+F 1 "4k7" H 6418 7555 50  0000 L CNN
+F 2 "Resistor_Smd_0603:4k7_0603" H 6350 7600 50  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 6350 7600 50  0001 C CNN
+F 4 "ROYAL OHM" H 6350 7600 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 6350 7600 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6350 7600 50  0001 C CNN "Supplier"
+F 7 "	SMD0603-4K7-1%" H 6350 7600 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/" H 6350 7600 50  0001 C CNN "URL"
+F 9 "0,04698" H 6350 7600 50  0001 C CNN "Price@1pc"
+F 10 "0,01271" H 6350 7600 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 6350 7600 50  0001 C CNN "Package"
+	1    6350 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Resistors_Smd0603:4k7 R7
 U 1 1 5FE1FAC7
 P 5700 5150
-F 0 "R7" H 5768 5196 50  0000 L CNN
-F 1 "4k7" H 5768 5105 50  0000 L CNN
+F 0 "R7" H 5500 5250 50  0000 L CNN
+F 1 "4k7" H 5450 5100 50  0000 L CNN
 F 2 "Resistor_Smd_0603:4k7_0603" H 5700 5150 50  0001 C CNN
 F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5700 5150 50  0001 C CNN
 F 4 "ROYAL OHM" H 5700 5150 50  0001 C CNN "Manufacturer"
@@ -278,10 +278,10 @@ F 11 "0603" H 5700 5150 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 7950 8650 8000
-Connection ~ 8650 8000
+	6350 7850 6350 7900
+Connection ~ 6350 7900
 Wire Wire Line
-	8650 8000 8250 8000
+	6350 7900 5950 7900
 Text HLabel 1200 850  0    50   Input ~ 0
 POWER_IN_5V0
 Text HLabel 1200 950  0    50   Input ~ 0
@@ -615,12 +615,12 @@ Wire Wire Line
 $Comp
 L power:3V3_NO_GLOBAL #PWR29
 U 1 1 5FEEFF8E
-P 8650 7400
-F 0 "#PWR29" H 8650 7500 40  0001 C CNN
-F 1 "3V3" H 8650 7550 50  0000 C CNN
-F 2 "" H 8650 7400 60  0000 C CNN
-F 3 "" H 8650 7400 60  0000 C CNN
-	1    8650 7400
+P 6350 7300
+F 0 "#PWR29" H 6350 7400 40  0001 C CNN
+F 1 "3V3" H 6350 7450 50  0000 C CNN
+F 2 "" H 6350 7300 60  0000 C CNN
+F 3 "" H 6350 7300 60  0000 C CNN
+	1    6350 7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -637,8 +637,8 @@ $EndComp
 Wire Wire Line
 	5700 4850 5700 4900
 Wire Wire Line
-	8650 7400 8650 7450
-Text HLabel 8250 8000 0    50   Output ~ 0
+	6350 7300 6350 7350
+Text HLabel 5950 7900 0    50   Output ~ 0
 PE2_I2C4_SCL
 Wire Wire Line
 	6850 5450 5700 5450
@@ -727,23 +727,613 @@ Connection ~ 2150 5150
 Wire Wire Line
 	2150 5150 2150 5050
 Wire Wire Line
-	6000 10400 5500 10400
-Text HLabel 5500 10400 0    50   Output ~ 0
+	5700 10200 5200 10200
+Text HLabel 5200 10200 0    50   Output ~ 0
 PD15_TIM4_PWM_CH4
 Wire Wire Line
-	5950 1700 5400 1700
-Text HLabel 5400 1700 0    50   Input ~ 0
+	5950 1700 5600 1700
+Text HLabel 5600 1700 0    50   Input ~ 0
 PA14_IRQ
 Wire Wire Line
-	5950 1100 5400 1100
-Text HLabel 5400 1100 0    50   BiDi ~ 0
-PA1_GPIO
+	5950 1100 5600 1100
+Text HLabel 5600 1100 0    50   BiDi ~ 0
+ENET1-REFCLK
+Text HLabel 3300 9000 0    50   Input ~ 0
+ADC1_INP2
 Wire Wire Line
-	4500 9200 3950 9200
-Text HLabel 3950 9200 0    50   BiDi ~ 0
-PF10_GPIO
-Wire Wire Line
-	6000 10700 5500 10700
-Text HLabel 5500 10700 0    50   Output ~ 0
+	5700 10500 5200 10500
+Text HLabel 5200 10500 0    50   Output ~ 0
 PD13_MIPI_DSI_TE
+Wire Wire Line
+	1750 9750 1450 9750
+Text HLabel 1450 9750 0    50   BiDi ~ 0
+USB-OTG1-D_M
+Wire Wire Line
+	1750 9650 1450 9650
+Text HLabel 1450 9650 0    50   BiDi ~ 0
+USB-OTG1-D_P
+Wire Wire Line
+	1750 9250 1450 9250
+Text HLabel 1450 9250 0    50   BiDi ~ 0
+USB-OTG2-D_M
+Wire Wire Line
+	1750 9150 1450 9150
+Text HLabel 1450 9150 0    50   BiDi ~ 0
+USB-OTG2-D_P
+NoConn ~ 1750 8950
+Wire Wire Line
+	2100 8300 1950 8300
+Text HLabel 1950 8300 0    50   Input ~ 0
+STM32-~RST~
+Wire Wire Line
+	2100 8050 1950 8050
+Text HLabel 1950 8050 0    50   Input ~ 0
+JTAG-TCK
+Wire Wire Line
+	2100 7950 1950 7950
+Text HLabel 1950 7950 0    50   Output ~ 0
+JTAG-TDO
+Wire Wire Line
+	2100 7850 1950 7850
+Text HLabel 1950 7850 0    50   Input ~ 0
+JTAG-~TRST~
+Wire Wire Line
+	2100 7750 1950 7750
+Text HLabel 1950 7750 0    50   Input ~ 0
+JTAG-TMS
+$Comp
+L power:5V_NO_GLOBAL #PWR191
+U 1 1 6014AF73
+P 2050 5850
+F 0 "#PWR191" V 2000 5850 20  0001 C CNN
+F 1 "5V" V 2051 5978 50  0000 L CNN
+F 2 "" H 2050 5850 60  0000 C CNN
+F 3 "" H 2050 5850 60  0000 C CNN
+	1    2050 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 5850 2050 5850
+Wire Wire Line
+	5950 950  5600 950 
+Text HLabel 5600 950  0    50   BiDi ~ 0
+ENET1-CRS-DV
+Wire Wire Line
+	7750 6350 7400 6350
+Text HLabel 7400 6350 0    50   BiDi ~ 0
+ENET1-RXD1
+Wire Wire Line
+	7750 6500 7400 6500
+Text HLabel 7400 6500 0    50   BiDi ~ 0
+ENET1-RXD0
+Wire Wire Line
+	5950 800  5600 800 
+Text HLabel 5600 800  0    50   BiDi ~ 0
+ENET1-MDIO
+Wire Wire Line
+	7750 6800 7400 6800
+Text HLabel 7400 6800 0    50   BiDi ~ 0
+ENET1-MDC
+Wire Wire Line
+	6850 4850 6500 4850
+Text HLabel 6500 4850 0    50   BiDi ~ 0
+ENET1-TXD1
+Text HLabel 3300 9800 0    50   BiDi ~ 0
+ENET1-TXD0
+Wire Wire Line
+	6850 5000 6500 5000
+Text HLabel 6500 5000 0    50   Output ~ 0
+SPI1_MOSI
+Wire Wire Line
+	6850 5150 6500 5150
+Text HLabel 6500 5150 0    50   BiDi ~ 0
+ENET1-TX-EN
+NoConn ~ 2100 7650
+Wire Wire Line
+	6850 3950 6500 3950
+Text HLabel 6500 3950 0    50   BiDi ~ 0
+ENET1-TXD3
+Wire Wire Line
+	7750 6200 7400 6200
+Text HLabel 7400 6200 0    50   BiDi ~ 0
+ENET1-TXD2
+Wire Wire Line
+	6850 4550 6500 4550
+Text HLabel 6500 4550 0    50   BiDi ~ 0
+ENET1-RX-ER
+Wire Wire Line
+	6850 4700 6500 4700
+Text HLabel 6500 4700 0    50   BiDi ~ 0
+ENET1-RXD2
+Wire Wire Line
+	6850 5300 6500 5300
+Text HLabel 6500 5300 0    50   BiDi ~ 0
+ENET1-RXD3
+Wire Wire Line
+	6850 4100 6500 4100
+Text HLabel 6500 4100 0    50   Input ~ 0
+UART4-RXD
+Text HLabel 3300 9500 0    50   Output ~ 0
+UART4-TXD
+Wire Wire Line
+	9750 8050 9400 8050
+Text HLabel 9400 8050 0    50   Input ~ 0
+UART8-RXD
+Wire Wire Line
+	9750 8200 9400 8200
+Text HLabel 9400 8200 0    50   Output ~ 0
+UART8-TXD
+Wire Wire Line
+	3400 9800 3300 9800
+Wire Wire Line
+	3300 9500 3400 9500
+Wire Wire Line
+	3400 9000 3300 9000
+Text HLabel 3300 9400 0    50   Output ~ 0
+UART8-RTS
+Wire Wire Line
+	3300 9400 3400 9400
+Text HLabel 5200 11000 0    50   Input ~ 0
+UART8-CTS
+Wire Wire Line
+	5200 11000 5700 11000
+Wire Wire Line
+	5950 2600 5600 2600
+Text HLabel 5600 2600 0    50   BiDi ~ 0
+I2C6-SDA
+Wire Wire Line
+	5950 2750 5600 2750
+Text HLabel 5600 2750 0    50   BiDi ~ 0
+I2C6-SCL
+Wire Wire Line
+	6850 3650 6500 3650
+Text HLabel 6500 3650 0    50   Input ~ 0
+SPI1_MISO
+Wire Wire Line
+	5950 2150 5600 2150
+Text HLabel 5600 2150 0    50   Output ~ 0
+SPI1_NSS
+Wire Wire Line
+	6850 4250 6500 4250
+Text HLabel 6500 4250 0    50   BiDi ~ 0
+I2C1-SCL
+Wire Wire Line
+	6850 4400 6500 4400
+Text HLabel 6500 4400 0    50   BiDi ~ 0
+I2C1-SDA
+Wire Wire Line
+	6850 3800 6500 3800
+Text HLabel 6500 3800 0    50   Output ~ 0
+USART1-TXD
+Wire Wire Line
+	6850 3500 6500 3500
+Text HLabel 6500 3500 0    50   Input ~ 0
+USART1-RXD
+Text HLabel 6500 3350 0    50   Output ~ 0
+SPI1_SCK
+Wire Wire Line
+	6850 3350 6500 3350
+Text HLabel 7400 6050 0    50   Output ~ 0
+SPI3_SCK
+Wire Wire Line
+	7750 6050 7400 6050
+Wire Wire Line
+	5700 10600 5200 10600
+Text HLabel 5200 10600 0    50   Output ~ 0
+SPI3_MOSI
+Wire Wire Line
+	5700 10700 5200 10700
+Text HLabel 5200 10700 0    50   Input ~ 0
+SPI3_MISO
+Wire Wire Line
+	5950 2000 5600 2000
+Text HLabel 5600 2000 0    50   Output ~ 0
+SPI3_NSS
+Text HLabel 7400 6650 0    50   Input ~ 0
+ADC2_INP10
+Wire Wire Line
+	7750 6650 7400 6650
+Text HLabel 7400 6950 0    50   Input ~ 0
+ADC1_INP13
+Wire Wire Line
+	7750 6950 7400 6950
+Text HLabel 5600 1250 0    50   Input ~ 0
+ADC1_INP15
+Wire Wire Line
+	5950 1250 5600 1250
+Text HLabel 5600 2300 0    50   Input ~ 0
+ADC1_INP3
+Wire Wire Line
+	5950 2300 5600 2300
+Text HLabel 5600 2450 0    50   Input ~ 0
+ADC1_INP19
+Wire Wire Line
+	5950 2450 5600 2450
+Text HLabel 5600 1400 0    50   BiDi ~ 0
+PA8-GPIO
+Wire Wire Line
+	5950 1400 5600 1400
+Text HLabel 5600 1550 0    50   BiDi ~ 0
+PA9-GPIO
+Wire Wire Line
+	5950 1550 5600 1550
+Text HLabel 5600 1850 0    50   BiDi ~ 0
+PA13-GPIO
+Wire Wire Line
+	5950 1850 5600 1850
+Text HLabel 5600 2900 0    50   BiDi ~ 0
+PA0-GPIO
+Wire Wire Line
+	5950 2900 5600 2900
+Text HLabel 7400 5900 0    50   BiDi ~ 0
+PC7-GPIO
+Wire Wire Line
+	7750 5900 7400 5900
+Text HLabel 7400 7100 0    50   BiDi ~ 0
+PC6-GPIO
+Wire Wire Line
+	7750 7100 7400 7100
+Text HLabel 9400 7450 0    50   BiDi ~ 0
+PE3-GPIO
+Wire Wire Line
+	9750 7450 9400 7450
+Text HLabel 9400 7600 0    50   BiDi ~ 0
+PE13-GPIO
+Wire Wire Line
+	9750 7600 9400 7600
+Text HLabel 9400 7750 0    50   BiDi ~ 0
+PE14-GPIO
+Wire Wire Line
+	9750 7750 9400 7750
+Text HLabel 9400 8350 0    50   BiDi ~ 0
+PE12-GPIO
+Wire Wire Line
+	9750 8350 9400 8350
+Text HLabel 9400 8500 0    50   BiDi ~ 0
+PE11-GPIO
+Wire Wire Line
+	9750 8500 9400 8500
+Text HLabel 9400 8650 0    50   BiDi ~ 0
+PE15-GPIO
+Wire Wire Line
+	9750 8650 9400 8650
+Text HLabel 3300 9100 0    50   BiDi ~ 0
+PF10-GPIO
+Wire Wire Line
+	3400 9100 3300 9100
+Text HLabel 3300 9200 0    50   BiDi ~ 0
+PG6-GPIO
+Wire Wire Line
+	3400 9200 3300 9200
+Text HLabel 3300 9300 0    50   BiDi ~ 0
+PG10-GPIO
+Wire Wire Line
+	3400 9300 3300 9300
+Text HLabel 3300 9600 0    50   BiDi ~ 0
+PG12-GPIO
+Wire Wire Line
+	3400 9600 3300 9600
+Text HLabel 3300 9700 0    50   BiDi ~ 0
+PG13-GPIO
+Wire Wire Line
+	3400 9700 3300 9700
+Text HLabel 5200 10300 0    50   BiDi ~ 0
+PD9-GPIO
+Wire Wire Line
+	5700 10300 5200 10300
+Text HLabel 5200 10400 0    50   BiDi ~ 0
+PD8-GPIO
+Wire Wire Line
+	5700 10400 5200 10400
+Text HLabel 5200 10800 0    50   BiDi ~ 0
+PD12-GPIO
+Wire Wire Line
+	5700 10800 5200 10800
+Text HLabel 5200 10900 0    50   BiDi ~ 0
+PD11-GPIO
+Wire Wire Line
+	5700 10900 5200 10900
+$Comp
+L Resistors_Smd0603:10k R51
+U 1 1 609B662A
+P 1000 6250
+F 0 "R51" H 1068 6296 50  0000 L CNN
+F 1 "10k" H 1068 6205 50  0000 L CNN
+F 2 "Resistor_Smd_0603:10k_0603" H 1000 6250 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 1000 6250 60  0001 C CNN
+F 4 "ROYAL OHM" H 1000 6250 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 1000 6250 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1000 6250 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 1000 6250 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 1000 6250 50  0001 C CNN "URL"
+F 9 "0,04560" H 1000 6250 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 1000 6250 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 1000 6250 50  0001 C CNN "Developer"
+F 12 "0603" H 1000 6250 50  0001 C CNN "Package"
+	1    1000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:10k R53
+U 1 1 609B6EAB
+P 1300 6250
+F 0 "R53" H 1368 6296 50  0000 L CNN
+F 1 "10k" H 1368 6205 50  0000 L CNN
+F 2 "Resistor_Smd_0603:10k_0603" H 1300 6250 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 1300 6250 60  0001 C CNN
+F 4 "ROYAL OHM" H 1300 6250 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 1300 6250 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1300 6250 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 1300 6250 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 1300 6250 50  0001 C CNN "URL"
+F 9 "0,04560" H 1300 6250 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 1300 6250 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 1300 6250 50  0001 C CNN "Developer"
+F 12 "0603" H 1300 6250 50  0001 C CNN "Package"
+	1    1300 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:10k R55
+U 1 1 609C9FAE
+P 1600 6250
+F 0 "R55" H 1668 6296 50  0000 L CNN
+F 1 "10k" H 1668 6205 50  0000 L CNN
+F 2 "Resistor_Smd_0603:10k_0603" H 1600 6250 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 1600 6250 60  0001 C CNN
+F 4 "ROYAL OHM" H 1600 6250 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 1600 6250 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1600 6250 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 1600 6250 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 1600 6250 50  0001 C CNN "URL"
+F 9 "0,04560" H 1600 6250 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 1600 6250 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 1600 6250 50  0001 C CNN "Developer"
+F 12 "0603" H 1600 6250 50  0001 C CNN "Package"
+	1    1600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:10k R52
+U 1 1 609DC245
+P 1000 7150
+F 0 "R52" H 1068 7196 50  0000 L CNN
+F 1 "10k" H 1068 7105 50  0000 L CNN
+F 2 "Resistor_Smd_0603:10k_0603" H 1000 7150 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 1000 7150 60  0001 C CNN
+F 4 "ROYAL OHM" H 1000 7150 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 1000 7150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1000 7150 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 1000 7150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 1000 7150 50  0001 C CNN "URL"
+F 9 "0,04560" H 1000 7150 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 1000 7150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 1000 7150 50  0001 C CNN "Developer"
+F 12 "0603" H 1000 7150 50  0001 C CNN "Package"
+	1    1000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:10k R54
+U 1 1 609DD352
+P 1300 7150
+F 0 "R54" H 1368 7196 50  0000 L CNN
+F 1 "10k" H 1368 7105 50  0000 L CNN
+F 2 "Resistor_Smd_0603:10k_0603" H 1300 7150 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 1300 7150 60  0001 C CNN
+F 4 "ROYAL OHM" H 1300 7150 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 1300 7150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1300 7150 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 1300 7150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 1300 7150 50  0001 C CNN "URL"
+F 9 "0,04560" H 1300 7150 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 1300 7150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 1300 7150 50  0001 C CNN "Developer"
+F 12 "0603" H 1300 7150 50  0001 C CNN "Package"
+	1    1300 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors_Smd0603:10k R56
+U 1 1 609DD365
+P 1600 7150
+F 0 "R56" H 1668 7196 50  0000 L CNN
+F 1 "10k" H 1668 7105 50  0000 L CNN
+F 2 "Resistor_Smd_0603:10k_0603" H 1600 7150 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 1600 7150 60  0001 C CNN
+F 4 "ROYAL OHM" H 1600 7150 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 1600 7150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1600 7150 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 1600 7150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 1600 7150 50  0001 C CNN "URL"
+F 9 "0,04560" H 1600 7150 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 1600 7150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 1600 7150 50  0001 C CNN "Developer"
+F 12 "0603" H 1600 7150 50  0001 C CNN "Package"
+	1    1600 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6900 1600 6800
+Wire Wire Line
+	1300 6500 1300 6700
+Wire Wire Line
+	1000 6500 1000 6600
+Wire Wire Line
+	2100 6600 1000 6600
+Connection ~ 1000 6600
+Wire Wire Line
+	1000 6600 1000 6900
+Wire Wire Line
+	2100 6700 1300 6700
+Connection ~ 1300 6700
+Wire Wire Line
+	1300 6700 1300 6900
+Wire Wire Line
+	2100 6800 1600 6800
+Connection ~ 1600 6800
+Wire Wire Line
+	1600 6800 1600 6500
+$Comp
+L power:GND_NO_GLOBAL #PWR197
+U 1 1 60A62927
+P 1600 7500
+F 0 "#PWR197" H 1600 7600 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 1600 7400 30  0001 C CNN
+F 2 "" H 1600 7500 60  0000 C CNN
+F 3 "" H 1600 7500 60  0000 C CNN
+	1    1600 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 7400 1600 7500
+$Comp
+L power:GND_NO_GLOBAL #PWR195
+U 1 1 60A76578
+P 1300 7500
+F 0 "#PWR195" H 1300 7600 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 1300 7400 30  0001 C CNN
+F 2 "" H 1300 7500 60  0000 C CNN
+F 3 "" H 1300 7500 60  0000 C CNN
+	1    1300 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 7400 1300 7500
+$Comp
+L power:GND_NO_GLOBAL #PWR193
+U 1 1 60A8A001
+P 1000 7500
+F 0 "#PWR193" H 1000 7600 30  0001 C CNN
+F 1 "GND_NO_GLOBAL" H 1000 7400 30  0001 C CNN
+F 2 "" H 1000 7500 60  0000 C CNN
+F 3 "" H 1000 7500 60  0000 C CNN
+	1    1000 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 7400 1000 7500
+$Comp
+L power:3V3_NO_GLOBAL #PWR196
+U 1 1 60A9DC4E
+P 1600 5900
+F 0 "#PWR196" H 1600 6000 40  0001 C CNN
+F 1 "3V3" H 1600 6050 50  0000 C CNN
+F 2 "" H 1600 5900 60  0000 C CNN
+F 3 "" H 1600 5900 60  0000 C CNN
+	1    1600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:3V3_NO_GLOBAL #PWR194
+U 1 1 60AB1CD8
+P 1300 5900
+F 0 "#PWR194" H 1300 6000 40  0001 C CNN
+F 1 "3V3" H 1300 6050 50  0000 C CNN
+F 2 "" H 1300 5900 60  0000 C CNN
+F 3 "" H 1300 5900 60  0000 C CNN
+	1    1300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:3V3_NO_GLOBAL #PWR192
+U 1 1 60AC57B0
+P 1000 5900
+F 0 "#PWR192" H 1000 6000 40  0001 C CNN
+F 1 "3V3" H 1000 6050 50  0000 C CNN
+F 2 "" H 1000 5900 60  0000 C CNN
+F 3 "" H 1000 5900 60  0000 C CNN
+	1    1000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5900 1600 6000
+Wire Wire Line
+	1300 5900 1300 6000
+Wire Wire Line
+	1000 5900 1000 6000
+$Comp
+L Capacitors_Smd0603:100n C?
+U 1 1 60B61635
+P 1650 4550
+AR Path="/60014762/60B61635" Ref="C?"  Part="1" 
+AR Path="/60087A46/60B61635" Ref="C?"  Part="1" 
+AR Path="/5FDE4F7C/60B61635" Ref="C56"  Part="1" 
+F 0 "C56" H 1781 4596 50  0000 L CNN
+F 1 "100n" H 1781 4505 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 1650 4550 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 1650 4550 60  0001 C CNN
+F 4 "SAMSUNG" H 1650 4550 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 1650 4550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1650 4550 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 1650 4550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 1650 4550 50  0001 C CNN "URL"
+F 9 "0,04540" H 1650 4550 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 1650 4550 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 1650 4550 50  0001 C CNN "Package"
+	1    1650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B6163B
+P 1650 4850
+AR Path="/60014762/60B6163B" Ref="#PWR?"  Part="1" 
+AR Path="/60087A46/60B6163B" Ref="#PWR?"  Part="1" 
+AR Path="/5FDE4F7C/60B6163B" Ref="#PWR0192"  Part="1" 
+F 0 "#PWR0192" H 1650 4950 30  0001 C CNN
+F 1 "GND" H 1650 4750 30  0001 C CNN
+F 2 "" H 1650 4850 60  0000 C CNN
+F 3 "" H 1650 4850 60  0000 C CNN
+	1    1650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4750 1650 4850
+Wire Wire Line
+	2250 4250 1650 4250
+Wire Wire Line
+	1650 4250 1650 4350
+$Comp
+L Capacitors_Smd0603:100n C?
+U 1 1 60B890EE
+P 1150 4550
+AR Path="/60014762/60B890EE" Ref="C?"  Part="1" 
+AR Path="/60087A46/60B890EE" Ref="C?"  Part="1" 
+AR Path="/5FDE4F7C/60B890EE" Ref="C55"  Part="1" 
+F 0 "C55" H 1281 4596 50  0000 L CNN
+F 1 "100n" H 1281 4505 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 1150 4550 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 1150 4550 60  0001 C CNN
+F 4 "SAMSUNG" H 1150 4550 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 1150 4550 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 1150 4550 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 1150 4550 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 1150 4550 50  0001 C CNN "URL"
+F 9 "0,04540" H 1150 4550 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 1150 4550 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 1150 4550 50  0001 C CNN "Package"
+	1    1150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B8A290
+P 1150 4850
+AR Path="/60014762/60B8A290" Ref="#PWR?"  Part="1" 
+AR Path="/60087A46/60B8A290" Ref="#PWR?"  Part="1" 
+AR Path="/5FDE4F7C/60B8A290" Ref="#PWR0193"  Part="1" 
+F 0 "#PWR0193" H 1150 4950 30  0001 C CNN
+F 1 "GND" H 1150 4750 30  0001 C CNN
+F 2 "" H 1150 4850 60  0000 C CNN
+F 3 "" H 1150 4850 60  0000 C CNN
+	1    1150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 4750 1150 4850
+Wire Wire Line
+	2250 4150 1150 4150
+Wire Wire Line
+	1150 4150 1150 4350
 $EndSCHEMATC
