@@ -1,4 +1,4 @@
-1141161041023706
+1147814718736696
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -1146,7 +1146,7 @@ Wurth-61400416021
 
 0
 6
-6
+5
 Diodes
 1N4007
 General Purpose Rectifier
@@ -1882,6 +1882,34 @@ Small Signal Schottky Diodes
 0
 2
 2
+ESD_Protectors
+82357120100
+
+82357120100 ESD
+0
+2
+2
+ESD_Protectors
+IP4220CZ6_SOT457
+
+
+0
+6
+6
+ESD_Protectors
+PESD3V3_SOT886
+
+
+0
+6
+6
+ESD_Protectors
+USBLC6-2_SOT23-6L
+Schmitt-Trigger Inverter
+Logic Gate
+0
+6
+6
 Fpc_Connectors
 686110188622
 WR-FPC 1.00 MM SMT LIF HORIZONTAL TOP CONTACT,10PINS
