@@ -116,7 +116,7 @@ F 3 "" H 6750 5900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6850 5900 6750 5900
+	6850 5900 6800 5900
 $Comp
 L power:5V_NO_GLOBAL #PWR?
 U 1 1 6014F8A9
@@ -317,8 +317,6 @@ Wire Wire Line
 	9450 6300 9600 6300
 Text HLabel 9600 6500 2    50   Input ~ 0
 RESET
-Wire Wire Line
-	9450 6500 9600 6500
 Text HLabel 9600 6600 2    50   BiDi ~ 0
 IOREF
 Wire Wire Line
@@ -527,4 +525,24 @@ F 3 "" H 8350 8050 60  0000 C CNN
 	1    8350 8050
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 600B3178
+P 6500 6000
+F 0 "#FLG0105" H 6500 6270 30  0001 C CNN
+F 1 "PWR_FLAG" V 6500 6228 30  0000 L CNN
+F 2 "" H 6500 6000 60  0000 C CNN
+F 3 "" H 6500 6000 60  0000 C CNN
+	1    6500 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 5900 6800 6000
+Wire Wire Line
+	6800 6000 6500 6000
+Connection ~ 6800 5900
+Wire Wire Line
+	6800 5900 6750 5900
+Wire Wire Line
+	9450 6500 9600 6500
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 11
+Sheet 11 11
 Title "STLink Module"
 Date "2020-12-20"
 Rev "V1.0"
@@ -77,7 +77,7 @@ F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Inductors/Components_Documentation/B
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 7600 7050 7600
+	7200 7600 7100 7600
 Wire Wire Line
 	7200 7500 6550 7500
 Wire Wire Line
@@ -1100,8 +1100,6 @@ F 3 "" H 3700 3950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3700 3950 3700 3750
-Wire Wire Line
 	3700 3350 3700 3250
 Connection ~ 3700 3250
 Wire Wire Line
@@ -1543,19 +1541,6 @@ $EndComp
 Wire Wire Line
 	5550 3250 5450 3250
 Connection ~ 5450 3250
-$Comp
-L power:PWR_FLAG #FLG0103
-U 1 1 60338A79
-P 5450 3150
-F 0 "#FLG0103" H 5450 3420 30  0001 C CNN
-F 1 "PWR_FLAG" H 5450 3408 30  0000 C CNN
-F 2 "" H 5450 3150 60  0000 C CNN
-F 3 "" H 5450 3150 60  0000 C CNN
-	1    5450 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 3150 5450 3250
 Text HLabel 15000 4500 2    50   Input ~ 0
 JTMS
 Wire Wire Line
@@ -1584,4 +1569,42 @@ Wire Wire Line
 Connection ~ 1450 6750
 Wire Wire Line
 	1450 6750 1500 6750
+NoConn ~ 7200 4000
+NoConn ~ 7200 4100
+NoConn ~ 7200 4200
+$Comp
+L power:PWR_FLAG #FLG0111
+U 1 1 6016CC38
+P 7100 7600
+F 0 "#FLG0111" H 7100 7870 30  0001 C CNN
+F 1 "PWR_FLAG" H 7100 7858 30  0000 C CNN
+F 2 "" H 7100 7600 60  0000 C CNN
+F 3 "" H 7100 7600 60  0000 C CNN
+	1    7100 7600
+	-1   0    0    1   
+$EndComp
+Connection ~ 7100 7600
+Wire Wire Line
+	7100 7600 7050 7600
+$Comp
+L power:3V3_NO_GLOBAL #PWR198
+U 1 1 60176FED
+P 3000 2850
+F 0 "#PWR198" H 3000 2950 40  0001 C CNN
+F 1 "3V3" V 3000 3050 50  0000 C CNN
+F 2 "" H 3000 2850 60  0000 C CNN
+F 3 "" H 3000 2850 60  0000 C CNN
+	1    3000 2850
+	0    1    1    0   
+$EndComp
+Text HLabel 2950 2850 0    50   Input ~ 0
+POWER_IN_3V3
+Wire Wire Line
+	2950 2850 3000 2850
+Wire Wire Line
+	3700 3750 3700 3950
+Text HLabel 3300 7000 0    50   Input ~ 0
+STM-JTMS-~RESET~
+Wire Wire Line
+	3500 7000 3300 7000
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 11
+Sheet 10 11
 Title "USB Section"
 Date "2021-01-13"
 Rev "V1.0"
@@ -690,4 +690,25 @@ Wire Wire Line
 Wire Wire Line
 	8100 5600 8100 3950
 Connection ~ 8100 3950
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 600808EF
+P 8700 8850
+F 0 "#FLG0104" H 8700 9120 30  0001 C CNN
+F 1 "PWR_FLAG" V 8700 9078 30  0000 L CNN
+F 2 "" H 8700 8850 60  0000 C CNN
+F 3 "" H 8700 8850 60  0000 C CNN
+	1    8700 8850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8700 8850
+NoConn ~ 8550 6000
+NoConn ~ 8550 5900
+NoConn ~ 8550 5700
+NoConn ~ 8550 5400
+NoConn ~ 8550 5300
+NoConn ~ 8550 5100
+NoConn ~ 8550 5000
+NoConn ~ 8550 4800
+NoConn ~ 8550 4700
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 11
+Sheet 9 11
 Title "Ethernet"
 Date "2021-01-13"
 Rev "V1.0"
@@ -2392,4 +2392,6 @@ Wire Wire Line
 	15650 5250 15200 5250
 Wire Wire Line
 	11650 3800 15650 3800
+NoConn ~ 14100 4950
+NoConn ~ 14100 4850
 $EndSCHEMATC
