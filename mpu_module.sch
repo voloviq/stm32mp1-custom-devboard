@@ -747,7 +747,7 @@ PD13_MIPI_DSI_TE
 Wire Wire Line
 	1750 9750 1450 9750
 Text HLabel 1450 9750 0    50   BiDi ~ 0
-USB-OTG1-D_M
+USB-OTG1-D_N
 Wire Wire Line
 	1750 9650 1450 9650
 Text HLabel 1450 9650 0    50   BiDi ~ 0
@@ -755,7 +755,7 @@ USB-OTG1-D_P
 Wire Wire Line
 	1750 9250 1450 9250
 Text HLabel 1450 9250 0    50   BiDi ~ 0
-USB-OTG2-D_M
+USB-OTG2-D_N
 Wire Wire Line
 	1750 9150 1450 9150
 Text HLabel 1450 9150 0    50   BiDi ~ 0

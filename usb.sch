@@ -183,7 +183,7 @@ $EndComp
 Wire Wire Line
 	2050 1850 2200 1850
 Text HLabel 5150 4100 0    50   BiDi ~ 0
-USB-C-D_M
+USB-C-D_N
 Text HLabel 5150 4600 0    50   BiDi ~ 0
 USB-C-D_P
 Wire Wire Line
@@ -242,7 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 8350 7200 8350
 Text HLabel 5150 8350 0    50   BiDi ~ 0
-USB-A-D_M
+USB-A-D_N
 Wire Wire Line
 	5900 8350 5150 8350
 Text HLabel 5150 8850 0    50   BiDi ~ 0
