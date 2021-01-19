@@ -702,8 +702,6 @@ Wire Wire Line
 Wire Wire Line
 	12500 6600 12600 6600
 Wire Wire Line
-	10650 7200 9400 7200
-Wire Wire Line
 	9400 7350 10650 7350
 Wire Wire Line
 	10650 7450 9400 7450
@@ -875,4 +873,10 @@ Wire Wire Line
 	10650 2950 10500 2950
 Text Label 10500 2950 2    50   ~ 0
 RESET
+Text Label 7250 7500 0    50   ~ 0
+PE15
+Text Label 10400 7200 2    50   ~ 0
+PE15
+Wire Wire Line
+	10650 7200 10400 7200
 $EndSCHEMATC
