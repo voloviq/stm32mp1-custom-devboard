@@ -519,6 +519,72 @@ X C2 4 100 -200 150 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Diodes_KPG-1608SURKC-T
+#
+DEF Diodes_KPG-1608SURKC-T D 0 0 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diodes_KPG-1608SURKC-T" 0 -150 50 H V C CNN
+F2 "" 400 -300 50 H I C CNN
+F3 "" 400 -300 50 H I C CNN
+F4 "	KINGBRIGHT ELECTRONIC" 0 0 50 H I C CNN "Manufacturer"
+F5 "KPG-1608SURKC-T" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "KPG-1608SURKC-T" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/kpg-1608surkc-t/diody-led-smd-kolorowe/kingbright-electronic/" 0 0 50 H I C CNN "URL"
+F9 "0,4132" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,1995" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C192315" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ LED_KPG-1608SURKC-T
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -50 50 -50 -50 N
+P 2 1 1 0 50 50 50 -50 N
+P 2 1 1 0 110 -80 85 -75 N
+P 2 1 1 0 135 -55 110 -50 N
+P 3 1 1 0 -50 50 50 0 -50 -50 f
+P 3 1 1 0 65 -40 110 -80 105 -55 N
+P 3 1 1 0 90 -15 135 -55 130 -30 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diodes_KPT-1608CGCK
+#
+DEF Diodes_KPT-1608CGCK D 0 0 N N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "Diodes_KPT-1608CGCK" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "	KINGBRIGHT ELECTRONIC" 0 0 50 H I C CNN "Manufacturer"
+F5 "KP-1608CGCK" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "KP-1608CGCK" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/" 0 0 50 H I C CNN "URL"
+F9 "0,47368" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,16283" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C192316" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ LED_KPT-1608CGCK
+$ENDFPLIST
+DRAW
+P 2 1 1 0 -50 50 -50 -50 N
+P 2 1 1 0 50 50 50 -50 N
+P 2 1 1 0 110 -80 85 -75 N
+P 2 1 1 0 135 -55 110 -50 N
+P 3 1 1 0 -50 50 50 0 -50 -50 f
+P 3 1 1 0 65 -40 110 -80 105 -55 N
+P 3 1 1 0 90 -15 135 -55 130 -30 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Diodes_NSR0530H-D
 #
 DEF Diodes_NSR0530H-D D 0 40 N N 1 F N

@@ -598,8 +598,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 7950 7500 7950
 Wire Wire Line
-	6250 7500 7500 7500
-Wire Wire Line
 	6250 7200 7500 7200
 Wire Wire Line
 	6250 7100 7500 7100
@@ -640,7 +638,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 5050 7500 5050
 Wire Wire Line
-	6250 4900 7500 4900
+	6250 4900 7400 4900
 Wire Wire Line
 	6250 4750 7500 4750
 Wire Wire Line
@@ -971,4 +969,143 @@ F 3 "" H 12900 4650 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	13000 4650 12900 4650
+$Comp
+L Resistors_Smd0603:220R R57
+U 1 1 6009EF6C
+P 6900 3800
+F 0 "R57" V 6800 3800 50  0000 C CNN
+F 1 "220R" V 6900 3800 50  0000 C CNN
+F 2 "Resistor_Smd_0603:220R_0603" H 6900 3800 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf" H 6900 3800 50  0001 C CNN
+F 4 "Royal Ohm" H 6900 3800 50  0001 C CNN "Manufacturer"
+F 5 "CQ03SAF2203T5E" H 6900 3800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Tme" H 6900 3800 50  0001 C CNN "Supplier"
+F 7 "CQ0603-220K-1%" H 6900 3800 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/" H 6900 3800 50  0001 C CNN "URL"
+F 9 "0,07305" H 6900 3800 50  0001 C CNN "Price@1pc"
+F 10 "0,03414" H 6900 3800 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6900 3800 50  0001 C CNN "Developer"
+F 12 "0603" H 6900 3800 50  0001 C CNN "Package"
+F 13 "C103414" H 6900 3800 50  0001 C CNN "LCSC Part #(optional)"
+	1    6900 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4900 7400 3800
+Wire Wire Line
+	7400 3800 7150 3800
+Connection ~ 7400 4900
+Wire Wire Line
+	7400 4900 7500 4900
+Wire Wire Line
+	6250 7500 7500 7500
+Wire Wire Line
+	6650 3800 6550 3800
+$Comp
+L power:3V3 #PWR0117
+U 1 1 600C6045
+P 6100 3800
+F 0 "#PWR0117" H 6100 3900 40  0001 C CNN
+F 1 "3V3" V 6106 3928 50  0000 L CNN
+F 2 "" H 6100 3800 60  0000 C CNN
+F 3 "" H 6100 3800 60  0000 C CNN
+	1    6100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3800 6100 3800
+$Comp
+L Resistors_Smd0603:220R R62
+U 1 1 6013BFDC
+P 6900 3450
+F 0 "R62" V 6800 3450 50  0000 C CNN
+F 1 "220R" V 6900 3450 50  0000 C CNN
+F 2 "Resistor_Smd_0603:220R_0603" H 6900 3450 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/ec37243ca557adb02ebafc5c1ab83104/CQ%20datasheet.pdf" H 6900 3450 50  0001 C CNN
+F 4 "Royal Ohm" H 6900 3450 50  0001 C CNN "Manufacturer"
+F 5 "CQ03SAF2203T5E" H 6900 3450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Tme" H 6900 3450 50  0001 C CNN "Supplier"
+F 7 "CQ0603-220K-1%" H 6900 3450 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cq0603-220k-1%25/rezystory-smd-0603/royal-ohm/cq03saf2203t5e/" H 6900 3450 50  0001 C CNN "URL"
+F 9 "0,07305" H 6900 3450 50  0001 C CNN "Price@1pc"
+F 10 "0,03414" H 6900 3450 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6900 3450 50  0001 C CNN "Developer"
+F 12 "0603" H 6900 3450 50  0001 C CNN "Package"
+F 13 "C103414" H 6900 3450 50  0001 C CNN "LCSC Part #(optional)"
+	1    6900 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Diodes:KPG-1608SURKC-T D5
+U 1 1 6013C220
+P 6350 3450
+F 0 "D5" H 6350 3550 50  0000 C CNN
+F 1 "KPG-1608SURKC-T" H 6350 3300 50  0000 C CNN
+F 2 "Diodes:LED_KPG-1608SURKC-T" H 6750 3150 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/d1801a08836278504c2ab877cf18852c/KPG-1608SURKC-T.pdf" H 6750 3150 50  0001 C CNN
+F 4 "	KINGBRIGHT ELECTRONIC" H 6350 3450 50  0001 C CNN "Manufacturer"
+F 5 "KPG-1608SURKC-T" H 6350 3450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6350 3450 50  0001 C CNN "Supplier"
+F 7 "KPG-1608SURKC-T" H 6350 3450 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/kpg-1608surkc-t/diody-led-smd-kolorowe/kingbright-electronic/" H 6350 3450 50  0001 C CNN "URL"
+F 9 "0,4132" H 6350 3450 50  0001 C CNN "Price@1pc"
+F 10 "0,1995" H 6350 3450 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 6350 3450 50  0001 C CNN "Developer"
+F 12 "0603" H 6350 3450 50  0001 C CNN "Package"
+F 13 "C192315" H 6350 3450 50  0001 C CNN "LCSC Part # (optional)"
+	1    6350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3450 6550 3450
+$Comp
+L power:3V3 #PWR0195
+U 1 1 6013C22B
+P 6100 3450
+F 0 "#PWR0195" H 6100 3550 40  0001 C CNN
+F 1 "3V3" V 6106 3578 50  0000 L CNN
+F 2 "" H 6100 3450 60  0000 C CNN
+F 3 "" H 6100 3450 60  0000 C CNN
+	1    6100 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3450 6100 3450
+$Comp
+L power:GND #PWR?
+U 1 1 601462A9
+P 7250 3450
+AR Path="/60014762/601462A9" Ref="#PWR?"  Part="1" 
+AR Path="/60087A46/601462A9" Ref="#PWR?"  Part="1" 
+AR Path="/601462A9" Ref="#PWR0196"  Part="1" 
+F 0 "#PWR0196" H 7250 3550 30  0001 C CNN
+F 1 "GND" H 7250 3350 30  0001 C CNN
+F 2 "" H 7250 3450 60  0000 C CNN
+F 3 "" H 7250 3450 60  0000 C CNN
+	1    7250 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 3450 7250 3450
+$Comp
+L Diodes:KPT-1608CGCK D4
+U 1 1 601583E3
+P 6350 3800
+F 0 "D4" H 6350 3900 50  0000 C CNN
+F 1 "KPT-1608CGCK" H 6350 3650 50  0000 C CNN
+F 2 "Diodes:LED_KPT-1608CGCK" H 6350 3800 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/a39d324b494aca9bed634649dc83966d/kp-1608cgck.pdf" H 6350 3800 50  0001 C CNN
+F 4 "	KINGBRIGHT ELECTRONIC" H 6350 3800 50  0001 C CNN "Manufacturer"
+F 5 "KP-1608CGCK" H 6350 3800 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6350 3800 50  0001 C CNN "Supplier"
+F 7 "KP-1608CGCK" H 6350 3800 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/kp-1608cgck/diody-led-smd-kolorowe/kingbright-electronic/" H 6350 3800 50  0001 C CNN "URL"
+F 9 "0,47368" H 6350 3800 50  0001 C CNN "Price@1pc"
+F 10 "0,16283" H 6350 3800 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 6350 3800 50  0001 C CNN "Developer"
+F 12 "0603" H 6350 3800 50  0001 C CNN "Package"
+F 13 "C192316" H 6350 3800 50  0001 C CNN "LCSC Part # (optional)"
+	1    6350 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

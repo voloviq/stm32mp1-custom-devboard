@@ -209,14 +209,14 @@ Text HLabel 6700 5100 0    50   BiDi ~ 0
 ATN
 Wire Wire Line
 	6850 5100 6700 5100
-Text HLabel 6700 4900 0    50   BiDi ~ 0
+Text HLabel 5450 4900 0    50   BiDi ~ 0
 I2C-SDA
-Text HLabel 6700 4800 0    50   BiDi ~ 0
+Text HLabel 5450 4800 0    50   BiDi ~ 0
 I2C-SCL
 Wire Wire Line
-	6850 4900 6700 4900
+	6850 4900 5900 4900
 Wire Wire Line
-	6850 4800 6700 4800
+	6850 4800 5600 4800
 Text HLabel 6700 4600 0    50   Output ~ 0
 UART-TX0
 Text HLabel 6700 4500 0    50   Input ~ 0
@@ -545,4 +545,90 @@ Wire Wire Line
 	6800 5900 6750 5900
 Wire Wire Line
 	9450 6500 9600 6500
+$Comp
+L Resistors_Smd0603:4k7 R?
+U 1 1 60123023
+P 5600 4450
+AR Path="/5FDE4F7C/60123023" Ref="R?"  Part="1" 
+AR Path="/5FFEC95A/60123023" Ref="R?"  Part="1" 
+AR Path="/60087A46/60123023" Ref="R60"  Part="1" 
+F 0 "R60" H 5668 4496 50  0000 L CNN
+F 1 "4k7" H 5668 4405 50  0000 L CNN
+F 2 "Resistor_Smd_0603:4k7_0603" H 5600 4450 50  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5600 4450 50  0001 C CNN
+F 4 "ROYAL OHM" H 5600 4450 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5600 4450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5600 4450 50  0001 C CNN "Supplier"
+F 7 "	SMD0603-4K7-1%" H 5600 4450 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/" H 5600 4450 50  0001 C CNN "URL"
+F 9 "0,04698" H 5600 4450 50  0001 C CNN "Price@1pc"
+F 10 "0,01271" H 5600 4450 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 5600 4450 50  0001 C CNN "Package"
+	1    5600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:3V3_NO_GLOBAL #PWR?
+U 1 1 60123029
+P 5600 4150
+AR Path="/5FDE4F7C/60123029" Ref="#PWR?"  Part="1" 
+AR Path="/5FFEC95A/60123029" Ref="#PWR?"  Part="1" 
+AR Path="/60087A46/60123029" Ref="#PWR201"  Part="1" 
+F 0 "#PWR201" H 5600 4250 40  0001 C CNN
+F 1 "3V3" H 5600 4300 50  0000 C CNN
+F 2 "" H 5600 4150 60  0000 C CNN
+F 3 "" H 5600 4150 60  0000 C CNN
+	1    5600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4150 5600 4200
+$Comp
+L Resistors_Smd0603:4k7 R?
+U 1 1 60123038
+P 5900 4450
+AR Path="/5FDE4F7C/60123038" Ref="R?"  Part="1" 
+AR Path="/5FFEC95A/60123038" Ref="R?"  Part="1" 
+AR Path="/60087A46/60123038" Ref="R61"  Part="1" 
+F 0 "R61" H 5968 4496 50  0000 L CNN
+F 1 "4k7" H 5968 4405 50  0000 L CNN
+F 2 "Resistor_Smd_0603:4k7_0603" H 5900 4450 50  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 5900 4450 50  0001 C CNN
+F 4 "ROYAL OHM" H 5900 4450 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF4701T5E" H 5900 4450 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5900 4450 50  0001 C CNN "Supplier"
+F 7 "	SMD0603-4K7-1%" H 5900 4450 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-4k7-1%2525/rezystory-smd-0603/royal-ohm/0603saf4701t5e/" H 5900 4450 50  0001 C CNN "URL"
+F 9 "0,04698" H 5900 4450 50  0001 C CNN "Price@1pc"
+F 10 "0,01271" H 5900 4450 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 5900 4450 50  0001 C CNN "Package"
+	1    5900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:3V3_NO_GLOBAL #PWR?
+U 1 1 6012303E
+P 5900 4150
+AR Path="/5FDE4F7C/6012303E" Ref="#PWR?"  Part="1" 
+AR Path="/5FFEC95A/6012303E" Ref="#PWR?"  Part="1" 
+AR Path="/60087A46/6012303E" Ref="#PWR202"  Part="1" 
+F 0 "#PWR202" H 5900 4250 40  0001 C CNN
+F 1 "3V3" H 5900 4300 50  0000 C CNN
+F 2 "" H 5900 4150 60  0000 C CNN
+F 3 "" H 5900 4150 60  0000 C CNN
+	1    5900 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4150 5900 4200
+Wire Wire Line
+	5900 4700 5900 4900
+Connection ~ 5900 4900
+Wire Wire Line
+	5900 4900 5450 4900
+Wire Wire Line
+	5600 4700 5600 4800
+Connection ~ 5600 4800
+Wire Wire Line
+	5600 4800 5450 4800
 $EndSCHEMATC
