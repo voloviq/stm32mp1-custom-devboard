@@ -212,17 +212,6 @@ F 3 "" H 5650 4300 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5550 4300 5650 4300
-$Comp
-L Inductors:4u7H_CD32_SMD_Coil L3
-U 1 1 5E8C19B3
-P 8350 4150
-F 0 "L3" V 8575 4150 50  0000 C CNN
-F 1 "4u7H_CD32_SMD_Coil" V 8484 4150 50  0000 C CNN
-F 2 "Inductors:4u7H_SMD_CD32" H 8350 4150 50  0001 C CNN
-F 3 "Inductors/Components_Documentation/CD32.pdf" H 8350 4150 50  0001 C CNN
-	1    8350 4150
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8900 4150 8650 4150
 Connection ~ 8900 4150
@@ -251,4 +240,24 @@ Wire Notes Line width 12 style solid
 	7550 4950 7650 4950
 Wire Wire Line
 	7250 4650 7250 4750
+$Comp
+L Inductors:4.7uH-0.9A-74438333047 L3
+U 1 1 6009C643
+P 8350 4150
+F 0 "L3" V 8575 4150 50  0000 C CNN
+F 1 "4.7uH-0.9A-74438333047" V 8484 4150 50  0000 C CNN
+F 2 "Inductors:4.7uH-0.9A-74438333047" H 8050 4150 60  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/744030004-1720746.pdf" H 8050 4150 60  0001 C CNN
+F 4 "Wurth" H 8350 4150 50  0001 C CNN "Manufacturer"
+F 5 "74438333047" H 8350 4150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 8350 4150 50  0001 C CNN "Supplier"
+F 7 "710-74438333047" H 8350 4150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/Wurth-Elektronik/744030004?qs=2kOmHSv6VfR%252BWe9vXKDhWA%3D%3D" H 8350 4150 50  0001 C CNN "URL"
+F 9 "6,29" H 8350 4150 50  0001 C CNN "Price@1pc"
+F 10 "4,03" H 8350 4150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 8350 4150 50  0001 C CNN "Developer"
+F 12 "3mm x 3mm x 1mm" H 8350 4150 50  0001 C CNN "Package"
+	1    8350 4150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

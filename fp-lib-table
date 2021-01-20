@@ -24,4 +24,5 @@
   (lib (name RJ45_Ethernet_Transformer)(type KiCad)(uri ${KISYS3DMOD}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.pretty)(options "")(descr ""))
   (lib (name ESD_Protectors)(type KiCad)(uri ${KISYS3DMOD}/ESD_Protectors/ESD_Protectors.pretty)(options "")(descr ""))
   (lib (name Reset_Device_Diodes)(type KiCad)(uri ${KISYS3DMOD}/Reset_Device/Diodes/Reset_Device_Diodes.pretty)(options "")(descr ""))
+  (lib (name "Eagle_WE-PMI (rev20a)")(type Eagle)(uri "/home/mw/Pobrane/Eagle_WE-PMI (rev20a).lbr")(options "")(descr ""))
 )

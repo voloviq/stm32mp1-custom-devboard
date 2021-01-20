@@ -751,7 +751,7 @@ F 13 "C460556" H 3100 3000 50  0001 C CNN "LCSC Part #(optional)"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 3000 3350 3000
+	7500 3000 6800 3000
 $Comp
 L power:GND #PWR0188
 U 1 1 60967EF6
@@ -1088,12 +1088,12 @@ $EndComp
 Wire Wire Line
 	7150 3450 7250 3450
 $Comp
-L Diodes:KPT-1608CGCK D?
+L Diodes:KPT-1608CGCK D4
 U 1 1 601583E3
 P 6350 3800
-F 0 "D?" H 6350 3900 50  0000 C CNN
+F 0 "D4" H 6350 3900 50  0000 C CNN
 F 1 "KPT-1608CGCK" H 6350 3650 50  0000 C CNN
-F 2 "" H 6350 3800 50  0001 C CNN
+F 2 "Diodes:LED_KPT-1608CGCK" H 6350 3800 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/a39d324b494aca9bed634649dc83966d/kp-1608cgck.pdf" H 6350 3800 50  0001 C CNN
 F 4 "	KINGBRIGHT ELECTRONIC" H 6350 3800 50  0001 C CNN "Manufacturer"
 F 5 "KP-1608CGCK" H 6350 3800 50  0001 C CNN "Manufacturer Part Number"
@@ -1108,4 +1108,42 @@ F 13 "C192316" H 6350 3800 50  0001 C CNN "LCSC Part # (optional)"
 	1    6350 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Resistors_Smd0603:10k R63
+U 1 1 600B850B
+P 6800 2650
+F 0 "R63" H 6868 2696 50  0000 L CNN
+F 1 "10k" H 6868 2605 50  0000 L CNN
+F 2 "" H 6800 2650 60  0000 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 6800 2650 60  0001 C CNN
+F 4 "ROYAL OHM" H 6800 2650 50  0001 C CNN "Manufacturer"
+F 5 "0603SAJ0103T5E" H 6800 2650 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6800 2650 50  0001 C CNN "Supplier"
+F 7 "SMD0603-10K" H 6800 2650 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-10k/rezystory-smd-0603/royal-ohm/0603saj0103t5e/" H 6800 2650 50  0001 C CNN "URL"
+F 9 "0,04560" H 6800 2650 50  0001 C CNN "Price@1pc"
+F 10 "0,01111" H 6800 2650 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6800 2650 50  0001 C CNN "Developer"
+F 12 "0603" H 6800 2650 50  0001 C CNN "Package"
+	1    6800 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2900 6800 3000
+Connection ~ 6800 3000
+Wire Wire Line
+	6800 3000 3350 3000
+$Comp
+L power:3V3 #PWR0197
+U 1 1 600C4C98
+P 6800 2350
+F 0 "#PWR0197" H 6800 2450 40  0001 C CNN
+F 1 "3V3" H 6750 2500 50  0000 L CNN
+F 2 "" H 6800 2350 60  0000 C CNN
+F 3 "" H 6800 2350 60  0000 C CNN
+	1    6800 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2400 6800 2350
 $EndSCHEMATC
