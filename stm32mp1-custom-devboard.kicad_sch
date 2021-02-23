@@ -4151,11 +4151,11 @@
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/00000000-0000-0000-0000-00005ea94fd0"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/00000000-0000-0000-0000-00005ea90d63"
-      (reference "C3") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0603:100nF_0603")
+    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/7406c35c-8a86-40e1-8496-39580537e967"
+      (reference "C3") (unit 1) (value "1uF/16V") (footprint "Capacitors_Smd_0603:1uF_0603")
     )
-    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/00000000-0000-0000-0000-00005ea900a1"
-      (reference "C4") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0603:100nF_0603")
+    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/ede0762d-3dc9-4104-b9d2-f40d7e83d34b"
+      (reference "C4") (unit 1) (value "1uF/16V") (footprint "Capacitors_Smd_0603:1uF_0603")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/ffd7f566-efcf-4a6b-8ee4-2981a313924a"
       (reference "U2") (unit 1) (value "MCP1703T-3302E") (footprint "Linear:MCP1703T-3302E_SOT23")

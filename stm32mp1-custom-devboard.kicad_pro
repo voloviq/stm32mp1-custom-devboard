@@ -390,8 +390,7 @@
         "microvia_drill": 0.1,
         "name": "Mipi",
         "nets": [
-          "GND",
-          "Net-(D1-Pad2)"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -410,11 +409,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB-C",
-        "nets": [
-          "Net-(Con4-PadA6)",
-          "Net-(Con4-PadA7)",
-          "Net-(Con5-PadA6)"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.152,
