@@ -1143,7 +1143,7 @@
     (uuid 8dc1319d-4845-4a5f-ba1a-55787d5a0fe4)
   )
 
-  (symbol (lib_id "power:5V_NO_GLOBAL") (at 59.69 46.99 270)
+  (symbol (lib_id "power:5V_NO_GLOBAL") (at 59.69 46.99 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006014f8a9)
     (property "Reference" "#PWR92" (id 0) (at 59.69 45.72 90)
@@ -1179,7 +1179,7 @@
     (pin "1" (uuid 052a2e70-3b79-4117-ae01-ca4303cfe31a))
   )
 
-  (symbol (lib_id "power:5V_NO_GLOBAL") (at 199.39 180.34 0)
+  (symbol (lib_id "power:5V_NO_GLOBAL") (at 199.39 180.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a5817)
     (property "Reference" "#PWR97" (id 0) (at 198.12 180.34 90)
@@ -1197,7 +1197,7 @@
     (pin "1" (uuid 7d97285d-627a-4bcd-8ee4-f8594fba5893))
   )
 
-  (symbol (lib_id "power:5V_NO_GLOBAL") (at 212.09 180.34 0)
+  (symbol (lib_id "power:5V_NO_GLOBAL") (at 212.09 180.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a581d)
     (property "Reference" "#PWR99" (id 0) (at 210.82 180.34 90)
@@ -1233,7 +1233,7 @@
     (pin "1" (uuid c4a71f61-a18f-4d46-ba5a-a74d573bc12a))
   )
 
-  (symbol (lib_id "power:GND") (at 60.96 58.42 90)
+  (symbol (lib_id "power:GND") (at 60.96 58.42 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006014f8b2)
     (property "Reference" "#PWR0157" (id 0) (at 58.42 58.42 0)
@@ -1305,7 +1305,7 @@
     (pin "1" (uuid d440d5c3-217f-46b1-b0e0-023364885dcb))
   )
 
-  (symbol (lib_id "power:GND") (at 199.39 195.58 0)
+  (symbol (lib_id "power:GND") (at 199.39 195.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a5809)
     (property "Reference" "#PWR0160" (id 0) (at 199.39 193.04 0)
@@ -1323,7 +1323,7 @@
     (pin "1" (uuid 41d3c9eb-0069-4f17-83a7-dd778abfb4f7))
   )
 
-  (symbol (lib_id "power:GND") (at 199.39 219.71 0)
+  (symbol (lib_id "power:GND") (at 199.39 219.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a7e8c)
     (property "Reference" "#PWR0162" (id 0) (at 199.39 217.17 0)
@@ -1341,7 +1341,7 @@
     (pin "1" (uuid cb94900c-4efa-4191-a9a7-a4ad182f7e7e))
   )
 
-  (symbol (lib_id "power:GND") (at 212.09 195.58 0)
+  (symbol (lib_id "power:GND") (at 212.09 195.58 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a5810)
     (property "Reference" "#PWR0161" (id 0) (at 212.09 193.04 0)
@@ -1359,7 +1359,7 @@
     (pin "1" (uuid db8d172f-ae26-42c7-9a39-2ba152b8ef8d))
   )
 
-  (symbol (lib_id "power:GND") (at 212.09 219.71 0)
+  (symbol (lib_id "power:GND") (at 212.09 219.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a7e97)
     (property "Reference" "#PWR0163" (id 0) (at 212.09 217.17 0)
@@ -1413,7 +1413,7 @@
     (pin "1" (uuid d550fedc-7966-422b-9c1e-54adcda7791b))
   )
 
-  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 142.24 105.41 0)
+  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 142.24 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060123029)
     (property "Reference" "#PWR201" (id 0) (at 142.24 102.87 0)
@@ -1429,7 +1429,7 @@
     (pin "1" (uuid 6534180a-51c7-4d53-8be8-6db0a83eb60e))
   )
 
-  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 149.86 105.41 0)
+  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 149.86 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006012303e)
     (property "Reference" "#PWR202" (id 0) (at 149.86 102.87 0)
@@ -1553,7 +1553,7 @@
     (pin "1" (uuid b6b39e85-6370-4993-b7aa-efea5cad4116))
   )
 
-  (symbol (lib_id "Resistors_Smd0603:4k7") (at 142.24 113.03 0)
+  (symbol (lib_id "Resistors_Smd0603:4k7") (at 142.24 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060123023)
     (property "Reference" "R60" (id 0) (at 143.9672 111.8616 0)
@@ -1596,7 +1596,7 @@
     (pin "2" (uuid 7c6ea34f-8487-428e-bd46-3642e93d14f7))
   )
 
-  (symbol (lib_id "Resistors_Smd0603:4k7") (at 149.86 113.03 0)
+  (symbol (lib_id "Resistors_Smd0603:4k7") (at 149.86 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060123038)
     (property "Reference" "R61" (id 0) (at 151.5872 111.8616 0)
@@ -1657,7 +1657,7 @@
     (pin "1" (uuid 09d708f5-4c4e-44dc-ae2d-ef786be847bc))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:10uF") (at 199.39 187.96 0)
+  (symbol (lib_id "Capacitors_Smd0603:10uF") (at 199.39 187.96 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a57f5)
     (property "Reference" "C50" (id 0) (at 202.7174 186.7916 0)
@@ -1706,7 +1706,7 @@
     (pin "2" (uuid fd7006a2-1dd8-4b25-9c21-d3fcbd0aa68c))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:10uF") (at 199.39 212.09 0)
+  (symbol (lib_id "Capacitors_Smd0603:10uF") (at 199.39 212.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a7cda)
     (property "Reference" "C51" (id 0) (at 202.7174 210.9216 0)
@@ -1755,7 +1755,7 @@
     (pin "2" (uuid f3cb8ca9-45d4-4795-a9f5-66bf81a6fdd8))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100n") (at 212.09 187.96 0)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 212.09 187.96 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a5803)
     (property "Reference" "C52" (id 0) (at 215.4174 186.7916 0)
@@ -1798,7 +1798,7 @@
     (pin "2" (uuid 1e379bd1-446a-42bc-a848-e39220bb93b4))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100n") (at 212.09 212.09 0)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 212.09 212.09 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601a7e82)
     (property "Reference" "C53" (id 0) (at 215.4174 210.9216 0)
@@ -1841,7 +1841,7 @@
     (pin "2" (uuid 8d516a52-b985-4a47-bf2c-809c57e6befa))
   )
 
-  (symbol (lib_id "arduino:Arduino_101_Shield") (at 207.01 140.97 0)
+  (symbol (lib_id "arduino:Arduino_101_Shield") (at 207.01 140.97 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060089a73)
     (property "Reference" "XA1" (id 0) (at 207.01 105.7402 0)

@@ -4681,7 +4681,7 @@
     (pin "2" (uuid f765d16b-da65-4e55-91e3-64f7958b5407))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 93.98 90.17 0)
+  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 93.98 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000600fc12d)
     (property "Reference" "C28" (id 0) (at 97.3074 89.0016 0)
@@ -4773,7 +4773,7 @@
     (pin "2" (uuid 869eb357-6331-4216-ba62-56a1d8b5562b))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 114.3 193.04 0)
+  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 114.3 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe5925a)
     (property "Reference" "C22" (id 0) (at 117.6274 191.8716 0)
@@ -4816,7 +4816,7 @@
     (pin "2" (uuid cd5bfc92-598a-4403-b7c6-4adc6b1b2f22))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 125.73 90.17 0)
+  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 125.73 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000600e530f)
     (property "Reference" "C29" (id 0) (at 129.0574 89.0016 0)
@@ -4859,7 +4859,7 @@
     (pin "2" (uuid d976950e-a929-4a5e-a394-ec2ad3c28aa8))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 127 193.04 0)
+  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 127 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe59150)
     (property "Reference" "C23" (id 0) (at 130.3274 191.8716 0)
@@ -4951,7 +4951,7 @@
     (pin "2" (uuid 17100e56-c988-4643-8e82-9a09949242ea))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 139.7 193.04 0)
+  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 139.7 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe57c37)
     (property "Reference" "C24" (id 0) (at 143.0274 191.8716 0)
@@ -4994,7 +4994,7 @@
     (pin "2" (uuid 491a23b5-65cd-4e35-9c64-9033cd9bb7d1))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 152.4 193.04 0)
+  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 152.4 193.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe57a98)
     (property "Reference" "C25" (id 0) (at 155.7274 191.8716 0)

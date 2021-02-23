@@ -753,7 +753,7 @@
     (uuid feae6324-39eb-461e-8d02-3870d1c3ae5c)
   )
 
-  (symbol (lib_id "power:GND") (at 68.58 44.45 90)
+  (symbol (lib_id "power:GND") (at 68.58 44.45 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601531c6)
     (property "Reference" "#PWR0185" (id 0) (at 66.04 44.45 0)
@@ -1023,7 +1023,7 @@
     (pin "1" (uuid a4de54e6-2615-4c0a-9b5d-1804a56abfd5))
   )
 
-  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 67.31 40.64 270)
+  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 67.31 40.64 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601531cf)
     (property "Reference" "#PWR190" (id 0) (at 69.85 40.64 0)
@@ -1041,7 +1041,7 @@
     (pin "1" (uuid 901bb300-67e0-4105-946d-6fb3f5c273e2))
   )
 
-  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 152.4 135.89 0)
+  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 152.4 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060112a35)
     (property "Reference" "#PWR199" (id 0) (at 152.4 133.35 0)
@@ -1057,7 +1057,7 @@
     (pin "1" (uuid 19125bb2-9ba8-46f5-9ec2-6b7896670fa1))
   )
 
-  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 160.02 135.89 0)
+  (symbol (lib_id "power:3V3_NO_GLOBAL") (at 160.02 135.89 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006011581a)
     (property "Reference" "#PWR200" (id 0) (at 160.02 133.35 0)
@@ -1163,7 +1163,7 @@
     (pin "1" (uuid 0df0f1a5-39ce-4ea2-9b59-b0ec40675459))
   )
 
-  (symbol (lib_id "Resistors_Smd0603:4k7") (at 152.4 143.51 0)
+  (symbol (lib_id "Resistors_Smd0603:4k7") (at 152.4 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060112a2f)
     (property "Reference" "R58" (id 0) (at 154.1272 142.3416 0)
@@ -1206,7 +1206,7 @@
     (pin "2" (uuid e5e409a5-e267-4bef-9a49-755b47960497))
   )
 
-  (symbol (lib_id "Resistors_Smd0603:4k7") (at 160.02 143.51 0)
+  (symbol (lib_id "Resistors_Smd0603:4k7") (at 160.02 143.51 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060115664)
     (property "Reference" "R59" (id 0) (at 161.7472 142.3416 0)

@@ -1812,7 +1812,7 @@
     (pin "1" (uuid 3bf6bb09-562a-41dd-8253-666e40cbad98))
   )
 
-  (symbol (lib_id "power:GND_NO_GLOBAL") (at 220.98 240.03 180)
+  (symbol (lib_id "power:GND_NO_GLOBAL") (at 220.98 240.03 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006011f5f9)
     (property "Reference" "#PWR87" (id 0) (at 220.98 242.57 0)
@@ -1992,7 +1992,7 @@
     (pin "1" (uuid 9c3e7865-6f7d-4e83-bb79-1a6c59d99b5e))
   )
 
-  (symbol (lib_id "power:GND_NO_GLOBAL") (at 243.84 179.07 180)
+  (symbol (lib_id "power:GND_NO_GLOBAL") (at 243.84 179.07 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006011a8cb)
     (property "Reference" "#PWR91" (id 0) (at 243.84 181.61 0)
@@ -2077,7 +2077,7 @@
     (pin "1" (uuid 537dd5d3-5404-4666-9f3f-14a084febf4b))
   )
 
-  (symbol (lib_id "Capacitors_Smd1206:1nF_2kV_1206") (at 220.98 232.41 180)
+  (symbol (lib_id "Capacitors_Smd1206:1nF_2kV_1206") (at 220.98 232.41 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006011f60c)
     (property "Reference" "C45" (id 0) (at 226.06 231.14 0))
@@ -2303,7 +2303,7 @@
     (pin "2" (uuid 726da08e-b877-4db6-8d8c-89ef44d69063))
   )
 
-  (symbol (lib_id "Capacitors_Smd1206:1nF_2kV_1206") (at 243.84 171.45 180)
+  (symbol (lib_id "Capacitors_Smd1206:1nF_2kV_1206") (at 243.84 171.45 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006011a8da)
     (property "Reference" "C49" (id 0) (at 248.92 170.18 0))

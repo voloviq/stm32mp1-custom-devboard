@@ -1501,7 +1501,7 @@
     (pin "1" (uuid 9bed6d3e-ac5d-4626-8bbf-57b7a3aae9cf))
   )
 
-  (symbol (lib_id "power:GND") (at 88.9 73.66 0)
+  (symbol (lib_id "power:GND") (at 88.9 73.66 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060983411)
     (property "Reference" "#PWR0190" (id 0) (at 88.9 71.12 0)
@@ -1591,7 +1591,7 @@
     (pin "1" (uuid a54f0f3b-d444-4931-b0a6-ab88e7981b63))
   )
 
-  (symbol (lib_id "power:GND") (at 184.15 87.63 90)
+  (symbol (lib_id "power:GND") (at 184.15 87.63 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000601462a9)
     (property "Reference" "#PWR0196" (id 0) (at 181.61 87.63 0)
@@ -2265,7 +2265,7 @@
     (pin "2" (uuid bd51a85a-5aab-42b7-a6d0-a366b76ab11c))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100n") (at 88.9 66.04 0)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 88.9 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006098340b)
     (property "Reference" "C54" (id 0) (at 92.2274 64.8716 0)
@@ -4157,7 +4157,7 @@
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/00000000-0000-0000-0000-00005ea900a1"
       (reference "C4") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0603:100nF_0603")
     )
-    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/00000000-0000-0000-0000-00005f33306e"
+    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/ffd7f566-efcf-4a6b-8ee4-2981a313924a"
       (reference "U2") (unit 1) (value "MCP1703T-3302E") (footprint "Linear:MCP1703T-3302E_SOT23")
     )
     (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-00006016cc38"
