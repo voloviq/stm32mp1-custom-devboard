@@ -1,4 +1,4 @@
-1152645281492238
+971058397799291
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -330,6 +330,13 @@ Capacitor
 2
 Capacitors_Smd_0603
 10uF_10V_0603
+Vishay SMD SM0603
+Capacitor
+0
+2
+2
+Capacitors_Smd_0603
+10uF_16V_0603
 Vishay SMD SM0603
 Capacitor
 0
@@ -827,6 +834,13 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 8
 Communication_Interfaces
 MAX485ESA+_SO8
+MAX485
+Communication Interface
+0
+8
+8
+Communication_Interfaces
+MAX3430ESA_SO8
 MAX485
 Communication Interface
 0
@@ -1386,6 +1400,13 @@ Diode
 2
 2
 Diodes
+BZX84-A3V0.215
+
+Bipolar Transistor
+0
+3
+3
+Diodes
 BZX84-C3V3.215
 
 Bipolar Transistor
@@ -1722,6 +1743,13 @@ Diode
 2
 2
 Diodes
+SK36_SMC
+Diode SMC (DO-214AB)
+Diode SMC (DO-214AB)
+0
+2
+2
+Diodes
 SM4006_MELF_DO_213AB
 Melf
 
@@ -1910,3209 +1938,3223 @@ Logic Gate
 0
 6
 6
-Eagle_WE-PMI (rev20a)
-WE-PMI_0603_H0.5
-<b>WE-PMI Power Multilayer Inductor</b>
-<br><br>Size:0603, SMT 2pins
-0
-0
-0
-2
-2
-Eagle_WE-PMI (rev20a)
-WE-PMI_0603_H0.8
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-<br><br>Size:0805, SMT 2pins
-<br>L X W X H=2mmX1.25mmX0.5mm
-
-0
-2
-2
-0
-WE-PMI_0805_H1
-<b>WE-PMI Power Multilayer Inductor</b>
-<br><br>Size:0805, SMT 2pins
-<br>L X W X H=2mmX1.2mmX1mm
-0
-0
-2
-2
-Eagle_WE-PMI (rev20a)
-WE-PMI_0805_H1.25
-<b>WE-PMI Power Multilayer Inductor</b>
-0
-0
-0
-0
-2
-2
-Eagle_WE-PMI (rev20a)
-0
-0
-0
-<br>L X W X H=2mmX1.6mmX1mm
-
-0
-2
-2
-0
-0
-<b>WE-PMI Power Multilayer Inductor</b>
-<br><br>Size:0806, SMT 2pins
-<br>L X W X H=2mmX1.6mmX1.1mm
-
-0
-2
-2
-Eagle_WE-PMI (rev20a)
-WE-PMI_1008_H0.8
-<b>WE-PMI Power Multilayer Inductor</b>
-<br><br>Size:0805, SMT 2pins
-0
-0
-0
-2
-2
-Eagle_WE-PMI (rev20a)
-WE-PMI_1008_H1
-0
-0
-0
-
-0
-2
-2
-0
-0
-0
-<br><br>Size:0805, SMT 2pins
-<br>L X W X H=2.5mmX2mmX1.2mm
-
-0
-2
-2
-0
+Fpc_Connectors
 686110188622
 WR-FPC 1.00 MM SMT LIF HORIZONTAL TOP CONTACT,10PINS
 WR-FPC 1.00 MM SMT LIF HORIZONTAL TOP CONTACT,10PINS
 0
 12
 12
-0
+Fpc_Connectors
 1-84981-0
 
 
 0
 12
 11
-0
+Fpc_Connectors
 4pin_Cvilux_1_0mm
 
 FPC_Connector
 0
 6
 5
-0
+Fpc_Connectors
 4pin_Joint_Tech_0_5mm
 
 FPC_Connector
 0
 6
 5
-0
+Fpc_Connectors
 6pin_Molex_1mm_52207-0633
 
 FPC_Connector
 0
 8
 7
-0
+Fpc_Connectors
 6pin_TE_2328702-6
 
 FPC_Connector
 0
 8
 7
-0
+Fpc_Connectors
 10pin_HRS_FH12A_Series_0_5mm
 
 
 0
 12
 11
-0
+Fpc_Connectors
 10pin_MOLEX_527451097_0_5mm
 10pin_MOLEX_527451097_0_5mm
 Fpc Connector
 0
 12
 11
-0
+Fpc_Connectors
 16pin_fpc_top_0_5mm
 
 FPC_Connector
 0
 18
 17
-0
+Fpc_Connectors
 24pin_fpc_top_0_5mm
 
 FPC_Connector
 0
 26
 25
-0
+Fpc_Connectors
 40pin_fpc_0_5mm
 
 FPC_Connector
 0
 42
 41
-0
+Fpc_Connectors
 40pin_fpc_top_0_5mm
 
 FPC_Connector
 0
 42
 41
-0
+Fpc_Connectors
 50pin_HRS_FH12S_Series_0_5mm
 
 
 0
 52
 51
-0
+Fpc_Connectors
 50pin_WURTH_68715014022_0_5mm
 50pin_WURTH_68715014022_0_5mm
 Fpc Connector
 0
 52
 51
-0
+Fpc_Connectors
 50pins_0_5pitch
 50pins_0_5pitch
 Fpc Connector
 0
 52
 51
-0
+Fpc_Connectors
 52745-0697
 
 
 0
 10
 7
-0
+Fpc_Connectors
 52745-0897
 
 
 0
 12
 9
-0
+Fpc_Connectors
 52745-2097
 
 
 0
 24
 21
-0
+Fpc_Connectors
 52746-0671
 
 
 0
 10
 7
-0
+Fpc_Connectors
 505110-2491
 
 FPC_Connector
 0
 26
 25
-0
+Fpc_Connectors
 512810594
 Molex 5 pin 0,5mm
 FPC_Connector
 0
 7
 6
-0
+Fpc_Connectors
 545502471
 
 FPC_Connector
 0
 26
 25
-0
+Fpc_Connectors
 AYF532435
 
 FPC_Connector
 0
 26
 25
-0
+Fpc_Connectors
 BM15FR0_8-DS22-0_35V
 
 
 0
 26
 23
-0
+Fpc_Connectors
 CF2033SF_10pins_0_5pitch
 10pins_0_5pitch
 Fpc Connector
 0
 12
 11
-0
+Fpc_Connectors
 CVILUX_20pins_1_0pitch
 20pins_1_0pitch
 Fpc Connector
 0
 22
 21
-0
+Fpc_Connectors
 FH12-6S-0.5SH(55)
 
 FPC_Connector
 0
 8
 7
-0
+Fpc_Connectors
 FH12-10S-0.5SH
 
 
 0
 12
 11
-0
+Fpc_Connectors
 FH12A-30S-0.5SH
 
 
 0
 32
 31
-0
+Fpc_Connectors
 FH12A-32S-0.5SH
 
 
 0
 34
 33
-0
+Fpc_Connectors
 FH12A-50S-0.5SH
 
 
 0
 52
 51
-0
+Fpc_Connectors
 FH26W-25S-0.3SHW(97)
 HRS 0.3mm FPC/FFC Connector
 FPC_Connector
 0
 27
 26
-0
+Fpc_Connectors
 FH26W-45S-0.3SHW(97)
 HRS 0.3mm FPC/FFC Connector
 FPC_Connector
 0
 47
 46
-0
+Fpc_Connectors
 FH28D-50S-0.5SH
 FH28D-50S-0.5SH
 Fpc Connector
 0
 52
 51
-0
+Fpc_Connectors
 Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal
 Molex FH12, FFC/FPC connector, FH12-24S-0.5SH, 24 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
 connector Hirose  top entry
 0
 26
 25
-0
+Fpc_Connectors
 Molex_52806-0810
 Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 24 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
 molex FFC/FPC connector Pitch 0.5mm right angle
 0
 8
 8
-0
+Fpc_Connectors
 Molex_52806-2410
 Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 24 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
 molex FFC/FPC connector Pitch 0.5mm right angle
 0
 24
 24
-0
+Fpc_Connectors
 Molex_502244-2430_1x24-1MP_P0.5mm_Horizontal
 Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 24 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
 molex FFC/FPC connector Pitch 0.5mm right angle
 0
 28
 25
-0
+Fpc_Connectors
 NX1001-10SMS
 NX1001-10SMS
 SMT Connector
 0
 12
 11
-0
+Fpc_Connectors
 PCA-6L-10-HU-3-T_R
 
 
 0
 14
 11
-0
+Fpc_Connectors
 PF030-039B-C10-39-POL
 HRS 0.3mm FPC/FFC Connector
 FPC_Connector
 0
 41
 40
-0
+Fpc_Connectors
 TE_2-84952-4_1x24-1MP_P1.0mm_Horizontal
 TE FPC connector, 24 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
 te fpc 84952
 0
 26
 25
-0
+Fpc_Connectors
 TE_2-84953-4_1x24-1MP_P1.0mm_Horizontal
 TE FPC connector, 24 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
 te fpc 84953
 0
 26
 25
-0
+Fpc_Connectors
 fpc12x0_5mm_68611214422
 
 FPC_Connector
 0
 14
 13
+Inductors
+1uH-1.4A-78438313010
+
+
 0
+2
+2
+Inductors
 1uH_4.3A_2520
 Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
 inductor
 0
 2
 2
-0
+Inductors
 2_2uH_SMD_CD32
 
 
 0
 2
 2
-0
+Inductors
 4.7uH-0.9A-74438333047
 
 
 0
 2
 2
-0
+Inductors
 4.7uH-1.82A-744773047
 
 
 0
 2
 2
-0
+Inductors
 4u7H_2520
 Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
 inductor
 0
 2
 2
-0
+Inductors
 4u7H_SMD_CD32
 
 
 0
 2
 2
+Inductors
+6.8uH-5.5_7847709068
+6.8uH 5.5A Wurth 24mOhms 12x12x10mm
+
 0
+2
+2
+Inductors
 10uH_Dla_Size_0411_12
 RESISTOR
 RESISTOR
 0
 2
 2
-0
+Inductors
 10uH_SMD_CD32
 
 
 0
 2
 2
-0
+Inductors
 15uH_DE0703
 
 Inductor 15uH/1_33A
 0
 2
 2
-0
+Inductors
 18nH_0603
 
 
 0
 2
 2
-0
+Inductors
 22uH_2520
 Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
 inductor
 0
 2
 2
-0
+Inductors
 27nH_0402
 Murata
 SMD Inductor
 0
 2
 2
-0
+Inductors
 39nH_0402
 Murata
 SMD Inductor
 0
 2
 2
-0
+Inductors
 39nH_0603
 
 
 0
 2
 2
-0
+Inductors
 47uH_SMD_CD32
 
 
 0
 2
 2
+Inductors
+56nH_0402
+TDK
+SMD Inductor
 0
+2
+2
+Inductors
 68nH_0402
 Murata
 SMD Inductor
 0
 2
 2
+Inductors
+470uH-0.44A_784776247
+470uH 0.44A Wurth
+
 0
+2
+2
+Inductors
 7447918
 Multilayer Inductor
 Inductor
 0
 2
 2
-0
+Inductors
 74477110
 WE-PD SMD POWER INDUCTOR
 WE-PD SMD POWER INDUCTOR
 0
 2
 2
-0
+Inductors
 742692004
 Ferrite Beads WE-TMSB Suppression 240Ohm 200mA -55C to +125C
 
 0
 2
 2
-0
+Inductors
 742792515
 Ferrite Beads WE-CBF 1812 SMD Bead 100MHz 785Ohm 3A
 SMD Inductor
 0
 2
 2
+Inductors
+744230121_0603
+WE-CNSW SMT Common Mode Line Filter Size: 0603
+
 0
+4
+4
+Inductors
 74479776247A
 4.7uH 1.2A Wurth
 
 0
 2
 2
-0
+Inductors
 ASPI-0630HI-3R3M-T15
 3.3uH /13.5A
 
 0
 2
 2
-0
+Inductors
 BLM15HG601SN1D_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Inductors
 BLM18EG101TN1D
 100Ω @ 100MHz 2A 1 45mΩ 0603 Ferrite Beads RoHS
 EMI Suppression Filters EMIFIL
 0
 2
 2
-0
+Inductors
 BLM18HE102SN1D
 
 
 0
 2
 2
-0
+Inductors
 BLM18KG121TN1D
 
 
 0
 2
 2
-0
+Inductors
 BLM18KG260TN1D
 Ferrite Beads 0603 26ohms 6A
 Ferrite Chip Beads
 0
 2
 2
-0
+Inductors
 BLM18PG121SN1D_SM0603
 
 
 0
 2
 2
-0
+Inductors
 BLM21AG121SN1_SM0805
 
 EMI Suppresor
 0
 2
 2
-0
+Inductors
 BLM21PG300SN1
 
 Ferrite Bead Inductor
 0
 2
 2
-0
+Inductors
 BLM21PG331SN1
 
 Ferrite Bead Inductor
 0
 2
 2
-0
+Inductors
 BLM31PG500SN1L_SM1206
 SMD EMI
 EMI Suppresor
 0
 2
 2
-0
+Inductors
 CDMC8D28NP-1R2MC
 Sumida SMD Power Inductor
 Sumida SMD Power Inductor
 0
 2
 2
-0
+Inductors
 CDR7D43MNNP-5R8NC
 Sumida SMD Power Inductor
 Inductor
 0
 2
 2
-0
+Inductors
 CDRH3D14_HPNP-100NC
 
 
 0
 2
 2
-0
+Inductors
 Coil_330uH_500mA_1Ohm_Tht_Raster_5mm
 Discrete Inductor 330uH; 500mA; 1Ω; THT; ±10%; Raster:5mm
 Inductor
 0
 2
 2
-0
+Inductors
 DE0704-22uH
 
 Inductor 15uH/1_33A
 0
 2
 2
-0
+Inductors
 DE0704-33uH
 
 Inductor 15uH/1_33A
 0
 2
 2
-0
+Inductors
 DER0705-15uH
 
 Inductor 15uH/1_33A
 0
 2
 2
-0
+Inductors
 DER0705-100uH
 
 Inductor
 0
 2
 2
-0
+Inductors
 DJNR3015-1uH
 
 
 0
 2
 2
-0
+Inductors
 DJNR3015-6u8H
 
 
 0
 2
 2
-0
+Inductors
 DJNR3015-33uH
 
 
 0
 2
 2
-0
+Inductors
 DJNR4018-6R8-S-6.8uH
 
 
 0
 2
 2
-0
+Inductors
 DJNR5040-220-S
 
 
 0
 2
 2
-0
+Inductors
 DJNR6045-6R8
 
 
 0
 2
 2
-0
+Inductors
 DL0603-10_SM0603
 
 
 0
 2
 2
-0
+Inductors
 DL1210_10uH
 SMD Inductor
 Inductor
 0
 2
 2
-0
+Inductors
 DLV-200-M2.0
 Load=2A,R=0.07Ohm, THT FERROCORE POWER INDUCTOR
 Inductor
 0
 2
 2
-0
+Inductors
 DLW21HN900SQ2L
 
 
 0
 4
 4
-0
+Inductors
 DTMSS-16-0_033_6_0
 
 
 0
 2
 2
-0
+Inductors
 DTS-12.5-0.22-1.9V
 Load=2A,R=0.07Ohm, THT FERROCORE POWER INDUCTOR
 Inductor
 0
 4
 4
-0
+Inductors
 EMI8132MUTAG
 Common mode filter with ESD protection
 Inductor
 0
 10
 10
-0
+Inductors
 EMI8133MUTAG
 Common mode filter with ESD protection
 Inductor
 0
 16
 16
-0
+Inductors
 Epocs_B82721-K2202-N1
 
 
 0
 4
 4
-0
+Inductors
 Epocs_B82721-K2701-N20
 Epocs_B82721-K2701-N20
 Inductor Symetric
 0
 4
 4
-0
+Inductors
 HPI0630-3R3
 
 
 0
 2
 2
-0
+Inductors
 HPI0630-100
 
 
 0
 2
 2
-0
+Inductors
 IHLP2020BZER4R7M01
 
 
 0
 2
 2
-0
+Inductors
 IHLP3232DZER2R2M01
 
 
 0
 2
 2
-0
+Inductors
 LCBA-601
 
 
 0
 2
 2
-0
+Inductors
 LQG18HN1N5S00D
 
 
 0
 2
 2
-0
+Inductors
 LQH32PN4R7NN0L
 WLPN242410 Series Shielded SMD Power Inductors 
 SMD Inductor
 0
 2
 2
-0
+Inductors
 LQM2HPN2R2MG0L_SMD1008
 
 
 0
 2
 2
-0
+Inductors
 LQP03HQ2N6B02
 
 
 0
 2
 2
-0
+Inductors
 MPZ1005S121C
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Inductors
 MPZ1608S300ATAH0
 30Ω @ 100MHz 5A 10mΩ 0603 Ferrite Beads RoHS
 EMI Suppression Filters EMIFIL
 0
 2
 2
-0
+Inductors
 NCB-H1206B601TR200F_1206
 
 Ferrite Beads
 0
 2
 2
-0
+Inductors
 NRS5040T220MMGKV
 
 
 0
 2
 2
-0
+Inductors
 NRS6045T6R3MMGKV
 
 
 0
 2
 2
-0
+Inductors
 SRN6045TA-220M-22uH
 
 
 0
 2
 2
-0
+Inductors
 WLPN242410N1R0PB
 WLPN242410 Series Shielded SMD Power Inductors 
 SMD Inductor
 0
 2
 2
-0
+Inductors
 XAL1010-472MED
 
 
 0
 2
 2
-0
+Inductors
 XAL5030-601MEC
 
 
 0
 2
 2
-0
+Inductors
 XEL6060-272MEC
 
 
 0
 2
 2
+Inductors
+mc014h60
+
+
 0
+4
+4
+Lcd_Backlight_Drivers
 DIO5661ST6
 
 SOT23_5
 0
 6
 6
-0
+Lcd_Backlight_Drivers
 TPS61169DCKR
 38-V High Current-Boost WLED Driver With PWM Contro
 LCD Backilight Driver
 0
 5
 5
-0
+Linear
 1711S12_SOT23
 
 SOT23_5
 0
 5
 5
-0
+Linear
 1755S18_SOT223
 LDO 1V8 Linear Regulator
 LDO Regulator
 0
 4
 3
-0
+Linear
 1755S33_SOT223
 LDO 3V3 Linear Regulator
 LDO Regulator
 0
 4
 3
-0
+Linear
 AP2127K-2.8TRG1_SOT23
 LDO Regulator
 DC_DC_Regulator
 0
 3
 3
-0
+Linear
 AP2210K-5_0TRG1
 
 
 0
 5
 5
-0
+Linear
 APE1117AG-18-HF-SOT89
 APE1117AG-18-HF
 LDO Regulator
 0
 4
 3
-0
+Linear
 APE1117AG-33-HF-SOT89
 APE1117AG-33-HF
 LDO Regulator
 0
 4
 3
-0
+Linear
 APE8800_SOT23
 LDO Regulator
 DC_DC_Regulator
 0
 3
 3
-0
+Linear
 DIO5158XM8
 
 
 0
 16
 9
-0
+Linear
 HT7318_SOT89
 SOT-89-3
 SOT-89-3
 0
 6
 3
-0
+Linear
 HT7333_SOT89
 SOT-89-3
 SOT-89-3
 0
 6
 3
-0
+Linear
 IFX25001TFV50ATMA1_DPAK
 MOS boitier DPACK G-D-S
 CMD DPACK
 0
 6
 3
-0
+Linear
 LD39200PU33R
 DFN6 3*3 MM, 0.95 PITCH; CASE 506AH-01 (see ON Semiconductor 506AH.PDF)
 DFN 0.95
 0
 13
 7
-0
+Linear
 LDL1117S33R_SOT223
 LDO Regulator
 Voltage Regulator
 0
 4
 3
-0
+Linear
 LM217_TO-220_CASE_3Pin_Horizontal
 Lm217_To-220_Horizontal
 Regulator
 0
 4
 3
-0
+Linear
 LM317DCYR_SOT223
 Linear Adjustable Regulator
 LDO Regulator
 0
 4
 4
-0
+Linear
 LM7805_TO-220_CASE_3Pin_Horizontal
 Lm7805_To-220_Horizontal
 Regulator
 0
 4
 3
-0
+Linear
 LM7805_TO-220_CASE_3Pin_Horizontal_Cooling_1
 Lm7805_To-220_Horizontal with cooling
 Regulator
 0
 4
 3
-0
+Linear
 LM7805_TO92
 TO-92 leads
 DC-DC Linear Regulator
 0
 3
 3
-0
+Linear
 LP2951CM-3.3-SOIC8
 SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 13
 9
-0
+Linear
 MC78LC33HT1G
 3V3 LDO Regulator On Semi
 LDO Regulator
 0
 4
 3
-0
+Linear
 MCP1700T-3302E_MB_SOT89
 SOT-89-3
 SOT-89-3
 0
 6
 3
-0
+Linear
 MCP1703T-3302E_SOT23
 MCP1703T-3302E
 DC-DC LDO Linear Regulator
 0
 3
 3
-0
+Linear
 MCP1755S18_Sot23_5
 
 SOT23_5
 0
 5
 5
-0
+Linear
 MCP1755S33_Sot23_5
 
 SOT23_5
 0
 5
 5
-0
+Linear
 MCP1812BT-033_TT
 
 Bipolar Transistor
 0
 3
 3
-0
+Linear
 MCP1825_SOT223
 LDO Regulator
 Voltage Regulator
 0
 4
 4
-0
+Linear
 MCP1826_SOT223
 LDO Regulator
 Voltage Regulator
 0
 4
 4
-0
+Linear
 MCP73833-AMI
 
 
 0
 14
 11
-0
+Linear
 MIC5504-1_8YM5_SOT23-5
 
 SOT23_5
 0
 5
 5
-0
+Linear
 NCP708MU330TAG
 
 
 0
 16
 7
-0
+Linear
 RT9053AZQW
 Low Dropout, 400mA Adjustable Linear Regulator
 LDO IC
 0
 14
 7
-0
+Linear
 RT9069-50GX5-SOT23-5
 
 SOT23_5
 0
 5
 5
-0
+Linear
 TC1014_15_1185_SOT_23_5PIN
 LDO Regulator
 DC_DC_Regulator
 0
 5
 5
-0
+Linear
 TCR2EF28
 
 SOT23_5
 0
 5
 5
+Microswitches
+434153017835
+
+
 0
+4
+4
+Microswitches
+DTSM-31N_SMD
+DTSM-31N
+Microswitch
+0
+2
+2
+RJ45_Ethernet_Transformer
 LMJ3628844TA753
 
 
 0
 16
 13
-0
+RJ45_Ethernet_Transformer
 RJ-45_LMJ30288115CNL
 
 
 0
 16
 13
-0
+RJ45_Ethernet_Transformer
 WE-RJ45_7498011122AR
 WE-RJ45 LAN TRANSFORMER
 WE-RJ45 LAN TRANSFORMER
 0
 13
 13
-0
+RJ45_Ethernet_Transformer
 WE-RJ45_74990101210
 WE-RJ45 LAN TRANSFORMER
 WE-RJ45 LAN TRANSFORMER
 0
 14
 14
-0
+Reset_Device_Diodes
 APX803D-29SRG-7
 
 Bipolar Transistor
 0
 3
 3
-0
+Resistor_Smd_0402
 0R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 1M_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 1k5_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 1k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 2k2_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 2k7_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 3k3_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 3k9_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 4R7_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 4k7_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 4k75_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 5k1_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 6k49_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 10R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 10k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 11k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 12k1_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 12k4_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 12k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 20k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 22R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 22k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 24k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 33R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 33k2_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 36k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 40k2_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 47R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 47k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 49R9_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 75k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 100R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 100k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 200k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 220R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 240R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 330R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 332k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 360k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 470R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 470k_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 499_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 560R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0402
 750R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-0
+Resistor_Smd_0603
 0R05_0603
 
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 0R033_0603
 
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 0R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 0R_pcb_0603_fashion
 Vishay SMD SM0603
 Resistor
 0
 6
 2
-0
+Resistor_Smd_0603
 1M8_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1M_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1R1_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1k2_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1k5_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1k65_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 2M7_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 2M_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 2R2_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 2k2_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
+Resistor_Smd_0603
+2k4_0603
+Vishay SMD SM0603
+Resistor
 0
+2
+2
+Resistor_Smd_0603
 2k7_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 2k49_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 2k61_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 2k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 3M_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 3R3_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 3R9_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 3k3_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 3k9_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 4.7R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 4k02_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 4k3_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 4k7_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 4k22_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 4k75_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 4k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 5R1_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 5k1_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 5k6_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 6k04_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 6k8_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 6k49_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 7k5_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 7k15_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 8k2_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 9k09_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 10M_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 10R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 10k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 11k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 12k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 13k3_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 13k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 15k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 16k2_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 16k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 18k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 20k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 21k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 22R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 22k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 24k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 27R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 27k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 30k1_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 32k4_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 33R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 33k2_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 33k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 36k5_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 36k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 39k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 47R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 47k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 49R9_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 49k9_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 51R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 51k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 53k6_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 56R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 56k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 57k6_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 64k9_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 66k5_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 68k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 75R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 82R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 82k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 88k7_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 91k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 95k3_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 100R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 100k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 100mR_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 110R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 115k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 120k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 140R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 150k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 160k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 180R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 180k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 200R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 200k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 220R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 220k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 240R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 255k_0603
 Panasonic SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 270k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
+Resistor_Smd_0603
+300R_0603
+Vishay SMD SM0603
+Resistor
 0
+2
+2
+Resistor_Smd_0603
 316k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 330R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 330k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 332k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 360k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 402k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 430k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 470R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 470k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 499k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 510R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 560R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 680R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 750R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 820R_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 845k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resistor_Smd_0603
 1020k_0603
 Vishay SMD SM0603
 Resistor
 0
 2
 2
-0
+Resonators
 7A-24.000MAAJ-T_24MHz
 
 
 0
 2
 2
-0
+Resonators
 10MHz_CM309S_Rect_4pins
 10MHz crystal
 Resonator
 0
 4
 4
-0
+Resonators
 20MHz_CFPS-39_4Pins_SMD
 CFPS-39
 Quarts SMD
 0
 4
 4
-0
+Resonators
 20MHz_CFPS-72_4Pins_SMD
 CFPS-72
 Quarts SMD
 0
 4
 4
-0
+Resonators
 20MHz_CFPS-72_4Pins_SMD_Alternative
 CFPS-72
 Quarts SMD
 0
 4
 4
-0
+Resonators
 24MHz-TSX-3225
 CFPS-72
 Quarts SMD
 0
 4
 4
-0
+Resonators
 26MHz-TSX-3225
 CFPS-72
 Quarts SMD
 0
 4
 4
-0
+Resonators
 32_768KHz_CFPX_217
 CFPX_217
 Quarts SMD
 0
 2
 2
-0
+Resonators
 520-2016MV-250-CNT
 25MHz
 Quarts SMD
 0
 4
 4
-0
+Resonators
 ABM3-25.000MHZ-D2Y-T
 
 
 0
 2
 2
-0
+Resonators
 ABM3AIG-8.000MHZ-8-1R-T
 
 
 0
 2
 2
-0
+Resonators
 ABM3AIG-12.000MHZ-8-1R-T
 
 
 0
 2
 2
-0
+Resonators
 ABM8-20.000MHZ-B2_SMD
 ABM8
 Quarts SMD
 0
 4
 4
-0
+Resonators
 ABM8G-106-12.000MHZ-T
 
 
 0
 4
 4
-0
+Resonators
 ABM8W-38.4000MHZ-4-B1U-T3
 38.4MHz ABM
 Quartz SMD
 0
 4
 4
-0
+Resonators
 CST4.00MGW
 16MHz Resonator 49US
 Quartz, Resonator
 0
 3
 3
-0
+Resonators
 LFXTAL009678
 CFPX_217
 Quarts SMD
 0
 2
 2
-0
+Resonators
 Resonator_16MHz_49US
 16MHz Resonator 49US
 Quartz, Resonator
 0
 2
 2
-0
+Resonators
 Resonator_32MHz_49US
 16MHz Resonator 49US
 Quartz, Resonator
 0
 2
 2
-0
+Resonators
 Resonator_32_768kHz_discrete
 32.768kHz
 Resonator
 0
 2
 2
-0
+Resonators
 TSX-3225
 CFPS-72
 Quarts SMD
 0
 4
 4
-0
+Smd_Connectors
 4_Solder_Point_0_635mm_SMD
 
 
 0
 4
 4
-0
+Smd_Connectors
 4_Solder_Point_1_7mm_SMD
 
 
 0
 4
 4
-0
+Smd_Connectors
 4_Solder_Point_1_27mm_SMD
 
 
 0
 4
 4
-0
+Smd_Connectors
 4_Solder_Point_2_54mm_SMD
 
 
 0
 4
 4
-0
+Smd_Connectors
 10pin_Wuerth_665110131822
 
 SMD Connector
 0
 12
 11
-0
+Smd_Connectors
 2060-452_998-404
 WAGO 2pole connector
 SMD Connector
 0
 4
 2
-0
+Smd_Connectors
 2060-453_998-404
 WAGO 3pole connector
 SMD Connector
 0
 6
 6
-0
+Smd_Connectors
 87437-0373
 
 
 0
 6
 3
-0
+Smd_Connectors
 87438-0343
 
 
 0
 6
 3
-0
+Smd_Connectors
 2041119-1
 
 
 0
 54
 53
-0
+Smd_Connectors
 662004231822
 
 
 0
 6
 5
-0
+Smd_Connectors
 A1001WR-S-10P
 
 
 0
 12
 11
-0
+Smd_Connectors
 DS1031-14-20S8B
 
 
 0
 20
 20
-0
+Smd_Connectors
 NX1001-10SMS
 NX1001-10SMS
 SMT Connector
 0
 12
 11
-0
+Smd_Connectors
 NX1001_06SMR
 
 Smd Connector
 0
 8
 7
-0
+Smd_Connectors
 U_FL-R-SMT-1(10)_U
 
 Antenna Connector SMD
 0
 3
 2
-0
+Smd_Tantal
 1uF_35V_B_Tantal
 1uF_35V_B
 Capacitor Tantal
 0
 2
 2
-0
+Smd_Tantal
 2_2uF_10V_A_Tantal
 2_2uF_10V_A
 Capacitor Tantal
 0
 2
 2
-0
+Smd_Tantal
 4u7F_35V_C_Tantal
 SMD Tantal Capacitor 4u7F / 16V
 Capacitor
 0
 2
 2
+Smd_Tantal
+4u7F_35V_Size_B
+Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
 0
+2
+2
+Smd_Tantal
 10uF_16V_A_Tantal
 10uF_16V_A
 Capacitor Tantal
 0
 2
 2
-0
+Smd_Tantal
 10uF_16V_B_Tantal
 1uF_35V_B
 Capacitor Tantal
 0
 2
 2
-0
+Smd_Tantal
 10uF_16V_C_Tantal
 SMD Tantal Capacitor 10uF / 16V
 Capacitor
 0
 2
 2
-0
+Smd_Tantal
 10uF_35V_C
 SMD Tantal Capacitor 10uF / 35V
 Capacitor
 0
 2
 2
-0
+Smd_Tantal
 10uF_35V_D_Tantal
 SMT capacitor, tantalum size D
 Capacitor Tantal
 0
 2
 2
-0
+Smd_Tantal
 22uF6V3_1206
 SMD Capacitor
 Capacitor
 0
 2
 2
-0
+Smd_Tantal
 22uF_35V_Size_D
 Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
 0
 2
 2
-0
+Smd_Tantal
 47uF6V3_1206
 SMD Capacitor
 Capacitor
 0
 2
 2
-0
+Smd_Tantal
 100_16V_Size_D
 Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
 0
 2
 2
+Smd_Tantal
+220uF_6V3_Size_C
+SMD Tantal Capacitor 220uF / 6V3
+Capacitor
 0
+2
+2
+Smd_Tantal
+330uF_10V_Size_D
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Smd_Tantal
 470_6V3_Size_D
 Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
 0
 2
 2
-0
+SomLabs_SOM
 VisionSOM-6ULL
 
 
 0
 204
 201
-0
+SomLabs_SOM
 VisionSOM-STM32MP1
 
 
 0
 204
 201
-0
+Stm32_Microcontrollers
 STM32F103CBT6
 LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
 0
 48
 48
-0
+Stm32_Microcontrollers
 STM32F407I(E-G)Hx
 
 
 0
 201
 201
-0
+Stm32_Microcontrollers
 STM32MP151CAB3_LFBGA-354
 BGA354 16x16mm 0.8pitch
 BGA
 0
 354
 354
-0
+Stm32_Microcontrollers
 STM32MP157CAD3_TBGA257
 BGA257 10x10mm 0.5pitch
 BGA
 0
 257
 257
-0
+Switching
 A4403
 QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
 0
 21
 17
-0
+Switching
 A8498
 
 
 0
 0
 0
-0
+Switching
 A8586KLJTR-T
 
 
 0
 18
 9
-0
+Switching
 AP3012-DTE
 Boost Converter
 VRegulator
 0
 5
 5
-0
+Switching
 AP3032
 Boost Converter
 VRegulator
 0
 6
 6
-0
+Switching
 AP3211KTR-G1
 
 
 0
 6
 6
-0
+Switching
 CAT4139
 Boost Converter
 VRegulator
 0
 5
 5
-0
+Switching
 FAN5331_SOT23_5
 Boost Converter
 VRegulator
 0
 5
 5
-0
+Switching
 L5973d_SO8
 
 Switching Voltage Regulator
 0
 14
 9
-0
+Switching
 LM2575_D2PAK_CASE_936A-5Pins
 LM2575_D2PAK_CASE_936A-5Pins
 Regulator
 0
 6
 5
-0
+Switching
 LM2575_TO-220_CASE_314D-5Pin_Horizontal
 Lm2575_To-220_Case_314_Horizontal
 Regulator
 0
 6
 6
-0
+Switching
 LM2575_TO-220_CASE_314D-5Pin_Vertical
 LM2575_TO-220_CASE_314D-5Pin_Vertical
 Regulator
 0
 5
 5
-0
+Switching
 LM2576_D2PAK_CASE_936A-5Pins
 LM2576_D2PAK_CASE_936A-5Pins
 Regulator
 0
 6
 5
-0
+Switching
 LM2576_TO-220_CASE_314D-5Pin_Horizontal
 Lm2576_To-220_Case_314_Horizontal
 Regulator
 0
 6
 6
-0
+Switching
 LM2576_TO-220_CASE_314D-5Pin_Vertical
 LM2576_TO-220_CASE_314D-5Pin_Vertical
 Regulator
 0
 5
 5
-0
+Switching
 LM2576_TO220_5_Simple
 
 Switching Regulator
 0
 5
 5
+Switching
+LM2675M-5.0-NOPB-SO8
+
+Switching Voltage Regulator
 0
+8
+8
+Switching
 LM3488MM_VSSOP8
 8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
 SSOP 0.65
 0
 8
 8
-0
+Switching
 LM27313_SOT23
 Boost Converter
 VRegulator
 0
 5
 5
+Switching
+LTC1929IG_SSOP28
+
+Microcontroller
 0
+28
+28
+Switching
 MIC29204BM_SO8
 
 Switching Voltage Regulator
 0
 8
 8
-0
+Switching
 MP1517DR
 QFN, 16 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=266), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 21
 17
-0
+Switching
 MP2980_32QFN
 36V, 100W, Synchronous Buck-Boost Controller with I 2 C and Current Monitor
 IC QFN DFN_QFN
 0
 42
 33
-0
+Switching
 MP4245GVE_21QFN
 36V, 6A Peak, Buck-Boost Converter with I2C Interface for Power Delivery
 IC
 0
 21
 21
-0
+Switching
 MP9447_20QFN
 
 
 0
 25
 25
-0
+Switching
 ST1S09IPUR
 
 
 0
 16
 7
-0
+Switching
 ST1S10PHR_SOIC8
 3A,VOUTMAX=15,VINMAX=18V,900kHz
 Switching Voltage Regulator
 0
 18
 9
-0
+Switching
 SY8088_SOT23-5
 Boost Converter
 VRegulator
 0
 5
 5
-0
+Switching
 TK65600B
 
 
 0
 8
 8
-0
+Switching
 TPS61085DGKR_TSSOP8
 8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
 SSOP 0.65
 0
 8
 8
-0
+Switching
 TPS61088RHLR
 Boost Converter 10A Fully-Integrated Synchronous
 DC-DC Converter
 0
 31
 21
-0
+Switching
 XL1507_TO252-5L
 
 
 0
 31
 30
-0
+Switching
 XL6007_SO8
 
 DCDC_Converter
 0
 8
 8
-0
+Switching
 to220-5
 TO220, 5pins
 
 0
 5
 5
-0
+Test_Points
 Test_Point_1.27mm
 
 
 0
 1
 1
-0
+Test_Points
 Test_Point_2.54mm
 
 
 0
 1
 1
-0
+Transistor_Bipolar
 2SB772_TO126H
 PNP Transistor
 Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 2SB772_TO126V
 PNP Transistor
 Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BC337_TO92
 TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
 Reset Device
 0
 3
 3
-0
+Transistor_Bipolar
 BC547B_TO92
 TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
 Reset Device
 0
 3
 3
-0
+Transistor_Bipolar
 BC807_16_5A_SOT23
 45 V, 500 mA PNP general-purpose transistors
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BC817-25-SOT23
 
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BC846_SOT23
 
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BC847B_SOT23
 
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BC856_SOT23
 
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BC857B_SOT23
 
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BCP55-16_SOT223
 NPN Transistor
 Transistor
 0
 4
 3
-0
+Transistor_Bipolar
 BCP56-16_SOT223
 NPN Transistor
 Transistor
 0
 4
 3
-0
+Transistor_Bipolar
 BCP5310TA_SOT223
 NPN Transistor
 Transistor
 0
 4
 3
-0
+Transistor_Bipolar
 BCW68_SOT23
 PNP Transistor
 Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BDP947_SOT223
 NPN Transistor
 Transistor
 0
 4
 3
-0
+Transistor_Bipolar
 BFN24_SOT23
 
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 BST50_51_52_SOT89
 BST50_51_52
 Transistor Darlington
 0
 4
 3
-0
+Transistor_Bipolar
 C8050_TO92
 TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
 Reset Device
 0
 3
 3
-0
+Transistor_Bipolar
 C8550_TO92
 TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
 Reset Device
 0
 3
 3
-0
+Transistor_Bipolar
 HT882_TO126H
 PNP Transistor
 Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 HT882_TO126V
 PNP Transistor
 Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 KSD882_TO126H
 NPN Transistor
 Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 KSD882_TO126V
 NPN Transistor
 Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 KTC9014_TO92
 TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)
 Reset Device
 0
 3
 3
-0
+Transistor_Bipolar
 MBT3906DW1T1_SOT_363
 
 Dual PNP General Purpose Transistor
 0
 6
 6
-0
+Transistor_Bipolar
 MTTDT4413-7-F
 SOT-363, SC-70-6
 SOT-363 SC-70-6
 0
 6
 6
-0
+Transistor_Bipolar
 SMBT2907_SOT23
 
 Bipolar Transistor
 0
 3
 3
-0
+Transistor_Bipolar
 ULN2803A
-
+SOIC (18) 
 Transistor Array
 0
 18
 18
-0

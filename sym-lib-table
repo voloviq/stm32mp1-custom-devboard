@@ -27,4 +27,5 @@
   (lib (name "RJ45_Ethernet_Transformer")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Connectors/RJ45_Ethernet_Transformer/RJ45_Ethernet_Transformer.kicad_sym")(options "")(descr ""))
   (lib (name "esd_protectors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/ESD_Protectors/esd_protectors.kicad_sym")(options "")(descr ""))
   (lib (name "Reset_Devices_Diodes")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Reset_Device/Diodes/Reset_Devices_Diodes.kicad_sym")(options "")(descr ""))
+  (lib (name "Microswitches")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Switches/Microswitches/Microswitches.kicad_sym")(options "")(descr ""))
 )
