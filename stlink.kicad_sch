@@ -487,14 +487,6 @@
         )
         (polyline
           (pts
-            (xy -3.81 -1.27)
-            (xy -2.54 1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0)) (fill (type background))
-        )
-        (polyline
-          (pts
             (xy -3.81 1.27)
             (xy -3.81 1.905)
             (xy -3.175 1.905)
@@ -511,14 +503,6 @@
         )
         (polyline
           (pts
-            (xy 1.27 -1.27)
-            (xy 2.54 1.27)
-            (xy 3.81 -1.27)
-          )
-          (stroke (width 0)) (fill (type background))
-        )
-        (polyline
-          (pts
             (xy 1.27 1.27)
             (xy 1.27 1.905)
             (xy 1.905 1.905)
@@ -532,6 +516,22 @@
             (xy 3.175 0.635)
           )
           (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -1.27)
+            (xy -2.54 1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0)) (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 2.54 1.27)
+            (xy 3.81 -1.27)
+          )
+          (stroke (width 0)) (fill (type background))
         )
         (pin passive line (at -2.54 -5.08 90) (length 3.81)
           (name "A" (effects (font (size 1.016 1.016))))
@@ -658,14 +658,6 @@
         )
         (polyline
           (pts
-            (xy -3.81 -1.27)
-            (xy -2.54 1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0)) (fill (type background))
-        )
-        (polyline
-          (pts
             (xy -3.556 1.651)
             (xy -4.572 2.794)
             (xy -3.937 2.667)
@@ -682,14 +674,6 @@
         )
         (polyline
           (pts
-            (xy 1.27 1.27)
-            (xy 2.54 -1.27)
-            (xy 3.81 1.27)
-          )
-          (stroke (width 0)) (fill (type background))
-        )
-        (polyline
-          (pts
             (xy 2.921 -2.286)
             (xy 4.064 -3.302)
             (xy 3.937 -2.667)
@@ -703,6 +687,22 @@
             (xy 4.572 -2.032)
           )
           (stroke (width 0)) (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -1.27)
+            (xy -2.54 1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0)) (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 2.54 -1.27)
+            (xy 3.81 1.27)
+          )
+          (stroke (width 0)) (fill (type background))
         )
       )
       (symbol "HSMF-C155_1_1"
@@ -2028,27 +2028,27 @@
         (arc (start -6.35 -3.81) (end -5.08 -3.81) (radius (at -5.715 -3.81) (length 0.635) (angles -179.9 -0.1))
           (stroke (width 0.254)) (fill (type none))
         )
-        (arc (start -6.35 -3.81) (end -5.08 -3.81) (radius (at -5.715 -3.81) (length 0.635) (angles -179.9 -0.1))
-          (stroke (width 0.254)) (fill (type outline))
-        )
-        (arc (start -5.08 3.81) (end -6.35 3.81) (radius (at -5.715 3.81) (length 0.635) (angles 0.1 179.9))
-          (stroke (width 0.254)) (fill (type outline))
-        )
         (arc (start -5.08 3.81) (end -6.35 3.81) (radius (at -5.715 3.81) (length 0.635) (angles 0.1 179.9))
           (stroke (width 0.254)) (fill (type none))
         )
         (arc (start -3.81 3.81) (end -7.62 3.81) (radius (at -5.715 3.81) (length 1.905) (angles 0.1 179.9))
           (stroke (width 0.508)) (fill (type none))
         )
-        (circle (center -2.032 8.255) (radius 0.635) (stroke (width 0.254)) (fill (type outline)))
-        (rectangle (start -13.97 35.56) (end 13.97 -35.56)
-          (stroke (width 0.254)) (fill (type background))
+        (arc (start -6.35 -3.81) (end -5.08 -3.81) (radius (at -5.715 -3.81) (length 0.635) (angles -179.9 -0.1))
+          (stroke (width 0.254)) (fill (type outline))
         )
+        (arc (start -5.08 3.81) (end -6.35 3.81) (radius (at -5.715 3.81) (length 0.635) (angles 0.1 179.9))
+          (stroke (width 0.254)) (fill (type outline))
+        )
+        (circle (center -2.032 8.255) (radius 0.635) (stroke (width 0.254)) (fill (type outline)))
         (rectangle (start -6.35 -3.81) (end -5.08 3.81)
           (stroke (width 0.254)) (fill (type outline))
         )
         (rectangle (start 2.413 8.89) (end 3.683 10.16)
           (stroke (width 0.254)) (fill (type outline))
+        )
+        (rectangle (start -13.97 35.56) (end 13.97 -35.56)
+          (stroke (width 0.254)) (fill (type background))
         )
         (polyline
           (pts
@@ -2393,6 +2393,7 @@
       )
     )
   )
+
 
   (junction (at 35.56 171.45) (diameter 1.016) (color 0 0 0 0))
   (junction (at 36.83 171.45) (diameter 1.016) (color 0 0 0 0))

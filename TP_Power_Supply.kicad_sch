@@ -194,6 +194,7 @@
     )
   )
 
+
   (junction (at 191.77 139.7) (diameter 1.016) (color 0 0 0 0))
   (junction (at 232.41 139.7) (diameter 1.016) (color 0 0 0 0))
 

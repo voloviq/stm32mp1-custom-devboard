@@ -262,9 +262,6 @@
         (text "SPI" (at 12.7 -12.7 900)
           (effects (font (size 1.524 1.524)))
         )
-        (rectangle (start -25.4 30.48) (end 25.4 -30.48)
-          (stroke (width 0)) (fill (type background))
-        )
         (rectangle (start -20.32 -26.67) (end -12.7 -26.67)
           (stroke (width 0)) (fill (type none))
         )
@@ -294,6 +291,9 @@
         )
         (rectangle (start 17.78 -24.13) (end 16.51 -24.13)
           (stroke (width 0)) (fill (type none))
+        )
+        (rectangle (start -25.4 30.48) (end 25.4 -30.48)
+          (stroke (width 0)) (fill (type background))
         )
         (polyline
           (pts
