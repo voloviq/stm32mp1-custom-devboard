@@ -10,17 +10,17 @@
   )
 
   (lib_symbols
-    (symbol "Capacitors_Smd0603:100nF_0603" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Capacitors_Smd0603:100n" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Capacitors_Smd0603_100nF_0603" (id 1) (at 1.27 -2.54 0)
+      (property "Value" "100n" (id 1) (at 1.27 -2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" (id 3) (at 0 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Manufacturer" "SAMSUNG" (id 4) (at 0 0 0)
@@ -47,10 +47,16 @@
       (property "Package" "0603" (id 11) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "100nF_0603" (id 12) (at 0 0 0)
+      (property "ki_keywords" "SMD Capacitor" (id 12) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "100nF_0603_0_1"
+      (property "ki_description" "100nF / 50V, X7R, 5%, -55°C to +125°C" (id 13) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "100nF_0603" (id 14) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "100n_0_1"
         (polyline
           (pts
             (xy 2.54 -0.635)
@@ -68,7 +74,7 @@
           (stroke (width 0.3048)) (fill (type none))
         )
       )
-      (symbol "100nF_0603_1_1"
+      (symbol "100n_1_1"
         (pin passive line (at 0 5.08 270) (length 4.4704)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -248,17 +254,17 @@
         )
       )
     )
-    (symbol "Capacitors_Smd_Tantal:22uF35V" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Capacitors_Smd_Tantal:22uF_35V" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 3.175 -4.445 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Capacitors_Smd_Tantal_22uF35V" (id 1) (at 7.62 -1.27 0)
+      (property "Value" "22uF_35V" (id 1) (at 7.62 -1.27 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" (id 3) (at 0 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Manufacturer" "VISHAY" (id 4) (at 0 0 0)
@@ -291,12 +297,18 @@
       (property "LCSC Part # (optional)" "C126947" (id 13) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "22uF_35V_Size_D" (id 14) (at 0 0 0)
+      (property "ki_keywords" "Capacitor" (id 14) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "22uF35V_0_1"
+      (property "ki_description" "22uF 35VDC Size C 2312 +/10% -55...125°C Tantalum" (id 15) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "22uF_35V_Size_D" (id 16) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "22uF_35V_0_1"
         (rectangle (start 2.54 0) (end -2.54 -1.27)
-          (stroke (width 0.3048)) (fill (type none))
+          (stroke (width 0.3048)) (fill (type background))
         )
         (polyline
           (pts
@@ -316,7 +328,7 @@
           (stroke (width 0.3048)) (fill (type none))
         )
       )
-      (symbol "22uF35V_1_1"
+      (symbol "22uF_35V_1_1"
         (rectangle (start -2.54 -2.54) (end 2.54 -2.54)
           (stroke (width 0.3048)) (fill (type none))
         )
@@ -1062,7 +1074,6 @@
       )
     )
   )
-
 
   (junction (at 80.01 102.87) (diameter 1.016) (color 0 0 0 0))
   (junction (at 85.09 102.87) (diameter 1.016) (color 0 0 0 0))
@@ -2303,7 +2314,7 @@
     (pin "2" (uuid 6d5abd1d-bb1f-46d7-bd23-0d2d780557e7))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 85.09 114.3 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 85.09 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe16283)
     (property "Reference" "C7" (id 0) (at 88.4174 113.1316 0)
@@ -2346,7 +2357,7 @@
     (pin "2" (uuid 3730fb29-cbb3-48c6-b9ee-4a812a4f05b8))
   )
 
-  (symbol (lib_id "Capacitors_Smd_Tantal:22uF35V") (at 100.33 113.03 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd_Tantal:22uF_35V") (at 100.33 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe12f0b)
     (property "Reference" "C8" (id 0) (at 103.6574 113.1316 0)
@@ -2356,7 +2367,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Smd_Tantal:22uF_35V_Size_D" (id 2) (at 100.33 113.03 0)
-      (effects (font (size 1.524 1.524)) hide)
+      (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" (id 3) (at 100.33 113.03 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -2395,7 +2406,7 @@
     (pin "2" (uuid 6a3d68ba-0791-46f8-82c2-2526255c491c))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 120.65 114.3 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 120.65 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe1f9cc)
     (property "Reference" "C9" (id 0) (at 123.9774 113.1316 0)
@@ -2438,7 +2449,7 @@
     (pin "2" (uuid 4c15d14e-543c-4cf7-a4cd-ea5780570ce2))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 134.62 114.3 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 134.62 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe22594)
     (property "Reference" "C10" (id 0) (at 137.9474 113.1316 0)
@@ -2579,7 +2590,7 @@
     (pin "2" (uuid fe0cf5c7-3dee-4ca2-ac13-fb8d7d24a719))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 170.18 167.64 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 170.18 167.64 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe2bbb2)
     (property "Reference" "C13" (id 0) (at 173.5074 166.4716 0)
@@ -2622,7 +2633,7 @@
     (pin "2" (uuid ea4d5453-1133-4a57-9c02-52b103adcf57))
   )
 
-  (symbol (lib_id "Capacitors_Smd_Tantal:22uF35V") (at 185.42 166.37 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd_Tantal:22uF_35V") (at 185.42 166.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe2b9c9)
     (property "Reference" "C14" (id 0) (at 188.7474 166.4716 0)
@@ -2632,7 +2643,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Smd_Tantal:22uF_35V_Size_D" (id 2) (at 185.42 166.37 0)
-      (effects (font (size 1.524 1.524)) hide)
+      (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" (id 3) (at 185.42 166.37 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -2720,7 +2731,7 @@
     (pin "2" (uuid b26698cb-86ed-4ce6-8e59-403d463fec6a))
   )
 
-  (symbol (lib_id "Capacitors_Smd_Tantal:22uF35V") (at 264.16 166.37 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd_Tantal:22uF_35V") (at 264.16 166.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe26f84)
     (property "Reference" "C16" (id 0) (at 267.4874 166.4716 0)
@@ -2730,7 +2741,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Smd_Tantal:22uF_35V_Size_D" (id 2) (at 264.16 166.37 0)
-      (effects (font (size 1.524 1.524)) hide)
+      (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" (id 3) (at 264.16 166.37 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -2769,7 +2780,7 @@
     (pin "2" (uuid 64f221a6-dce3-46d1-9848-af7a71b06069))
   )
 
-  (symbol (lib_id "Capacitors_Smd_Tantal:22uF35V") (at 279.4 109.22 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd_Tantal:22uF_35V") (at 279.4 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe1117b)
     (property "Reference" "C17" (id 0) (at 282.7274 109.3216 0)
@@ -2779,7 +2790,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Smd_Tantal:22uF_35V_Size_D" (id 2) (at 279.4 109.22 0)
-      (effects (font (size 1.524 1.524)) hide)
+      (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" (id 3) (at 279.4 109.22 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -2818,7 +2829,7 @@
     (pin "2" (uuid 4f52b7ab-af3b-48d4-a6b2-22c0c2d822c0))
   )
 
-  (symbol (lib_id "Capacitors_Smd_Tantal:22uF35V") (at 294.64 109.22 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd_Tantal:22uF_35V") (at 294.64 109.22 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe05ded)
     (property "Reference" "C18" (id 0) (at 297.9674 109.3216 0)
@@ -2828,7 +2839,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Smd_Tantal:22uF_35V_Size_D" (id 2) (at 294.64 109.22 0)
-      (effects (font (size 1.524 1.524)) hide)
+      (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" (id 3) (at 294.64 109.22 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -2867,7 +2878,7 @@
     (pin "2" (uuid f07f0e87-4139-4612-b024-dbf3cdf6ad0c))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 309.88 110.49 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 309.88 110.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe09a8d)
     (property "Reference" "C19" (id 0) (at 313.2074 109.3216 0)
@@ -2910,7 +2921,7 @@
     (pin "2" (uuid c00e5ef8-90f8-4eec-bae1-25a9748ca5d6))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:100nF_0603") (at 323.85 110.49 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd0603:100n") (at 323.85 110.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005fe0bd5b)
     (property "Reference" "C20" (id 0) (at 327.1774 109.3216 0)
