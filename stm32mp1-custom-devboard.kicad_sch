@@ -4414,6 +4414,9 @@
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-0000600429db"
       (reference "#PWR70") (unit 1) (value "3V3") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005fff457c/995247ed-6f13-47a3-9975-a71c88598944"
+      (reference "#PWR71") (unit 1) (value "3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-0000600c48e1"
       (reference "#PWR72") (unit 1) (value "3V3") (footprint "")
     )
@@ -4444,6 +4447,12 @@
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00006008fe33"
       (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005fff457c/4cce5fe2-fb9c-4f52-9a98-1390d38adf4f"
+      (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005fff457c/aca4c454-c086-4803-bbd8-405a60182f60"
+      (reference "#PWR0198") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00005ff53261"
       (reference "#PWR0348") (unit 1) (value "GND") (footprint "")
     )
@@ -4458,15 +4467,6 @@
     )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-0000606c9153"
       (reference "#PWR0352") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fff457c/4cce5fe2-fb9c-4f52-9a98-1390d38adf4f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fff457c/995247ed-6f13-47a3-9975-a71c88598944"
-      (reference "#PWR?") (unit 1) (value "3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005fff457c/aca4c454-c086-4803-bbd8-405a60182f60"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00005c874373"
       (reference "C33") (unit 1) (value "22uF6V3") (footprint "Smd_Tantal:22uF6V3_1206")
@@ -4540,6 +4540,15 @@
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00005b7312a0"
       (reference "R36") (unit 1) (value "6k49") (footprint "Resistor_Smd_0603:6k49_0603")
     )
+    (path "/00000000-0000-0000-0000-00005fff457c/8b68336d-285d-4497-be68-063893de8382"
+      (reference "R37") (unit 1) (value "1k") (footprint "Resistor_Smd_0603:1k_0603")
+    )
+    (path "/00000000-0000-0000-0000-00005fff457c/38dd8d2d-f1fa-4348-b41b-eefcdca593e4"
+      (reference "R38") (unit 1) (value "4k7_NM") (footprint "Resistor_Smd_0603:4k7_0603")
+    )
+    (path "/00000000-0000-0000-0000-00005fff457c/399702d0-8537-4da8-8e5e-c1e3034fcb81"
+      (reference "R39") (unit 1) (value "1k") (footprint "Resistor_Smd_0603:1k_0603")
+    )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00005b87d3b4"
       (reference "R40") (unit 1) (value "10k") (footprint "Resistor_Smd_0603:10k_0603")
     )
@@ -4575,15 +4584,6 @@
     )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00006060d833"
       (reference "R96") (unit 1) (value "49R9_1%") (footprint "Resistor_Smd_0402:49R9_0402")
-    )
-    (path "/00000000-0000-0000-0000-00005fff457c/38dd8d2d-f1fa-4348-b41b-eefcdca593e4"
-      (reference "R?") (unit 1) (value "4k7_NM") (footprint "Resistor_Smd_0603:4k7_0603")
-    )
-    (path "/00000000-0000-0000-0000-00005fff457c/399702d0-8537-4da8-8e5e-c1e3034fcb81"
-      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_Smd_0603:1k_0603")
-    )
-    (path "/00000000-0000-0000-0000-00005fff457c/8b68336d-285d-4497-be68-063893de8382"
-      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_Smd_0603:1k_0603")
     )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00006005a8c8"
       (reference "T2") (unit 1) (value "WE-RJ45_74990101210") (footprint "RJ45_Ethernet_Transformer:WE-RJ45_74990101210")

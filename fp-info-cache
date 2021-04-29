@@ -1,4 +1,4 @@
-1410195722429487
+1530124786056049
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -63,6 +63,20 @@ https://store.arduino.cc/genuino-zero
 38
 38
 Capacitors_Smd_0402
+1.2pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+1.3pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
 1n5F_0402
 
 capacitor 0402
@@ -77,6 +91,13 @@ capacitor 0402
 2
 2
 Capacitors_Smd_0402
+1pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
 1uF_0402
 
 capacitor 0402
@@ -84,7 +105,56 @@ capacitor 0402
 2
 2
 Capacitors_Smd_0402
+2.2pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+2.7pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+3.3pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+3.6pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+5.1pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+5.6pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
 5_6pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+6.8pF_0402
 
 capacitor 0402
 0
@@ -147,7 +217,28 @@ capacitor 0402
 2
 2
 Capacitors_Smd_0402
+33pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+47nF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
 47pF_0402
+
+capacitor 0402
+0
+2
+2
+Capacitors_Smd_0402
+68pF_0402
 
 capacitor 0402
 0
@@ -847,12 +938,26 @@ Communication Interface
 8
 8
 Communication_Interfaces
+MCP2512_VDFN14
+
+
+0
+15
+15
+Communication_Interfaces
 MCP2515-I-QFN20
 QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
 25
 21
+Communication_Interfaces
+MCP2515-I-TSSOP20
+74HC541 buffer
+Digital IC
+0
+20
+20
 Communication_Interfaces
 MCP2551_SO8
 MCP2551
@@ -909,6 +1014,335 @@ LQFP QFP
 0
 48
 48
+Connector_USB
+651005136421
+<b>WR-COM</b><br>Mini USB 2.0 Type B Vertical 5 Contacts , 5 pins
+
+0
+7
+7
+Connector_USB
+651305142821
+<B>WR-COM</B><BR> Mini USB 2.0 Type AB SMT Horizontal 5 Contacts
+
+0
+9
+9
+Connector_USB
+62900416021
+<B>WR-COM</B><BR>USB 2.0 SMT Type A Horizontal , 4 pins
+
+0
+6
+6
+Connector_USB
+62910416121
+<b>WR-COM</b><br> USB 2.0 Type B SMT Horizontal , 4 pins
+
+0
+6
+6
+Connector_USB
+614004134726
+<B>WR-COM</B><BR> USB 2.0 Type A Up Right , 4 pins
+
+0
+8
+8
+Connector_USB
+614004135023
+<B>WR-COM</B><BR> USB 2.0 Type A Vertical
+
+0
+6
+6
+Connector_USB
+614004184726
+<b>WR-COM</b><br> USB 2.0 Type A Up Right THT
+
+0
+7
+7
+Connector_USB
+614004185023
+<b>WR-COM </b><br>USB 2.0 Type A Vertical Short Type THT
+
+0
+6
+6
+Connector_USB
+614004190021
+<B>WR-COM</B><BR>USB 2.0 Type A Horizontal THT
+
+0
+6
+6
+Connector_USB
+614008235023
+<b>WR-COM</b><br> USB 2.0 Type A Vertical Dual
+
+0
+12
+12
+Connector_USB
+614104135023R
+<B>WR-COM</B><BR> USB 2.0 Type A Vertical THR
+
+0
+6
+6
+Connector_USB
+614104150121
+<b>WR-COM</b> <br>USB 2.0 THT Type A Horizontal Slim Type ,4Pins
+
+0
+6
+6
+Connector_USB
+614104190121
+<b>WR-COM</b><br>USB 2.0 Type A Horizontal THT Short Type ,4Pins
+
+0
+6
+6
+Connector_USB
+614105150621
+<b>WR-COM</B><BR> Micro USB 2.0 Type AB Vertical 5 Contacts
+
+0
+7
+7
+Connector_USB
+614105150721
+<b>WR-COM</b><br> Micro USB 2.0 Type B Vertical 5 Contacts
+
+0
+7
+7
+Connector_USB
+614108646521
+<b>WR-COM</b><br>Type A Horizontal THR Dual Mid-Mount,8Pins
+
+0
+12
+12
+Connector_USB
+692112030100
+<B>WR-COM </B><BR> USB 3.0 Type A SMT Plug with Clip
+
+0
+11
+11
+Connector_USB
+692121030100
+<B>WR-COM </B><BR> USB 3.0 HORIZONTAL TYPE A
+
+0
+11
+11
+Connector_USB
+692121130100
+<B>WR-COM </B><br>USB 3.0 Type A Reverse Horizontal w. Offset 0.14 mm
+
+0
+13
+13
+Connector_USB
+692121230100
+<B>WR-COM</b><br> USB 3.0 Type A Horizontal w. Offset 1.04 mm
+
+0
+13
+13
+Connector_USB
+692121330100
+<B>WR-COM </B><br> USB 3.0 Type A Reverse Horizontal w. Offset 1.75 mm
+
+0
+13
+13
+Connector_USB
+692121430000
+<B>WR-COM</B><BR> USB 3.0 Type A Vertical THT
+
+0
+11
+11
+Connector_USB
+692122030100
+<B>WR-COM </B><BR> USB 3.0 Type A Horizontal SMD
+
+0
+11
+11
+Connector_USB
+692141030100
+<B>WR-COM </B> <BR>USB 3.0 STACKED TYPE A
+
+0
+22
+22
+Connector_USB
+65100516121
+<B>WR-COM</B><BR> Mini USB 2.0 Type B SMT Horizontal 5 Contacts
+
+0
+9
+9
+Connector_USB
+692221030100
+<B>WR-COM </B><br> USB 3.0 Type B Horizontal
+
+0
+11
+11
+Connector_USB
+632121300001
+<b>WR-COM</b><br> USB 3.1 Type A Receptacle Horizontal THT Power Delivery
+
+0
+17
+17
+Connector_USB
+692622030100
+<B>WR-COM</B><br>Micro USB 3.0 Type B Horizontal SMT
+
+0
+16
+16
+Connector_USB
+692622420101
+<B>WR-COM</B><BR> Micro USB 3.0 Type B Vertical SMT
+
+0
+14
+14
+Connector_USB
+61400413321
+<B>WR-COM</B> <BR>USB 2.0 Type B Vertical , 4 pins
+
+0
+6
+6
+Connector_USB
+61400416021
+<b>WR-COM</b><br> USB 2.0 Type A Horizontal
+
+0
+6
+6
+Connector_USB
+61400416121
+WR-COM Horizontal USB Type B
+
+0
+6
+6
+Connector_USB
+61400826021
+<b>WR-COM</b><br> USB 2.0 Type A Horizontal Dual Stacked
+
+0
+12
+12
+Connector_USB
+61410416021R
+<b>WR-COM</b><br> USB 2.0 Type A Horizontal THR
+
+0
+6
+6
+Connector_USB
+61410416121R
+<b>WR-COM</b><br> USB 2.0 Type B Horizontal THR ,4Pins
+
+0
+6
+6
+Connector_USB
+632712000011
+<B>WR-COM</B><BR> USB 3.1 Type C Plug Horizontal SMT 0.8 mm
+
+0
+26
+26
+Connector_USB
+632712000112
+<B>WR-COM</B><BR> USB 3.1 Type C Plug Horizontal 0.8 mm
+
+0
+28
+28
+Connector_USB
+632722110112
+<B>WR-COM </B><BR>USB 3.1 Type C Receptacle Vertical SMT 1.0 mm
+
+0
+28
+28
+Connector_USB
+632723100011
+<B>WR-COM</B><BR>USB 3.1 Type C Receptacle Horizontal THT / SMT
+
+0
+30
+29
+Connector_USB
+632723130112
+<b>WR-COM</b><br> USB 3.1 Type C Receptacle Horizontal Mid-Mount THR / SMT 1.6 mm
+
+0
+28
+28
+Connector_USB
+632723300011
+<b>WR-COM</b><br> USB 3.1 Type C Receptacle Horizontal THT / SMT
+
+0
+30
+29
+Connector_USB
+629004113921
+<B>WR-COM</B><BR> 2.0 Plug Type A SMT w. Clip
+
+0
+6
+6
+Connector_USB
+629104151021
+<b>WR-COM</b><br> USB 2.0 Type A Horizontal SMT with pegs
+
+0
+6
+6
+Connector_USB
+629104190121
+<B>WR-COM</B><BR> USB 2.0 Type A Horizontal SMT Short Type
+
+0
+8
+8
+Connector_USB
+629105136821
+<B>WR-COM</B><BR> Micro USB 2.0 SMT Type B Horizontal 5 Contacts
+
+0
+9
+9
+Connector_USB
+629105150521
+<B>WR-COM</b><BR>Type B with Pegs, High Current at Pin 1 & Pin 5 Micro USB 2.0 SMT Type B Horizontal 5 Contacts High Current
+
+0
+9
+9
+Connector_USB
+629105150921
+<b>WR-COM </B><BR>Micro USB 2.0 Type AB Horizontal
+
+0
+11
+11
 Connector_USB
 Molex_47346-0001
 Usb Micro
@@ -1925,12 +2359,26 @@ IP4220CZ6_SOT457
 6
 6
 ESD_Protectors
+PESD2CAN.215
+
+Bipolar Transistor
+0
+3
+3
+ESD_Protectors
 PESD3V3_SOT886
 
 
 0
 6
 6
+ESD_Protectors
+SM712.TCT
+
+Bipolar Transistor
+0
+3
+3
 ESD_Protectors
 USBLC6-2_SOT23-6L
 Schmitt-Trigger Inverter
@@ -2268,6 +2716,27 @@ Inductors
 2
 2
 Inductors
+3.3nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
+3.6nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
+3nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
 4.7uH-0.9A-74438333047
 
 
@@ -2303,6 +2772,13 @@ Inductors
 2
 2
 Inductors
+8.7nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
 10uH_Dla_Size_0411_12
 RESISTOR
 RESISTOR
@@ -2311,6 +2787,20 @@ RESISTOR
 2
 Inductors
 10uH_SMD_CD32
+
+
+0
+2
+2
+Inductors
+11nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
+15uH_0603
 
 
 0
@@ -2345,6 +2835,13 @@ SMD Inductor
 2
 2
 Inductors
+33nH_0402
+
+SMD Inductor
+0
+2
+2
+Inductors
 39nH_0402
 Murata
 SMD Inductor
@@ -2355,6 +2852,13 @@ Inductors
 39nH_0603
 
 
+0
+2
+2
+Inductors
+47nH_0402
+
+SMD Inductor
 0
 2
 2
@@ -4417,6 +4921,13 @@ Quarts SMD
 2
 2
 Resonators
+NX2016SA_32MHz
+32MHz
+Quarts SMD
+0
+4
+4
+Resonators
 Resonator_16MHz_49US
 16MHz Resonator 49US
 Quartz, Resonator
@@ -4710,6 +5221,13 @@ BGA
 0
 257
 257
+Stm32_Microcontrollers
+STM32WL55CCU6
+
+
+0
+49
+49
 Switching
 A4403
 QFN, 16 Pin (https://www.allegromicro.com/~/media/Files/Datasheets/A4403-Datasheet.ashx), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
