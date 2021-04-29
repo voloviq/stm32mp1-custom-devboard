@@ -7,8 +7,8 @@ HeaderPath=../Drivers/STM32MP1xx_HAL_Driver/Inc;../Drivers/STM32MP1xx_HAL_Driver
 CDefines=CORE_CM4;CORE_CM4;CORE_CM4;USE_HAL_DRIVER;STM32MP157Axx;USE_HAL_DRIVER;USE_HAL_DRIVER;
 
 [PreviousGenFiles]
-HeaderPath=/home/mw/Pulpit/stm32mp1_visionsom_custom_board_cubemx/CM4/Inc
+HeaderPath=/home/mw/hardware_projects/stm32mp1-custom-devboard/stm32mp1_visionsom_custom_board_cubemx/CM4/Inc
 HeaderFiles=stm32mp1xx_it.h;stm32mp1xx_hal_conf.h;main.h;
-SourcePath=/home/mw/Pulpit/stm32mp1_visionsom_custom_board_cubemx/CM4/Src
+SourcePath=/home/mw/hardware_projects/stm32mp1-custom-devboard/stm32mp1_visionsom_custom_board_cubemx/CM4/Src
 SourceFiles=stm32mp1xx_it.c;stm32mp1xx_hal_msp.c;main.c;
 
