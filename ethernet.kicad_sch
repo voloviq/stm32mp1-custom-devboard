@@ -2585,6 +2585,16 @@
     )
   )
 
+  (text "MII and RMII Routing Guidelines\n\nAll connections on a PCB in MII and RMII routing are point-to-point connections. Although MII and RMII use relatively low data rates, \nthe limiting parameter that determines whether a trace can act as a transmission line is the signal rise/fall time. Unless your board \nis very large or your signal switching speed is very fast, reflections at the end of each connection can be ignored. \nThe recommended trace impedance in MII is 50 Ohms +/- 10%.\nAlthough the trace length between the PHY and MAC is generally short enough to ignore transmission line effects,\nyou should pay attention to impedance when routing the signal and clock traces when the traces are electrically long. \nSince MII and RMII require clock signals between the PHY and MAC, best practices for routing clock signals should be used \nwith longer traces. Generally, you should avoid the use of vias on traces carrying clock signals on board with impedance control \nas the trace impedance can be different between layers. However, as long as the impedance in each layer is carefully controlled to the\nright value, then the clock signals can certainly be routed through vias. This will prevent signal reflections on longer clock traces.\nFor the above reasons, all MII/RMII signal traces should be routed as short as possible on a single layer, and traces should be\nrouted in a straight path. If you must turn a corner with a signal trace, the trace should bend by no more than 45 degrees.\nClock lines should also be shielded with GND lines to prevent crosstalk through capacitive coupling,\nespecially when longer traces are necessary. Because the TX and RX data signals are triggered by the rising edge of the clock,\ncommunication in MII and RMII is synchronous. Thus, the data lines and the clock line between the MAC and PHY should be length matched.\nThe allowed deviation in length matching depends on the rise/fall time for digital signals between these two elements, \nalthough it is generally recommended that any deviation be less than 10 mm as MII and RMII use TTL logic.\nAgain, the allowed trace length mismatch depends on the rise/fall time of digital signals."
+    (at 17.78 278.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f47a2220-c370-4c3b-a4e7-8898478ee733)
+  )
+  (text "Track width 4.75mil for all" (at 44.45 226.06 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 6a62bf42-d2d3-4506-95d0-084d86b90e94)
+  )
+
   (label "ETH_RX_N" (at 318.77 124.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f9dc071-330c-4de3-8969-cb3eb44903e4)
