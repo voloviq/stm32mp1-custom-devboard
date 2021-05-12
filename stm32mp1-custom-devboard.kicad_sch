@@ -4864,8 +4864,8 @@
     (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-000060014acf"
       (reference "Con4") (unit 1) (value "USB_C_Wurth_632723130112") (footprint "Connector_USB:USB_C_632723130112")
     )
-    (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-0000600176a3"
-      (reference "Con5") (unit 1) (value "USB_C_Wurth_632723130112") (footprint "Connector_USB:USB_C_632723130112")
+    (path "/00000000-0000-0000-0000-000060014762/f5599d01-b1c5-4297-bed1-235ff69142c8"
+      (reference "Con5") (unit 1) (value "USB_C_Wurth_632723300011") (footprint "Connector_USB:632723300011")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005e88f615/00000000-0000-0000-0000-00005e8988f5"
       (reference "D1") (unit 1) (value "NSR0530H-D") (footprint "Diodes:NSR0530H-D_SOD323")
