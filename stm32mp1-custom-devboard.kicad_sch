@@ -4861,8 +4861,8 @@
     (path "/00000000-0000-0000-0000-00005ffec95a/00000000-0000-0000-0000-00005ffedd16"
       (reference "Con3") (unit 1) (value "2041119-1") (footprint "Smd_Connectors:2041119-1")
     )
-    (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-000060014acf"
-      (reference "Con4") (unit 1) (value "USB_C_Wurth_632723130112") (footprint "Connector_USB:USB_C_632723130112")
+    (path "/00000000-0000-0000-0000-00005fdfb166/c3ac252c-7de7-4222-9dab-7fb62cac7a68"
+      (reference "Con4") (unit 1) (value "USB_C_Wurth_632723300011") (footprint "Connector_USB:632723300011")
     )
     (path "/00000000-0000-0000-0000-000060014762/f5599d01-b1c5-4297-bed1-235ff69142c8"
       (reference "Con5") (unit 1) (value "USB_C_Wurth_632723300011") (footprint "Connector_USB:632723300011")

@@ -1,4 +1,4 @@
-1531745452920756
+1533405740140082
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -6476,6 +6476,13 @@ Test_Point_1.27mm
 1
 Test_Points
 Test_Point_2.54mm
+
+
+0
+1
+1
+Test_Points
+Test_Point_2.54mm_with_hole
 
 
 0
