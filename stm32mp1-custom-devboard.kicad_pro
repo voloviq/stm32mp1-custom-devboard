@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.016,
-          "height": 1.7272,
-          "width": 1.7272
+          "drill": 0.0,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -523,7 +523,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0
+      "model_mode": 0,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "Pdf_Schematic/",
