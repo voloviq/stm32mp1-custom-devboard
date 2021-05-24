@@ -1,43 +1,35 @@
 M48
-; DRILL file {KiCad (5.99.0-9713-g2bc22de1a5)} date 03/16/21 21:30:54
+; DRILL file {KiCad (5.99.0-10624-g2131a44889)} date Mon May 24 23:42:25 2021
 ; FORMAT={-:-/ absolute / inch / decimal}
-; #@! TF.CreationDate,2021-03-16T21:30:54+01:00
-; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-9713-g2bc22de1a5)
+; #@! TF.CreationDate,2021-05-24T23:42:25+02:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-10624-g2131a44889)
 ; #@! TF.FileFunction,NonPlated,1,4,NPTH
 FMAT,2
 INCH
-; #@! TA.AperFunction,MechanicalDrill
-T1C0.0256
-; #@! TA.AperFunction,MechanicalDrill
-T2C0.0433
-; #@! TA.AperFunction,MechanicalDrill
-T3C0.0630
-; #@! TA.AperFunction,MechanicalDrill
-T4C0.1024
-; #@! TA.AperFunction,MechanicalDrill
-T5C0.1259
-; #@! TA.AperFunction,MechanicalDrill
-T6C0.1260
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T1C0.0433
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T2C0.0630
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T3C0.1024
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T4C0.1259
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T5C0.1260
 %
 G90
 G05
 T1
-; mechanical
-X6.3562Y-2.7694
-X6.6494Y-2.7694
-X8.0743Y-2.7479
-X8.0743Y-3.0411
-T2
 X5.9657Y-3.4335
-T3
+T2
 X6.95Y-3.4335
-T4
+T3
 X5.9815Y-5.3252
 X6.9343Y-5.3252
-T5
+T4
 X8.1051Y-5.0167
 X8.1051Y-5.4667
-T6
+T5
 X5.2645Y-3.2754
 X5.4645Y-5.3254
 X6.5645Y-5.3254
