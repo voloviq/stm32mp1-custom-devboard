@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210615) (generator eeschema)
 
   (uuid 30c6be00-ff92-41ff-aa27-dd3122bb473d)
 
@@ -524,7 +524,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7e14a4c5-5cb4-4bee-a86c-f54178b46a14)
   )
-  (hierarchical_label "SPDT_SEL-~WDISABLE~{slash}UART_RX" (shape bidirectional) (at 179.07 119.38 180)
+  (hierarchical_label "SPDT_SEL-~{WDISABLE}{slash}UART_RX" (shape bidirectional) (at 179.07 119.38 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid be851a1b-0b41-4598-ba3a-e35bcb8b5447)
   )
@@ -532,7 +532,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 21c2efe4-526d-41e7-bf03-bf35feb17291)
   )
-  (hierarchical_label "~RESET~" (shape input) (at 179.07 132.08 180)
+  (hierarchical_label "~{RESET}" (shape input) (at 179.07 132.08 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid acc7a5c6-b9b2-43cf-9968-4b55fee888d2)
   )

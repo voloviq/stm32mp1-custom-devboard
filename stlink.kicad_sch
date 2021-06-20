@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210615) (generator eeschema)
 
   (uuid 81a8dc81-c97b-47f4-bfaf-3323c1691c22)
 
@@ -3048,7 +3048,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1fa65ae5-28c2-4405-9b15-1ed135cf76c2)
   )
-  (hierarchical_label "STM-JTMS-~RESET~" (shape input) (at 83.82 177.8 180)
+  (hierarchical_label "STM-JTMS-~{RESET}" (shape input) (at 83.82 177.8 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid af0c6773-98b2-4f5e-a98f-b416db64690c)
   )
