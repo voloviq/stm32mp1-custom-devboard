@@ -10,18 +10,18 @@
  * DDR type: DDR3 / DDR3L
  * DDR width: 16bits
  * DDR density: 8Gb
- * System frequency: 400000kHz
+ * System frequency: 533000kHz
  * Relaxed Timing Mode: false
  * Address mapping type: RBC
  *
- * Save Date: 2021.04.18, save Time: 12:18:08
+ * Save Date: 2021.12.14, save Time: 17:59:55
  */
 
-#define DDR_MEM_NAME	"DDR3-DDR3L 16bits 400000kHz"
-#define DDR_MEM_SPEED	400000
+#define DDR_MEM_NAME	"DDR3-DDR3L 16bits 533000kHz"
+#define DDR_MEM_SPEED	533000
 #define DDR_MEM_SIZE	0x40000000
 
-#define DDR_MSTR 0x00040401
+#define DDR_MSTR 0x00041401
 #define DDR_MRCTRL0 0x00000010
 #define DDR_MRCTRL1 0x00000000
 #define DDR_DERATEEN 0x00000000
@@ -44,7 +44,7 @@
 #define DDR_DRAMTMG8 0x00001005
 #define DDR_DRAMTMG14 0x000000A0
 #define DDR_ZQCTL0 0xC2000040
-#define DDR_DFITMG0 0x02040104
+#define DDR_DFITMG0 0x02060105
 #define DDR_DFITMG1 0x00000202
 #define DDR_DFILPCFG0 0x07000000
 #define DDR_DFIUPD0 0xC0400003
@@ -53,7 +53,7 @@
 #define DDR_DFIPHYMSTR 0x00000000
 #define DDR_ODTCFG 0x06000600
 #define DDR_ODTMAP 0x00000001
-#define DDR_SCHED 0x00001201
+#define DDR_SCHED 0x00000C01
 #define DDR_SCHED1 0x00000000
 #define DDR_PERFHPR1 0x01000001
 #define DDR_PERFLPR1 0x08000200

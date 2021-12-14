@@ -51,7 +51,7 @@
 			/* USER CODE END clk_lse */
 		};
 		clk_hse: clk-hse {
-			st,bypass;
+			st,digbypass;
 
 			/* USER CODE BEGIN clk_hse */
 			/* USER CODE END clk_hse */
@@ -66,7 +66,7 @@
 &rcc {
 	u-boot,dm-pre-reloc;
 	st,clksrc = <
-		CLK_MPU_PLL1P_DIV
+		CLK_MPU_PLL1P
 		CLK_AXI_PLL2P
 		CLK_MCU_PLL3P
 		CLK_PLL12_HSE
@@ -78,7 +78,7 @@
 	>;
 	st,clkdiv = <
 		0 		/*MPU*/
-		1 		/*AXI*/
+		0 		/*AXI*/
 		0 		/*MCU*/
 		1 		/*APB1*/
 		1 		/*APB2*/
@@ -91,17 +91,18 @@
 	>;
 	st,pkcs = <
 		CLK_CKPER_DISABLED
-		CLK_ETH_PLL4P
-		CLK_SDMMC12_HCLK6
+		CLK_ETH_PLL3Q
+		CLK_SDMMC12_PLL4P
 		CLK_DSI_DSIPLL
 		CLK_STGEN_HSI
-		CLK_USBPHY_DISABLED
+		CLK_USBPHY_HSE
 		CLK_SPI2S1_PLL4P
 		CLK_SPI2S23_PLL4P
 		CLK_SPI45_DISABLED
 		CLK_SPI6_DISABLED
 		CLK_I2C46_PCLK5
-		CLK_SDMMC3_HCLK2
+		CLK_SDMMC3_DISABLED
+		CLK_USBO_USBPHY
 		CLK_ADC_PLL4R
 		CLK_CEC_DISABLED
 		CLK_I2C12_DISABLED
@@ -123,28 +124,27 @@
 	pll1:st,pll@0 {
 		compatible = "st,stm32mp1-pll";
 		reg = <0>;
-		cfg = < 1 32 0 1 1 PQR(1,0,0) >;
-		frac = < 0xaab >;
+		cfg = < 2 80 0 1 1 PQR(1,0,0) >;
+		frac = < 0x800 >;
 		u-boot,dm-pre-reloc;
 	};
 	pll2:st,pll@1 {
 		compatible = "st,stm32mp1-pll";
 		reg = <1>;
-		cfg = < 1 32 1 1 0 PQR(1,1,1) >;
-		frac = < 0xaab >;
+		cfg = < 2 65 1 0 0 PQR(1,1,1) >;
+		frac = < 0x1400 >;
 		u-boot,dm-pre-reloc;
 	};
 	pll3:st,pll@2 {
 		compatible = "st,stm32mp1-pll";
 		reg = <2>;
-		cfg = < 1 49 3 5 1 PQR(1,0,0) >;
+		cfg = < 2 49 1 15 31 PQR(1,1,0) >;
 		u-boot,dm-pre-reloc;
 	};
 	pll4:st,pll@3 {
 		compatible = "st,stm32mp1-pll";
 		reg = <3>;
-		cfg = < 1 32 3 4 3 PQR(1,1,1) >;
-		frac = < 0xaab >;
+		cfg = < 3 98 5 7 5 PQR(1,1,1) >;
 		u-boot,dm-pre-reloc;
 	};
 };
