@@ -26,4 +26,6 @@
   (lib (name "Reset_Device_Diodes")(type "KiCad")(uri "${KISYS3DMOD}/Reset_Device/Diodes/Reset_Device_Diodes.pretty")(options "")(descr ""))
   (lib (name "Microswitches")(type "KiCad")(uri "${KISYS3DMOD}/Switches/Microswitches/Microswitches.pretty")(options "")(descr ""))
   (lib (name "Symbols")(type "KiCad")(uri "${KISYS3DMOD}/Symbols/Symbols.pretty")(options "")(descr ""))
+  (lib (name "Tag_Connectors")(type "KiCad")(uri "${KICAD6_3DMODEL_DIR}/Connectors/Tag_Connectors/Tag_Connectors.pretty")(options "")(descr ""))
+  (lib (name "Smd_Fuses")(type "KiCad")(uri "${KICAD6_3DMODEL_DIR}/Fuses/Smd_Fuses/Smd_Fuses.pretty")(options "")(descr ""))
 )

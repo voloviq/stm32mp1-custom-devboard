@@ -5560,7 +5560,7 @@
   (symbol (lib_id "USB_Connectors:USB_C_Wurth_632723300011") (at 44.45 127 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c3ac252c-7de7-4222-9dab-7fb62cac7a68)
-    (property "Reference" "Con4" (id 0) (at 43.942 86.7368 0))
+    (property "Reference" "CON4" (id 0) (at 43.942 86.7368 0))
     (property "Value" "USB_C_Wurth_632723300011" (id 1) (at 45.212 89.0355 0))
     (property "Footprint" "Connector_USB:632723300011" (id 2) (at 45.72 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
