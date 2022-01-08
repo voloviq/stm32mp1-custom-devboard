@@ -3466,7 +3466,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 84122820-4fea-4f72-ad06-ce694af06db0)
   )
-  (hierarchical_label "ENET1-RX-DV" (shape output) (at 142.24 24.13 180)
+  (hierarchical_label "ENET1-CRS-DV" (shape output) (at 142.24 24.13 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 85143fc1-767b-4731-bc09-2b059829d20c)
   )
