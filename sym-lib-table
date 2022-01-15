@@ -30,4 +30,5 @@
   (lib (name "Microswitches")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Switches/Microswitches/Microswitches.kicad_sym")(options "")(descr ""))
   (lib (name "Tag_Connectors")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Connectors/Tag_Connectors/Tag_Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "Smd_Fuses")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Fuses/Smd_Fuses/Smd_Fuses.kicad_sym")(options "")(descr ""))
+  (lib (name "Symbols")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Symbols/Symbols.kicad_sym")(options "")(descr ""))
 )
