@@ -19,7 +19,7 @@
       (property "Value" "100n" (id 1) (at 1.27 -2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "Capacitors_Smd_0603:100nF_0603" (id 2) (at 0 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" (id 3) (at 0 0 0)
@@ -1305,6 +1305,7 @@
     )
   )
 
+
   (junction (at 109.855 114.3) (diameter 0) (color 0 0 0 0)
     (uuid 0c90f154-42bc-421b-9657-49ed475a766c)
   )
@@ -1376,9 +1377,9 @@
   )
 
   (no_connect (at 122.555 74.93) (uuid 1f5e1670-dd6e-4b70-983b-e9333cb1c118))
-  (no_connect (at 109.855 74.93) (uuid 1f5e1670-dd6e-4b70-983b-e9333cb1c118))
+  (no_connect (at 109.855 74.93) (uuid 1f5e1670-dd6e-4b70-983b-e9333cb1c119))
   (no_connect (at 161.29 107.95) (uuid 2fe18e5c-b2e3-406a-a811-3ecd7fc4fe7a))
-  (no_connect (at 148.59 107.95) (uuid 2fe18e5c-b2e3-406a-a811-3ecd7fc4fe7a))
+  (no_connect (at 148.59 107.95) (uuid 2fe18e5c-b2e3-406a-a811-3ecd7fc4fe7b))
 
   (wire (pts (xy 173.99 160.02) (xy 171.45 160.02))
     (stroke (width 0) (type solid) (color 0 0 0 0))

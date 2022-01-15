@@ -12,17 +12,17 @@
   )
 
   (lib_symbols
-    (symbol "Capacitors_Smd0603:1uF_0603" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Capacitors_Smd0603:1uF" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 2.54 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "1uF_0603" (id 1) (at 6.35 -2.54 0)
+      (property "Value" "1uF" (id 1) (at 6.35 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at -3.81 5.08 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Datasheet" "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" (id 3) (at -3.81 5.08 0)
+      (property "Datasheet" "https://www.tme.eu/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf" (id 3) (at -3.81 5.08 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Manufacturer" "SAMSUNG" (id 4) (at 0 0 0)
@@ -49,16 +49,19 @@
       (property "Package" "0603" (id 11) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "SMD Capacitor" (id 12) (at 0 0 0)
+      (property "LCSC Part #(optional)" "C105504" (id 12) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "1uF / 16V SMD Capacitor" (id 13) (at 0 0 0)
+      (property "ki_keywords" "SMD Capacitor" (id 13) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "1uF_0603" (id 14) (at 0 0 0)
+      (property "ki_description" "1uF/16V, X7R, ±10%, -55°C to +125°C" (id 14) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "1uF_0603_0_1"
+      (property "ki_fp_filters" "1uF_0603" (id 15) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "1uF_0_1"
         (polyline
           (pts
             (xy 2.54 -0.635)
@@ -78,7 +81,7 @@
           (fill (type none))
         )
       )
-      (symbol "1uF_0603_1_1"
+      (symbol "1uF_1_1"
         (pin passive line (at 0 5.08 270) (length 4.4704)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -559,6 +562,7 @@
     )
   )
 
+
   (junction (at 198.12 105.41) (diameter 1.016) (color 0 0 0 0)
     (uuid 163963d5-9627-43e4-ac5c-e10ad7299143)
   )
@@ -789,7 +793,7 @@
     (pin "5" (uuid 7ac84b0f-9e7a-4656-ab10-8d5833703a5a))
   )
 
-  (symbol (lib_id "Capacitors_Smd0603:1uF_0603") (at 184.15 113.03 0) (unit 1)
+  (symbol (lib_id "Capacitors_Smd0603:1uF") (at 184.15 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e8928e1)
     (property "Reference" "C1" (id 0) (at 187.4774 111.8616 0)
@@ -801,7 +805,7 @@
     (property "Footprint" "Capacitors_Smd_0603:1uF_0603" (id 2) (at 180.34 107.95 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" (id 3) (at 180.34 107.95 0)
+    (property "Datasheet" "https://www.tme.eu/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf" (id 3) (at 180.34 107.95 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "SAMSUNG" (id 4) (at 184.15 113.03 0)
@@ -826,6 +830,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Package" "0603" (id 11) (at 184.15 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #(optional)" "C105504" (id 12) (at 184.15 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fbe73a64-21fe-48a3-889d-09dddd2b9e10))
