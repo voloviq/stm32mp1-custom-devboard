@@ -597,7 +597,7 @@
       (property "Footprint" "Resistor_Smd_0603:10k_0603" (id 2) (at 0 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Datasheet" "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" (id 3) (at 0 0 0)
+      (property "Datasheet" "https://www.tme.eu/Document/4f50d320a6ddacb273098f84373b6259/rezystor-smd.pdf" (id 3) (at 0 0 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Manufacturer" "ROYAL OHM" (id 4) (at 0 0 0)
@@ -733,7 +733,7 @@
       (property "Footprint" "Smd_Connectors:2060-452_998-404" (id 2) (at 0 -5.08 0)
         (effects (font (size 1.524 1.524)) hide)
       )
-      (property "Datasheet" "Connectors/Smd_Connectors/Components_Documentation/WAGO_2060_51300133.pdf" (id 3) (at 0 -5.08 0)
+      (property "Datasheet" "https://www.tme.eu/Document/28804af55c4b82310280e81efa5b25a7/smd%20terminal%20blocks.pdf" (id 3) (at 0 -5.08 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Manufacturer" "WAGO" (id 4) (at 0 0 0)
@@ -2760,7 +2760,7 @@
     (property "Footprint" "Resistor_Smd_0603:10k_0603" (id 2) (at 172.72 67.31 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" (id 3) (at 172.72 67.31 0)
+    (property "Datasheet" "https://www.tme.eu/Document/4f50d320a6ddacb273098f84373b6259/rezystor-smd.pdf" (id 3) (at 172.72 67.31 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "ROYAL OHM" (id 4) (at 172.72 67.31 0)
@@ -2859,7 +2859,7 @@
     (property "Footprint" "Smd_Connectors:2060-452_998-404" (id 2) (at 97.79 39.37 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "Connectors/Smd_Connectors/Components_Documentation/WAGO_2060_51300133.pdf" (id 3) (at 97.79 39.37 0)
+    (property "Datasheet" "https://www.tme.eu/Document/28804af55c4b82310280e81efa5b25a7/smd%20terminal%20blocks.pdf" (id 3) (at 97.79 39.37 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "WAGO" (id 4) (at 97.79 44.45 0)
@@ -3329,7 +3329,7 @@
     (property "Reference" "C54" (id 0) (at 92.2274 64.8716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (id 1) (at 92.2274 67.183 0)
+    (property "Value" "100nF/50V" (id 1) (at 92.2274 67.183 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitors_Smd_0402:100nF_0402" (id 2) (at 88.9 66.04 0)
@@ -3584,7 +3584,7 @@
     (property "Footprint" "Resistor_Smd_0603:10k_0603" (id 2) (at 378.46 222.25 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" (id 3) (at 378.46 222.25 0)
+    (property "Datasheet" "https://www.tme.eu/Document/4f50d320a6ddacb273098f84373b6259/rezystor-smd.pdf" (id 3) (at 378.46 222.25 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "ROYAL OHM" (id 4) (at 378.46 222.25 0)
@@ -3633,7 +3633,7 @@
     (property "Footprint" "Resistor_Smd_0603:10k_0603" (id 2) (at 378.46 198.12 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" (id 3) (at 378.46 198.12 0)
+    (property "Datasheet" "https://www.tme.eu/Document/4f50d320a6ddacb273098f84373b6259/rezystor-smd.pdf" (id 3) (at 378.46 198.12 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "ROYAL OHM" (id 4) (at 378.46 198.12 0)
@@ -3792,7 +3792,7 @@
     (property "Footprint" "Resistor_Smd_0603:10k_0603" (id 2) (at 252.73 107.95 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" (id 3) (at 252.73 107.95 0)
+    (property "Datasheet" "https://www.tme.eu/Document/4f50d320a6ddacb273098f84373b6259/rezystor-smd.pdf" (id 3) (at 252.73 107.95 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "ROYAL OHM" (id 4) (at 252.73 107.95 0)
@@ -3922,7 +3922,7 @@
     (property "Footprint" "Resistor_Smd_0603:10k_0603" (id 2) (at 252.73 100.33 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" (id 3) (at 252.73 100.33 0)
+    (property "Datasheet" "https://www.tme.eu/Document/4f50d320a6ddacb273098f84373b6259/rezystor-smd.pdf" (id 3) (at 252.73 100.33 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Manufacturer" "ROYAL OHM" (id 4) (at 252.73 100.33 0)
@@ -6267,16 +6267,16 @@
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-0000606c9153"
       (reference "#PWR0352") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005e88f615/00000000-0000-0000-0000-00005e8928e1"
-      (reference "C1") (unit 1) (value "1uF/6V3") (footprint "Capacitors_Smd_0603:1uF_0603")
+    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005e88f615/5841e59f-30d4-4d0a-b72a-3d15679157bf"
+      (reference "C1") (unit 1) (value "1uF/16V") (footprint "Capacitors_Smd_0603:1uF_0603")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005e88f615/00000000-0000-0000-0000-00005e89438f"
       (reference "C2") (unit 1) (value "4.7uF/35V") (footprint "Capacitors_Smd_0603:4_7uF_0603")
     )
-    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/0116a86d-8dce-4637-a92d-4d01b746a678"
+    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/8400261f-3451-4024-92eb-747c2b8c3ac4"
       (reference "C3") (unit 1) (value "1uF/16V") (footprint "Capacitors_Smd_0603:1uF_0603")
     )
-    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/dcf020ca-6bd1-46a6-b411-e2ebace11fe8"
+    (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005ea7c257/211c5f87-9e8d-44ad-b48a-856b9b567687"
       (reference "C4") (unit 1) (value "1uF/16V") (footprint "Capacitors_Smd_0603:1uF_0603")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005f3a3fa9"
@@ -6327,8 +6327,8 @@
     (path "/00000000-0000-0000-0000-00005fde84c9/00000000-0000-0000-0000-00005fe0bd5b"
       (reference "C20") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
-    (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-00005fe5f794"
-      (reference "C21") (unit 1) (value "10uF/6V3") (footprint "Capacitors_Smd_0805:10uF_0805")
+    (path "/00000000-0000-0000-0000-00005fdfb166/c4f56a58-70c1-401e-bb28-ae94b2e9d766"
+      (reference "C21") (unit 1) (value "10uF/6.3V") (footprint "Capacitors_Smd_0603:10uF_10V_0603")
     )
     (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-00005fe5925a"
       (reference "C22") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
@@ -6346,7 +6346,7 @@
       (reference "C26") (unit 1) (value "1nF/2kV") (footprint "Capacitors_Smd_1206:1nF_2kV_1206")
     )
     (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-00006001fb3e"
-      (reference "C27") (unit 1) (value "100n/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C27") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-0000600fc12d"
       (reference "C28") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
@@ -6354,8 +6354,8 @@
     (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-0000600e530f"
       (reference "C29") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
-    (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-0000600de8b0"
-      (reference "C30") (unit 1) (value "10uF/6V3") (footprint "Capacitors_Smd_0805:10uF_0805")
+    (path "/00000000-0000-0000-0000-00005fdfb166/ea3ced67-dfa5-46be-9f35-fb13edc3b78a"
+      (reference "C30") (unit 1) (value "10uF/6.3V") (footprint "Capacitors_Smd_0603:10uF_10V_0603")
     )
     (path "/00000000-0000-0000-0000-00005fdfb166/00000000-0000-0000-0000-000060011cd6"
       (reference "C31") (unit 1) (value "20pF/50V") (footprint "Capacitors_Smd_0603:20pF_0603")
@@ -6397,13 +6397,13 @@
       (reference "C45") (unit 1) (value "1nF/2kV") (footprint "Capacitors_Smd_1206:1nF_2kV_1206")
     )
     (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-0000600abf73"
-      (reference "C46") (unit 1) (value "100n") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C46") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-0000600be5ca"
       (reference "C47") (unit 1) (value "10uF") (footprint "Capacitors_Smd_0603:10uF_10V_0603")
     )
     (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-0000600be8be"
-      (reference "C48") (unit 1) (value "100n") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C48") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-00006011a8da"
       (reference "C49") (unit 1) (value "1nF/2kV") (footprint "Capacitors_Smd_1206:1nF_2kV_1206")
@@ -6415,19 +6415,19 @@
       (reference "C51") (unit 1) (value "10uF") (footprint "Capacitors_Smd_0603:10uF_10V_0603")
     )
     (path "/00000000-0000-0000-0000-000060087a46/00000000-0000-0000-0000-0000601a5803"
-      (reference "C52") (unit 1) (value "100n") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C52") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-000060087a46/00000000-0000-0000-0000-0000601a7e82"
-      (reference "C53") (unit 1) (value "100n") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C53") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-00006098340b"
-      (reference "C54") (unit 1) (value "100n") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C54") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-00005fde4f7c/00000000-0000-0000-0000-000060b890ee"
-      (reference "C55") (unit 1) (value "100n") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C55") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-00005fde4f7c/00000000-0000-0000-0000-000060b61635"
-      (reference "C56") (unit 1) (value "100n") (footprint "Capacitors_Smd_0402:100nF_0402")
+      (reference "C56") (unit 1) (value "100nF/50V") (footprint "Capacitors_Smd_0402:100nF_0402")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005fd54a40"
       (reference "CON1") (unit 1) (value "52746-0671") (footprint "Fpc_Connectors:52746-0671")
@@ -6516,7 +6516,7 @@
     (path "/00000000-0000-0000-0000-00005fde84c9/00000000-0000-0000-0000-00005fdf8d9e"
       (reference "R2") (unit 1) (value "2k,1%") (footprint "Resistor_Smd_0603:2k_0603")
     )
-    (path "/00000000-0000-0000-0000-00005fde84c9/00000000-0000-0000-0000-00005fe02c31"
+    (path "/00000000-0000-0000-0000-00005fde84c9/163086c1-538d-4aab-98fb-06044e33dd0e"
       (reference "R3") (unit 1) (value "68k") (footprint "Resistor_Smd_0603:68k_0603")
     )
     (path "/00000000-0000-0000-0000-00005fde84c9/00000000-0000-0000-0000-00005fdfff2c"
@@ -6726,17 +6726,17 @@
     (path "/00000000-0000-0000-0000-00005fff457c/4901d201-252e-4f9d-9679-8c90dd81ff7e"
       (reference "R72") (unit 1) (value "10R") (footprint "Resistor_Smd_0402:10R_0402")
     )
-    (path "/00000000-0000-0000-0000-00005ffec95a/9d7e2aa4-b7bc-429f-a8eb-eb9be657596c"
-      (reference "R73") (unit 1) (value "4k7") (footprint "Resistor_Smd_0402:4k7_0402")
+    (path "/00000000-0000-0000-0000-00005ffec95a/b91a7274-01c0-4174-93d7-33c25294f2a6"
+      (reference "R73") (unit 1) (value "4k7") (footprint "Resistor_Smd_0603:4k7_0603")
     )
-    (path "/00000000-0000-0000-0000-00005ffec95a/c8e5fe15-0981-4432-aa7f-f399e48e1af2"
-      (reference "R74") (unit 1) (value "4k7") (footprint "Resistor_Smd_0402:4k7_0402")
+    (path "/00000000-0000-0000-0000-00005ffec95a/5ef16d50-7620-456a-8163-0ebedacd2bd1"
+      (reference "R74") (unit 1) (value "4k7") (footprint "Resistor_Smd_0603:4k7_0603")
     )
-    (path "/00000000-0000-0000-0000-00005ffec95a/725277b6-206b-4746-a804-6c313929b604"
-      (reference "R75") (unit 1) (value "1k") (footprint "Resistor_Smd_0402:1k_0402")
+    (path "/00000000-0000-0000-0000-00005ffec95a/3e2e8bd2-7db2-49a2-967c-95c56fb8b09a"
+      (reference "R75") (unit 1) (value "1k") (footprint "Resistor_Smd_0603:1k_0603")
     )
-    (path "/00000000-0000-0000-0000-00005ffec95a/f5464efd-f12d-4042-b9e9-1f5316078170"
-      (reference "R76") (unit 1) (value "1k") (footprint "Resistor_Smd_0402:1k_0402")
+    (path "/00000000-0000-0000-0000-00005ffec95a/61c70c63-99e1-4960-ad0c-4e5b49c331a4"
+      (reference "R76") (unit 1) (value "1k") (footprint "Resistor_Smd_0603:1k_0603")
     )
     (path "/921f6f44-c4a5-4c7d-a739-a5c00b71b829"
       (reference "R77") (unit 1) (value "220R") (footprint "Resistor_Smd_0603:220R_0603")
@@ -6834,10 +6834,10 @@
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00005fee6894"
       (reference "U7") (unit 1) (value "KSZ8041NL_RNL") (footprint "Communication_Interfaces:KSZ8041NL_RNL_QFN32")
     )
-    (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-00006005a1c7"
+    (path "/00000000-0000-0000-0000-000060014762/7224b219-de04-4574-99b4-b8284db759a1"
       (reference "U8") (unit 1) (value "USBLC6-2") (footprint "ESD_Protectors:USBLC6-2_SOT23-6L")
     )
-    (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-00006005d569"
+    (path "/00000000-0000-0000-0000-000060014762/d84bfc4e-d874-45f5-9526-4ebba619ef30"
       (reference "U9") (unit 1) (value "USBLC6-2") (footprint "ESD_Protectors:USBLC6-2_SOT23-6L")
     )
     (path "/00000000-0000-0000-0000-00006095f654"

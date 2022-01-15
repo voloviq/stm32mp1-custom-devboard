@@ -1,4 +1,0 @@
-MANIFEST_VERSION = openstlinux-5.10-dunfell-mp1-21-03-31
-KERNEL_DT = ./DeviceTree/visionsom-dsi-sd/kernel
-UBOOT_DT = ./DeviceTree/visionsom-dsi-sd/u-boot
-TFA_DT = ./DeviceTree/visionsom-dsi-sd/tf-a
