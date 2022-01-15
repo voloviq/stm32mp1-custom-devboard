@@ -4842,7 +4842,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 1a91b79e-33a6-4ebb-853d-e2470b75e085)
     )
-    (pin "PB0-GPIO" bidirectional (at 238.76 204.47 0)
+    (pin "PB0-GPIO" bidirectional (at 238.76 201.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8ecbd37b-d529-47c1-878c-f9f36bd28ee5)
     )
@@ -4878,7 +4878,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b9c4710f-616c-425e-9a6f-60f189fbaf04)
     )
-    (pin "PD14-GPIO" bidirectional (at 238.76 201.93 0)
+    (pin "PD14-GPIO" bidirectional (at 238.76 204.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 44780397-be67-4f94-9e3e-5fb7b71b24c8)
     )
@@ -6113,6 +6113,9 @@
     (path "/00000000-0000-0000-0000-00005ffec95a/35c33eb1-c64e-43b8-9321-350f338a5a2a"
       (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060087a46/05033e0a-7e1f-4dfd-bd1a-bd8985be10c4"
+      (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060087a46/6f03ba9a-1c40-4241-946c-fed95759f01b"
       (reference "#PWR225") (unit 1) (value "3V3") (footprint "")
     )
@@ -6133,6 +6136,9 @@
     )
     (path "/00000000-0000-0000-0000-00005ffec95a/fa19e069-73ee-4b34-be64-177d96686102"
       (reference "#PWR231") (unit 1) (value "3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060087a46/2bb22438-c4ed-4670-8c71-1cc85fbe896e"
+      (reference "#PWR232") (unit 1) (value "3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-0000606b9a5d"
       (reference "#PWR0351") (unit 1) (value "GND") (footprint "")
@@ -6736,6 +6742,9 @@
     )
     (path "/00000000-0000-0000-0000-00005ffec95a/9ea1c6cd-a7da-45aa-85fb-0eaf8ce30c0d"
       (reference "U18") (unit 1) (value "IP4220CZ6") (footprint "ESD_Protectors:IP4220CZ6_SOT457")
+    )
+    (path "/00000000-0000-0000-0000-000060087a46/6530aec2-ea75-4ed1-91cb-9fbabb2716c7"
+      (reference "U19") (unit 1) (value "IP4220CZ6") (footprint "ESD_Protectors:IP4220CZ6_SOT457")
     )
     (path "/00000000-0000-0000-0000-000060014762/00000000-0000-0000-0000-00005fffafbc"
       (reference "USB1") (unit 1) (value "USB-A-Wurth-62900416021") (footprint "Connector_USB:Wurth-62900416021")
