@@ -1,4 +1,4 @@
-1653101300641208
+1727044895339710
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -776,6 +776,13 @@ Capacitor
 0
 2
 2
+Capacitors_Smd_0805
+330nF_0805
+
+Capacitor
+0
+2
+2
 Capacitors_Smd_1206
 1nF_2kV_1206
 SMD Capacitor
@@ -1077,6 +1084,13 @@ SP3232EEY-L_TSSOP16
 0
 16
 16
+Communication_Interfaces
+TJA1021_SOIC8
+MAX485
+Communication Interface
+0
+8
+8
 Communication_Interfaces
 USB2514
 
@@ -1482,7 +1496,7 @@ USB B 0 Angle Connector
 USB B Connector
 0
 6
-6
+5
 Connector_USB
 USB_B_Amphenol_MUSB-D511_Vertical_Rugged
 A,phenol MUSB_D511, USB B female connector, straight, rugged, https://www.amphenolcanada.com/ProductSearch/drawings/AC/MUSBD511XX.pdf
@@ -1679,6 +1693,13 @@ Wurth-61400416021
 0
 6
 5
+Diodes
+1.5SMC27CA_SMC
+
+
+0
+2
+2
 Diodes
 1N4007
 General Purpose Rectifier
@@ -2030,6 +2051,13 @@ Bipolar Transistor
 3
 3
 Diodes
+L-7104QBC-D-Discrete_3mm
+
+Diode
+0
+2
+2
+Diodes
 LEDP2-CWD-120_Plcc2
 Top Led CWD_120_PLCC2
 Led Diode SMD
@@ -2155,6 +2183,20 @@ LED_WWH_PLCC6_SMD
 0
 6
 6
+Diodes
+LTL42NKFD-Amber-Discrete_3mm
+
+Diode
+0
+2
+2
+Diodes
+LTL42NKFD_Discrete_3mm
+
+Diode
+0
+2
+2
 Diodes
 LTST-S110KRKT
 
@@ -2561,6 +2603,13 @@ WR-FPC 1.00 MM SMT LIF HORIZONTAL TOP CONTACT,10PINS
 0
 12
 12
+Fpc_Connectors
+686118188822
+WR-FPC 1.00 MM SMT LIF VERTICAL TYPE A,18 PINS
+WR-FPC 1.00 MM SMT LIF VERTICAL TYPE A,18 PINS
+0
+18
+18
 Fpc_Connectors
 1-84981-0
 
@@ -3262,6 +3311,13 @@ Inductor 15uH/1_33A
 2
 2
 Inductors
+DE1207-10
+10uH; 6,7A; 19mΩ; ±20%; 12x12x8mm; -40÷85°C
+SMD POWER INDUCTOR
+0
+2
+2
+Inductors
 DER0705-15uH
 
 Inductor 15uH/1_33A
@@ -3482,6 +3538,13 @@ Inductors
 MPZ1005S121C
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
+0
+2
+2
+Inductors
+MPZ1608S102ATA00
+
+
 0
 2
 2
@@ -3717,6 +3780,13 @@ LDO Regulator
 4
 3
 Linear
+MC7812BDTRKG_DPAK
+MOS boitier DPACK G-D-S
+CMD DPACK
+0
+6
+3
+Linear
 MCP1700T-3302E_MB_SOT89
 SOT-89-3
 SOT-89-3
@@ -3850,6 +3920,13 @@ Microswitch
 2
 2
 RJ45_Ethernet_Transformer
+7499021210A
+
+
+0
+29
+25
+RJ45_Ethernet_Transformer
 HY911205CE
 
 
@@ -3921,6 +3998,13 @@ resistor 0402
 2
 Resistor_Smd_0402
 1k_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+Resistor_Smd_0402
+2R2_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
@@ -4276,6 +4360,13 @@ resistor 0402
 0
 2
 2
+Resistor_Smd_0402
+820R_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
 Resistor_Smd_0603
 0R05_0603
 
@@ -4536,6 +4627,13 @@ Resistor
 2
 2
 Resistor_Smd_0603
+6.8R_0603
+Vishay SMD SM0603
+Resistor
+0
+2
+2
+Resistor_Smd_0603
 6k04_0603
 Vishay SMD SM0603
 Resistor
@@ -4649,6 +4747,13 @@ Resistor
 2
 Resistor_Smd_0603
 16k_0603
+Vishay SMD SM0603
+Resistor
+0
+2
+2
+Resistor_Smd_0603
+18R_0603
 Vishay SMD SM0603
 Resistor
 0
@@ -5383,6 +5488,13 @@ SMD Connector
 12
 11
 Smd_Connectors
+119A-80A00-R02-SET
+
+
+0
+56
+53
+Smd_Connectors
 2060-452_998-404
 WAGO 2pole connector
 SMD Connector
@@ -5646,8 +5758,8 @@ STM32MP151CAA3_LFBGA-448
 BGA354 16x16mm 0.8pitch
 BGA
 0
-452
-452
+448
+448
 Stm32_Microcontrollers
 STM32MP151CAB3_LFBGA-354
 BGA354 16x16mm 0.8pitch
@@ -5690,6 +5802,13 @@ A8586KLJTR-T
 0
 18
 9
+Switching
+AM6TW-2405S-NZ
+TO220, 5pins
+
+0
+8
+8
 Switching
 AP3012-DTE
 Boost Converter
@@ -5817,6 +5936,34 @@ Microcontroller
 28
 28
 Switching
+LTC3611EWP
+
+
+0
+68
+68
+Switching
+LTC3612EUDC-PBF
+
+
+0
+21
+21
+Switching
+MAX17503ATP+T-QFN20
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+25
+21
+Switching
+MAX17503SATP+T-QFN20
+QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+25
+21
+Switching
 MIC29204BM_SO8
 
 Switching Voltage Regulator
@@ -5876,6 +6023,13 @@ Switching
 TK65600B
 
 
+0
+8
+8
+Switching
+TPS5450MDDAREP_SO8
+
+Switching Voltage Regulator
 0
 8
 8
@@ -6065,6 +6219,27 @@ Symbols
 FCC-Logo_48.3x40mm_SilkScreen
 FCC marking
 Logo FCC certification
+0
+0
+0
+Symbols
+Foxtronics_15x15_Logo
+Fox Logo
+
+0
+0
+0
+Symbols
+Foxtronics_30x30_Logo
+Fox Logo
+
+0
+0
+0
+Symbols
+Foxtronics_Logo
+
+
 0
 0
 0
@@ -7063,6 +7238,13 @@ Transistor
 4
 3
 Transistor_Bipolar
+BCR10PNH6327_SOT363
+
+Dual PNP General Purpose Transistor
+0
+6
+6
+Transistor_Bipolar
 BCW68_SOT23
 PNP Transistor
 Transistor
@@ -7119,6 +7301,20 @@ DFN320X250X90-4N
 3
 3
 Transistor_Bipolar
+FMMT491_SOT23
+
+Bipolar Transistor
+0
+3
+3
+Transistor_Bipolar
+FZT788B_SOT223
+NPN Transistor
+Transistor
+0
+4
+3
+Transistor_Bipolar
 HT882_TO126H
 PNP Transistor
 Transistor
@@ -7167,6 +7363,13 @@ SOT-363 SC-70-6
 0
 6
 6
+Transistor_Bipolar
+PDTC114ET.215_SOT23
+
+Bipolar Transistor
+0
+3
+3
 Transistor_Bipolar
 SMBT2907_SOT23
 
