@@ -1002,6 +1002,7 @@
     )
   )
 
+
   (junction (at 163.83 195.58) (diameter 0) (color 0 0 0 0)
     (uuid 00431b7a-2684-46df-8d94-1136fa0162a5)
   )
@@ -2179,10 +2180,10 @@
     (property "Reference" "CON3" (id 0) (at 204.47 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 195.58 64.135 0)
+    (property "Value" "119A-80A00-R02-SET" (id 1) (at 195.58 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 279.4 148.59 0)
+    (property "Footprint" "Smd_Connectors:119A-80A00-R02-SET" (id 2) (at 279.4 148.59 0)
       (effects (font (size 2.54 2.54)) hide)
     )
     (property "Datasheet" "https://www.tme.eu/Document/6644d089e05690dabd52e371ce675bbb/119A.pdf" (id 3) (at 318.77 144.78 0)

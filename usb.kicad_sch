@@ -1369,6 +1369,7 @@
     )
   )
 
+
   (junction (at 214.63 107.95) (diameter 1.016) (color 0 0 0 0)
     (uuid 06d2d69f-d8bf-4375-b5cb-db5a5577fb80)
   )
@@ -2796,7 +2797,7 @@
     (pin "S2" (uuid 8ed2b94f-72ac-4412-a9ca-2ba386706cb8))
     (pin "S3" (uuid bf18fb96-d6f7-4e6e-9149-64be3b028a02))
     (pin "S4" (uuid 54ba7afc-7228-4fb9-bac1-4784789525d2))
-    (pin "SGND" (uuid 562a2278-30cf-4e55-abcd-536bb71704b4))
-    (pin "SGND" (uuid 562a2278-30cf-4e55-abcd-536bb71704b4))
+    (pin "SGND" (uuid 562a2278-30cf-4e55-abcd-536bb71704b6))
+    (pin "SGND" (uuid 562a2278-30cf-4e55-abcd-536bb71704b6))
   )
 )

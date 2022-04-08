@@ -866,7 +866,7 @@
       (property "Datasheet" "" (id 3) (at -1.27 5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "205_Logo" (id 4) (at 0 0 0)
+      (property "ki_description" "Kicad Logo" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "KiCad-Logo2_12mm_SilkScreen" (id 5) (at 0 0 0)
@@ -4608,8 +4608,8 @@
     (in_bom yes) (on_board yes)
     (uuid f2dce6b8-bcb1-4ccd-b102-1b80130656cb)
     (property "Reference" "R79" (id 0) (at 249.555 120.65 90))
-    (property "Value" "" (id 1) (at 249.555 123.19 90))
-    (property "Footprint" "" (id 2) (at 257.175 119.38 0)
+    (property "Value" "0R" (id 1) (at 249.555 123.19 90))
+    (property "Footprint" "Resistor_Smd_0402:0R_0402" (id 2) (at 257.175 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://pl.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" (id 3) (at 257.175 119.38 0)
@@ -5819,9 +5819,6 @@
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00006011209e"
       (reference "#PWR66") (unit 1) (value "3V3") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-000060104300"
-      (reference "#PWR67") (unit 1) (value "3V3") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005fff457c/61ad2beb-c584-4584-ac43-7b335e36c0ac"
       (reference "#PWR68") (unit 1) (value "3V3") (footprint "")
     )
@@ -6398,6 +6395,9 @@
     (path "/00000000-0000-0000-0000-00005fde4f7c/928042dd-24ef-4e14-8adc-b14890b108b9"
       (reference "#PWR0233") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005fff457c/152e1f9e-718e-4670-9fc0-d875b5b02a47"
+      (reference "#PWR0234") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-0000606b9a5d"
       (reference "#PWR0351") (unit 1) (value "GND") (footprint "")
     )
@@ -6583,6 +6583,9 @@
     )
     (path "/03253aab-3b5c-4a33-be69-88af047dad71"
       (reference "CON6") (unit 1) (value "TC2050-IDC-NL-SWI") (footprint "Tag_Connectors:TC2050-IDC-NL")
+    )
+    (path "/00000000-0000-0000-0000-00005fff457c/f3d1e588-66f7-408d-aa87-60d2e7ad2068"
+      (reference "CON7") (unit 1) (value "LMJ3628844TA753") (footprint "RJ45_Ethernet_Transformer:LMJ3628844TA753")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005e88f615/00000000-0000-0000-0000-00005e8988f5"
       (reference "D1") (unit 1) (value "NSR0530H-D") (footprint "Diodes:NSR0530H-D_SOD323")
@@ -6934,9 +6937,6 @@
     )
     (path "/2b21cacf-cb8f-4298-b2e6-477a81f64733"
       (reference "Sw2") (unit 1) (value "434153017835") (footprint "Microswitches:434153017835")
-    )
-    (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-00006005a8c8"
-      (reference "T2") (unit 1) (value "WE-RJ45_74990101210") (footprint "RJ45_Ethernet_Transformer:WE-RJ45_74990101210")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/9edb07c6-d72c-496d-8cf4-6cd37c73d522"
       (reference "TP5") (unit 1) (value "TP1.27mm") (footprint "Test_Points:Test_Point_1.27mm")

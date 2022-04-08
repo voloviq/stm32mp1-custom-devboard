@@ -1481,6 +1481,7 @@
     )
   )
 
+
   (junction (at 118.11 115.57) (diameter 1.016) (color 0 0 0 0)
     (uuid 004c30d9-3726-4058-8db0-bb836a778fc7)
   )
@@ -6992,8 +6993,8 @@
     (in_bom yes) (on_board yes)
     (uuid 2d0b1d65-f702-456f-a15f-9f3a3fc6decf)
     (property "Reference" "R80" (id 0) (at 34.925 196.85 90))
-    (property "Value" "" (id 1) (at 36.83 199.39 90))
-    (property "Footprint" "" (id 2) (at 44.45 195.58 0)
+    (property "Value" "0R" (id 1) (at 36.83 199.39 90))
+    (property "Footprint" "Resistor_Smd_0402:0R_0402" (id 2) (at 44.45 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://pl.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf" (id 3) (at 44.45 195.58 0)
