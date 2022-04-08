@@ -6,8 +6,8 @@
 
   (title_block
     (title "stm32mp1-custom-devboard")
-    (date "2020-12-19")
-    (rev "V3.0")
+    (date "2022-04-07")
+    (rev "V4.0")
     (company "Sofjan")
   )
 
@@ -3909,7 +3909,7 @@
   (symbol (lib_id "power:3V3") (at 246.38 100.33 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 45fa996f-903f-401d-ac70-8b4c4f76ff70)
-    (property "Reference" "#PWR?" (id 0) (at 243.84 100.33 0)
+    (property "Reference" "#PWR0200" (id 0) (at 243.84 100.33 0)
       (effects (font (size 1.016 1.016)) hide)
     )
     (property "Value" "3V3" (id 1) (at 243.84 100.33 90)
@@ -4295,7 +4295,7 @@
   (symbol (lib_id "power:3V3") (at 246.38 107.95 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9e6f54cf-299a-4c46-bb0d-55b21304bd14)
-    (property "Reference" "#PWR?" (id 0) (at 243.84 107.95 0)
+    (property "Reference" "#PWR0208" (id 0) (at 243.84 107.95 0)
       (effects (font (size 1.016 1.016)) hide)
     )
     (property "Value" "3V3" (id 1) (at 243.84 107.95 90)
@@ -6263,6 +6263,9 @@
     (path "/e4066fa2-2392-4b83-aacb-c1b87afd649b"
       (reference "#PWR0199") (unit 1) (value "3V3") (footprint "")
     )
+    (path "/45fa996f-903f-401d-ac70-8b4c4f76ff70"
+      (reference "#PWR0200") (unit 1) (value "3V3") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060087a46/00000000-0000-0000-0000-000060123029"
       (reference "#PWR201") (unit 1) (value "3V3") (footprint "")
     )
@@ -6289,6 +6292,9 @@
     )
     (path "/1b5ef2e9-f71d-452a-afc5-d16976a72237"
       (reference "#PWR0207") (unit 1) (value "3V3") (footprint "")
+    )
+    (path "/9e6f54cf-299a-4c46-bb0d-55b21304bd14"
+      (reference "#PWR0208") (unit 1) (value "3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ffec95a/09bd5df2-85b1-4d8b-afde-1f34d4ce248d"
       (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
@@ -6397,12 +6403,6 @@
     )
     (path "/00000000-0000-0000-0000-00005fff457c/00000000-0000-0000-0000-0000606c9153"
       (reference "#PWR0352") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/45fa996f-903f-401d-ac70-8b4c4f76ff70"
-      (reference "#PWR?") (unit 1) (value "3V3") (footprint "")
-    )
-    (path "/9e6f54cf-299a-4c46-bb0d-55b21304bd14"
-      (reference "#PWR?") (unit 1) (value "3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ea691f1/00000000-0000-0000-0000-00005e88f615/5841e59f-30d4-4d0a-b72a-3d15679157bf"
       (reference "C1") (unit 1) (value "1uF/16V") (footprint "Capacitors_Smd_0603:1uF_0603")
